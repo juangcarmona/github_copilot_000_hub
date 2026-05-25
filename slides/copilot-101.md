@@ -57,5 +57,8 @@ src: ./pages/101/trust-privacy.md
 <!-- Closing -->
 
 ---
+src: ./pages/101/working-with-copilot.md
+---
+---
 src: ./pages/101/closing.md
 ---
