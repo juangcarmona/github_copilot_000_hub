@@ -1,15 +1,8 @@
-﻿{
+{
   "name": "github_copilot_000_hub",
   "private": true,
   "type": "module",
-  "description": "GitHub Copilot Workshop Hub",
-  "author": "Juan Garcia Carmona / Plain Concepts",
-  "license": "MIT",
-  "scripts": {
-    "slides:dev": "pnpm --filter slides dev",
-    "slides:export": "pnpm --filter slides export"
-  },
-  "devDependencies": {
-    "@slidev/cli": "latest"
-  }
+  "description": "GitHub Copilot workshop hub",
+  "author": "Juan García Carmona / Plain Concepts",
+  "license": "MIT"
 }

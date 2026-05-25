@@ -1,12 +1,20 @@
-﻿{
+{
   "name": "slides",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "slidev slides.md --open",
-    "export": "slidev export slides.md"
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export",
+    "capture": "node capture-screenshots.mjs"
   },
   "dependencies": {
-    "slidev-theme-chapter-plain": "workspace:*"
+    "@slidev/cli": "52.13.0",
+    "@slidev/theme-default": "0.25.0",
+    "slidev-theme-chapter-plain": "workspace:*",
+    "vue": "3.5.27"
+  },
+  "devDependencies": {
+    "playwright-chromium": "1.59.1"
   }
 }

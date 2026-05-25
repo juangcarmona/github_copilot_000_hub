@@ -4,11 +4,13 @@
 
 ```powershell
 pnpm install
-pnpm slides:dev
+cd slides
+pnpm dev
 ```
 
 Export:
 
 ```powershell
-pnpm slides:export
+cd slides
+pnpm export
 ```

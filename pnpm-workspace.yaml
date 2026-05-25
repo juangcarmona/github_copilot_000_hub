@@ -1,3 +1,11 @@
-﻿packages:
+packages:
   - "packages/*"
   - "slides"
+
+allowBuilds:
+  esbuild: false
+  playwright-chromium: false
+
+catalog:
+  oxfmt: ^0.25.0
+  oxlint: ^1.40.0
