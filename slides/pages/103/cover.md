@@ -5,5 +5,5 @@ background: /bg-cover-1.jpg
 
 # Module 103
 # Engineering Workflows with AI
-### AI-generated code requires the same rigor as human-written code.
-### Tests, reviews, and validation — every time.
+### From generation to validation. From prompting to verification.
+### The backend 101 and 102 depend on. All tests pass. That's the trap.

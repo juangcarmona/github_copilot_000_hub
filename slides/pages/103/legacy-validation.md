@@ -50,4 +50,9 @@ The characterization test pattern was established by Michael Feathers in "Workin
 Copilot accelerates the characterization test generation dramatically.
 
 The discipline is: never refactor without tests. Copilot makes that easy; the strategy makes it safe.
+
+Lab exercise:
+- Exercise 4 (Validate AI Refactor): TicketService.CancelTicket was refactored by an AI and introduced a regression.
+  Attendees write characterization tests against the current (broken) behavior FIRST, then fix the regression,
+  then update the tests to assert correct behavior. The key lesson: you cannot validate what you haven't characterized.
 -->

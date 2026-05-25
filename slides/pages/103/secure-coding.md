@@ -44,4 +44,8 @@ Key change from the previous version: this is a workflow, not a feature descript
 The "built-in protections" section was removed — that's covered in 101/how-copilot-works.md.
 
 Focus on how to use security tools in the development workflow, not what protections exist.
+
+Lab exercises:
+- Exercise 1 (Spot the Vulnerability): systematic security audit of DatabaseHelper.cs, AuthMiddleware.cs, CryptoHelper.cs, and the Controllers/ folder. Attendees should find at least 8 vulnerabilities. Copilot will miss some — that's intentional.
+- Exercise 5 (Secure the Endpoint): apply the security review loop to fix vulnerabilities from Exercise 1. Security fixes can be incomplete or introduce new problems — validate every change.
 -->

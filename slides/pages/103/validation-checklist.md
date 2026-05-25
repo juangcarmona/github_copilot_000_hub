@@ -34,4 +34,10 @@ It replaces the old checklist with a decision graph:
 each step has a Yes/No branch, making it actionable rather than aspirational.
 
 For agent mode changes: the diff can be large. Read it carefully. The same workflow applies.
+
+Trainer note:
+- The point is not to make Copilot look bad. The point is to teach where Copilot output must be verified.
+- Participants should compare Copilot's findings with their own manual review.
+- Copilot is useful in this module, but only inside a disciplined validation loop.
+- The starter codebase passes all tests. That's not the goal state — it's the starting problem.
 -->

@@ -41,4 +41,11 @@ The key framing: treat the Code Review Agent like a senior reviewer.
 Don't send them trivial PRs. Reserve it for meaningful changes.
 
 Iteration on findings is important — the agent can explain its own feedback when asked.
+
+Lab exercises:
+- Exercise 3 (Review the PR): three intentionally problematic PRs in pr-examples/
+  - pr-001-ai-generated-refactor.md: subtle behavioral regression
+  - pr-002-security-fix-attempt.md: incomplete security fix that introduces a new vulnerability
+  - pr-003-test-improvement.md: test "improvements" that are still fake-green
+- Attendees must compare Copilot's review findings with their own. Copilot does not catch everything.
 -->
