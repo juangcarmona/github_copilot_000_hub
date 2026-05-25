@@ -3,24 +3,26 @@ layout: two-cols-header
 section: Fundamentals
 ---
 
-# What is Prompt Engineering?
+# From 101 to 102
 
 ::left::
 
-## What
+## What changed?
 
-Designing prompts that help Copilot understand your intent — leading to more accurate and useful code suggestions.
+**Module 101** — make Copilot generate code.
+Simple, isolated files. Obvious context. Autocomplete.
 
-## Why
+**Module 102** — make Copilot follow the right version of the codebase.
+Competing data formats. Duplicated utilities. Stale docs. Partial migrations.
 
-- Enhances accuracy and relevance
-- Reduces iterations and rework
-- Improves code quality through better context
-- Directly impacts AI credit efficiency
+The skill is not only writing better prompts.
+It's controlling what Copilot sees.
 
 ::right::
 
-## How
+## What is Prompt Engineering?
+
+Designing prompts that help Copilot understand your intent — and ensuring the surrounding context supports that intent.
 
 | Technique | Approach |
 |---|---|
@@ -28,15 +30,16 @@ Designing prompts that help Copilot understand your intent — leading to more a
 | Zero-Shot | Direct instruction, no examples |
 | One-Shot | One example to set the pattern |
 | Few-Shot | Multiple examples to teach behavior |
-| Step-by-Step | Break into sequential reasoning |
+| Divide and Conquer | Break into sequential reasoning |
 
 <!--
-Prompt engineering is the bridge between what you want and what Copilot produces.
+This replaces the generic "what/why/how" framing with an explicit 101→102 bridge.
 
-The difference between a vague prompt and a precise one can be:
-- 1 iteration vs. 5 retries
-- correct output vs. hallucination
-- efficient AI credit usage vs. waste
+The key insight: 102 is not just "better prompts" — it's learning to manage context in a codebase
+that contains competing truths.
 
-TODO: compare weak vs strong prompt — same task, show the difference
+The booking frontend has two data formats, two pricing modules, two state hooks, two API clients,
+stale docs that reference components that no longer exist by those names.
+
+In that environment, prompt wording matters less than which files are open.
 -->
