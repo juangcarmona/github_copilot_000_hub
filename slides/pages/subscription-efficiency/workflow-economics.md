@@ -3,21 +3,35 @@ layout: table
 section: Economics
 ---
 
-# From Request Counting to AI Credits
+# Workflow Consumption at a Glance
 
-| Workflow | Before | Now |
+| Workflow | Credit Level | Notes |
 |---|---|---|
-| 🟢 Autocomplete | Free | Free |
-| 🟡 Chat / CLI | Request-based | Token-based |
-| 🟠 Agent workflows | Multi-request | Multi-step execution |
-| 🟠 Code review | Fixed PR cost | Context-dependent |
-| 🔴 Spark / External Agents | Premium features | High AI consumption |
+| 🟢 Autocomplete | Free | Always available; zero AI credit impact |
+| 🟡 Chat / CLI | Standard | Token-based; context size drives consumption |
+| 🟠 Agent sessions | Elevated | Multi-step execution; each internal step = model invocation |
+| 🟠 Code review | Elevated | Large-context analysis; scales with PR size |
+| 🔴 Spark / External agents | High | Continuous autonomous execution; requires governance |
 
 <small>
 
-🟢 Baseline  | 🟡 Interactive usage  | 🟠 Elevated operational cost  | 🔴 Requires governance
+🟢 Baseline · 🟡 Standard interactive · 🟠 Elevated cost · 🔴 Active governance required
 
 </small>
+
+<!--
+This consolidates the workflow consumption taxonomy.
+
+The key operational shift:
+- Before: count requests
+- Now: optimize workflow efficiency
+
+The variables that drive consumption:
+- Context size (larger context = more tokens)
+- Model choice (reasoning models cost significantly more)
+- Iteration count (corrective turns compound cost)
+- Execution patterns (agent sessions multiply invocations)
+-->
 
 <!--
 Before:

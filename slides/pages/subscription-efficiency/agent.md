@@ -1,15 +1,53 @@
 ---
-layout: list
-section: Agent Mode
+layout: two-cols-header
+section: Agent Governance
 ---
 
-# Agent Mode: High Cost, High Leverage
+# Governing Agent Mode at Scale
 
-- `Architect first` Define goals, constraints, architecture, and boundaries before asking for code
-- `Be specific` Describe inputs, outputs, patterns, and naming conventions — not just the intent
-- `Break it down` Split complex tasks into smaller focused prompts, one function or unit at a time
-- `One strong prompt` One well-structured prompt beats five corrective turns
-- `Always validate` Treat output like code from a junior dev — review every line before committing
+::left::
+
+## Why Agent Mode Needs Governance
+
+Agent mode is a cost multiplier. Each internal step is a separate model invocation.
+
+**The governance levers:**
+- Seat-level agent mode availability
+- Model selection policies (which models can be used for agents)
+- PR review requirements (agents cannot merge without human approval)
+- Branch protection rules (agents cannot push to protected branches)
+
+## Capacity Planning
+
+Agent sessions are non-deterministic in length. Budget for variance:
+- Set organization-wide credit alerts
+- Review agent usage separately from interactive usage
+- Define expected patterns per team/role
+
+::right::
+
+## Human-in-the-Loop Requirements
+
+Copilot agents cannot:
+- Merge PRs without human approval
+- Push directly to protected branches
+- Bypass required reviews or status checks
+
+These are architectural guarantees, not optional safeguards.
+
+## When Consumption Is Unexpected
+
+1. Are assigned tasks well-defined?
+2. Are instruction files high quality? (Vague instructions generate retries)
+3. Was Plan mode used before Agent mode?
+4. Is large context included unnecessarily?
+
+<!--
+This reframes agent.md from best practices (owned by Module 202) to governance and cost control.
+
+Agent best practices live in Module 202.
+This slide covers what engineering managers and tech leads need to govern agent usage.
+-->
 
 <!--
 Agent mode is not a magic button.

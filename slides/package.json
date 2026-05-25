@@ -4,6 +4,15 @@
   "type": "module",
   "scripts": {
     "subscription-efficiency": "slidev --open ./subscription-efficiency.md",
+    "copilot-101": "slidev --open ./copilot-101.md",
+    "copilot-102": "slidev --open ./copilot-102.md",
+    "copilot-103": "slidev --open ./copilot-103.md",
+    "copilot-201": "slidev --open ./copilot-201.md",
+    "copilot-202": "slidev --open ./copilot-202.md",
+    "copilot-203": "slidev --open ./copilot-203.md",
+    "copilot-301": "slidev --open ./copilot-301.md",
+    "copilot-302": "slidev --open ./copilot-302.md",
+    "copilot-303": "slidev --open ./copilot-303.md",
     "build": "slidev build",
     "export": "slidev export",
     "capture": "node capture-screenshots.mjs"
