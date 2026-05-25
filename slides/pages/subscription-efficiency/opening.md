@@ -13,4 +13,9 @@ section: Context
 Agents changed the economics of software development.
 
 Most teams adopted AI faster than governance.
+
+This session sets the foundation:
+understand the economics, the workflows, and the operational thinking
+before we move into hands-on labs.
+
 -->

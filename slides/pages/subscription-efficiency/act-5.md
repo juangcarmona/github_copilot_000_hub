@@ -4,5 +4,5 @@ background: /bg-cover-1.jpg
 ---
 
 # ACT 5
-# Outcomes
+# Outcomes & Next Steps
 ### What changes when AI becomes operational

@@ -13,7 +13,7 @@ section: Core Idea
 
 ### Premium Requests
 
-- Fixed request limits (300)
+- Fixed request limits
 - Simpler mental model
 - Focus on request count
 

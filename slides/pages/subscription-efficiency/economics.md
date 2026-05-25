@@ -31,4 +31,5 @@ Cost starts when invoking models.
 
 The important operational shift:
 execution quality now affects cost directly.
+
 -->

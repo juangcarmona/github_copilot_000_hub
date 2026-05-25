@@ -1,9 +1,9 @@
 ---
 theme: chapter-plain
-title: "GitHub Copilot: Use It Well"
+title: "GitHub Copilot: Workflow Economics & Operational Thinking"
 info: |
   ## GitHub Copilot: AI Credits, Cost, and Control
-  A DevEx talk about efficient Copilot usage
+  AI-assisted engineering workflows
 transition: slide-left
 mdc: true
 src: ./pages/subscription-efficiency/cover.md
@@ -80,7 +80,7 @@ src: ./pages/subscription-efficiency/governance.md
 src: ./pages/subscription-efficiency/ai-driven-teams.md
 ---
 
-<!-- ACT 4 — Company  Reality -->
+<!-- ACT 4 — Governance in Practice -->
 ---
 src: ./pages/subscription-efficiency/act-4.md
 ---

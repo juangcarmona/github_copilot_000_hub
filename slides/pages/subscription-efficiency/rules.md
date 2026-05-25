@@ -11,4 +11,4 @@ section: Rules
 - `Run automated code reviews only when they add value`
 - `Feed Agent with architecture and documentation`
 - `Combine Copilot with other AI tools for thinking vs. implementing`
-- `Separate exploration from implementation to control PRU usage`
+- `Separate exploration from implementation to control AI credit usage`

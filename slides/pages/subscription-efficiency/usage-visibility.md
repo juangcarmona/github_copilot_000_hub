@@ -12,32 +12,26 @@ section: Usage Visibility
 Users can review their own Copilot usage from their GitHub Copilot settings.
 
 Useful for:
-- checking personal usage
+- checking personal usage patterns
 - understanding model/workflow impact
-- self-correcting habits
+- self-optimizing habits
 
 ::right::
 
-## Manager / Org View
+## Organization View
 
-Some managers receive usage reports.
+Org admins and billing managers can access usage reports.
 
 They help identify:
 - adoption gaps
-- heavy frontier usage
-- low Auto usage
-- patterns worth discussing
+- heavy premium model usage
+- model selection patterns
+- opportunities for optimization
 
 <!--
-Do not promise a specific dashboard for everyone.
+GitHub provides usage and entitlement monitoring for Business/Enterprise plans.
+Organization admins and billing managers can view member usage reports.
 
-GitHub provides usage and entitlement monitoring.
-For Business/Enterprise, organization admins and billing managers can view member usage reports.
-
-Internally, some EMs may receive monthly reports.
-Treat them as operational signals, not performance scorecards.
-
-Avoid recommending unofficial VS Code extensions officially.
-Mention only verbally if needed:
-some people use extensions personally to inspect local usage, but they are not official guidance.
+Treat usage data as operational signals, not performance scorecards.
+The goal is workflow awareness, not surveillance.
 -->

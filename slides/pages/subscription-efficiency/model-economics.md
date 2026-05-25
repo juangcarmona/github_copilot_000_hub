@@ -5,38 +5,25 @@ section: Model Costs
 
 # Model Economics Matter Now
 
-| Model | PRU Logic | Token Pricing (Output / 1M) | Tier | Best For |
-|---|---|---|---|---|
-| Claude Opus 4.6 | ~~3x~~ → 27x | ~$25 | Reasoning | Architecture, deep analysis |
-| Claude Sonnet 4.6 ✓ | ~~1x~~ → 9x | ~$15 | Coding | Implementation, refactoring |
-| Gemini 2.5 Pro | 1x | ~$10 | Coding | General coding |
-| Claude Haiku 4.5 | 0.33x | ~$5 | Lightweight | Small edits, quick tasks |
-| GPT-5.4 mini | ~~0.33x~~ → 6x | ~$4.5 | Lightweight | Boilerplate, formatting |
+| Model Tier | Relative Cost | Best For |
+|---|---|---|
+| Reasoning (e.g. Claude Opus, Codex) | High | Architecture, deep analysis, hard debugging |
+| Coding (e.g. Claude Sonnet, Gemini Pro) | Medium | Implementation, refactoring, test writing |
+| Lightweight (e.g. Haiku, GPT mini) | Low | Small edits, quick tasks, boilerplate |
 
 
-## **We MUST Optimize Workflow Economics**
+## **Optimize Workflow Economics: Match Model to Task**
 
 <!--
-This slide explains the pricing paradigm shift.
+This slide explains the key principle: different models have radically different costs.
 
-Old model:
-- Premium Requests (PRUs)
-- Fixed request counting
-- Multipliers approximated model cost
+Pricing evolves rapidly — check GitHub’s current model pricing docs for exact numbers:
+https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing
 
-New model:
-- Real token-based pricing
-- Different models have radically different operational costs
-- Workflow design matters more than request count
-
-Critical management insight:
-Using Opus continuously for routine implementation is economically irrational.
-
-Recommended operational pattern:
+The operational pattern that matters:
 - Reasoning models → planning, architecture, debugging
 - Coding models → implementation
 - Lightweight models → quick edits and iteration
 
-The important shift:
-We MUST optimize workflow economics.
+Using a reasoning model for routine boilerplate is like using a crane to move a chair.
 -->

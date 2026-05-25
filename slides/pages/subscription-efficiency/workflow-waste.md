@@ -1,26 +1,24 @@
 ---
 layout: comparison
 section: Efficiency
-beforeTitle: Waste
-afterTitle: Better Usage
+beforeTitle: Suboptimal
+afterTitle: Optimized
 ---
 
 # Same Subscription. Very Different Outcomes.
 
 ::before::
 
-- Use Opus (~$25/M)  to generate boilerplate
+- Use reasoning models for routine boilerplate
 - Accept suggestions without understanding them
-- Default to reasoning models for everything
+- Default to premium models for everything
 - Launch Agent with no architecture or constraints
 - Run code review on every trivial PR
-- Blind retries and prompt thrashing
-
-https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing
+- Retry without refining the prompt
 
 ::after::
 
-- Use Haiku (~$5/M) or Raptor mini (~$2/M) for quick edits and boilerplate
+- Use lightweight models for quick edits and boilerplate
 - Be specific: describe inputs, outputs, and expected patterns
 - Match model tier to task complexity
 - Feed Agent real architecture, then let it execute
@@ -28,8 +26,12 @@ https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing
 - Review selectively: large PRs, unfamiliar code, security
 
 <!--
-This slide should feel uncomfortable.
-The waste is not theoretical; it's everyday misuse.
-A developer using Opus for everything at 3x is consuming 9x more quota than someone using Haiku for quick tasks.
-That's the difference between running out mid-month and having capacity all month.
+This slide contrasts two ways of using the same subscription.
+The difference in credit consumption can be 5–10x.
+
+The point is not judgment — it’s awareness.
+Once you see the pattern, you can optimize.
+
+Check current model pricing:
+https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing
 -->

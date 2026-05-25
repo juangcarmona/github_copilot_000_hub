@@ -3,7 +3,7 @@ layout: table
 section: Economics
 ---
 
-# From PRUs to AI Credits
+# From Request Counting to AI Credits
 
 | Workflow | Before | Now |
 |---|---|---|

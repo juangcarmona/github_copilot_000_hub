@@ -5,4 +5,4 @@ date: May 2026
 ---
 
 # GitHub Copilot
-## Cost, Control, and Usage in 2026
+## Workflow Economics & Operational Thinking

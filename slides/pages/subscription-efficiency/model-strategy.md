@@ -12,8 +12,8 @@ author: "The most efficient workflow"
 
 <!--
 This is the single most actionable recommendation.
-- Use reasoning models (Claude, Codex, Gemini 3, GPT with higher rates) only for the thinking phase: architecture decisions, planning, understanding large codebases, debugging tricky issues.
-- Switch to coding models (Sonnet, 6-9x) for the doing phase: writing code, tests, refactoring. These are excellent at code generation and cost 3x less.
-- Use lightweight models (Haiku, 0.33x) for quick iterations: simple completions, boilerplate, formatting, small edits. Nearly zero quota impact.
-One Opus prompt that saves five Sonnet retries is a win. But ten Opus prompts for boilerplate is pure waste.
+- Use reasoning models (Claude Opus, Codex, etc.) only for the thinking phase: architecture decisions, planning, understanding large codebases, debugging tricky issues.
+- Switch to coding models (Sonnet, Gemini Pro) for the doing phase: writing code, tests, refactoring. These are excellent at code generation and cost significantly less.
+- Use lightweight models (Haiku, GPT mini) for quick iterations: simple completions, boilerplate, formatting, small edits. Minimal credit impact.
+One reasoning prompt that saves five coding retries is a win. But ten reasoning prompts for boilerplate is pure overhead.
 -->

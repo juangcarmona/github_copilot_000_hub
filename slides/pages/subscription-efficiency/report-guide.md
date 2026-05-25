@@ -1,33 +1,28 @@
 ---
 layout: table
-section: Monthly Report
+section: Usage Patterns
 ---
 
-# Reading the Usage Report
+# Reading Usage Data
 
-| Column | Meaning | Watch out |
+| Signal | What It Tells You | Worth Exploring |
 |---|---|---|
-| **Total req.** | Interactive Copilot usage | Low usage may indicate low adoption |
-| **Frontier %** | Manual use of frontier models | High % may indicate expensive defaults |
-| **% Auto** | Requests served via Auto mode | Low % may indicate poor model selection habits |
-| **AI usage** | Org-wide tertile (BELOW AVG / AVG / ABOVE AVG) | `BELOW AVG` is worth a conversation |
-| **Min** | Lowest individual usage at that level | ⚠️ < 50 → someone is barely using Copilot |
-| **Billed req.** | Requests charged above included quota | Signals heavy frontier use burning the pool |
+| **Total requests** | Interactive Copilot usage | Low usage may indicate adoption opportunity |
+| **Frontier %** | Use of premium reasoning models | High % may indicate room for model optimization |
+| **% Auto** | Requests served via Auto mode | Low % suggests manual model selection habits |
+| **AI usage level** | Relative usage across the org | Unusually low usage is worth a conversation |
+| **Billed requests** | Requests beyond included quota | Signals heavy premium model usage |
 
 <!--
-This report is transitional and internal.
+Usage data should be read as:
+- adoption signals
+- workflow optimization opportunities
+- model-selection awareness
 
-Managers should not read it as:
-- productivity score
-- performance ranking
-- pressure mechanism
-
-Read it as:
-- adoption signal
-- workflow signal
-- model-selection signal
-- cost-awareness signal
+Not as:
+- productivity scores
+- performance rankings
 
 Start conversations with curiosity:
-"what kind of work drove this pattern?"
+"What kind of work drove this pattern?"
 -->

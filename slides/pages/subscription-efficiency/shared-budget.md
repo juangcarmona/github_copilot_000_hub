@@ -4,28 +4,35 @@ section: Shared Budget
 ---
 
 # Shared AI Budget
-### Heavy workflows affect everyone
+### Workflow choices affect the whole organization
 
 ::left::
 
-## Today
+## How It Works
 
-- **~380 seats** across the org
-- Each seat contributes **$19/month** to a shared pool
-- Monthly pool: **~$7,220**
-- Extra AI Credits served **FIFO**
-- ⚠️ Per-user limits: under evaluation by GitHub, **not yet available**
+- Each seat contributes to a **shared AI credit pool**
+- High-consumption workflows reduce capacity for everyone
+- Budget is consumed on a first-come basis
+- Per-user spending limits are evolving — check GitHub’s latest docs
 
 ::right::
 
-## Promotion (until Sept 2026)
+## What This Means
 
-- We're given **$30/seat** instead of $19
-- Pool during 3 months: **~$11,400/month**
-- ⚠️ After September, pool drops back to $7,220
+- Balancing experimentation and cost is a team responsibility
+- Workflow visibility helps avoid surprises
+- Governance is about **sustainability**, not restriction
+- Organizations should define budget policies proactively
 
 <!--
-- The shared pool is consumed FIFO — if heavy users exhaust it early, developers who need extra capacity at month end find nothing.
-- The September 2026 promotion is a good window to onboard and experiment with less risk of overages.
-- Per-user spending limits are being evaluated by GitHub but are not yet available.
+The shared pool model means individual workflow choices have organizational impact.
+Heavy users consuming credits early can leave others without capacity later in the month.
+
+Key governance levers:
+- Budget alerts and caps
+- Workflow awareness
+- Model selection habits
+- Operational visibility
+
+Avoid framing this as “policing” — it’s about sustainability.
 -->

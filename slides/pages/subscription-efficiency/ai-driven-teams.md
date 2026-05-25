@@ -54,8 +54,6 @@ AI maturity is operational maturity.
 </div>
 
 <!--
-Ibon’s message compressed.
-
 Flow:
 - People: adoption, onboarding, spec-first culture.
 - Platform: agents, skills, living specs, SDLC integration.

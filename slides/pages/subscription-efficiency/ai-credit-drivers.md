@@ -5,7 +5,7 @@ section: Economics
 
 # What Consumes AI Credits?
 
-> The question is not “who is using AI?” but “which workflows justify their operational cost and governance?”
+> The question is not “who is using AI?” but “which workflows justify their operational cost?”
 
 | Workflow | Workflow Type |
 |---|---|

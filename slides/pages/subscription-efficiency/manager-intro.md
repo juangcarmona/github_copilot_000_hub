@@ -1,7 +1,7 @@
 ---
 layout: statement
-section: For Managers
+section: Visibility
 ---
 
-# You get a monthly usage report.
-## Here's how to read it — and when to act.
+# Understanding usage patterns helps teams optimize.
+## Let’s look at what’s available.
