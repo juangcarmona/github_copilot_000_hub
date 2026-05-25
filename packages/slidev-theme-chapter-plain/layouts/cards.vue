@@ -27,22 +27,22 @@ const cardElements = computed(() => {
 });
 const cardColors = [
   {
-    iconBg: "bg-[#2F69FF]/20",
-    iconText: "text-[#2F69FF]",
-    borderHover: "hover:border-[#2F69FF]/50",
-    toolBadge: "bg-[#2F69FF]/10 text-[#2F69FF] border border-[#2F69FF]/30",
+    iconBg: "bg-[#3D5AFE]/20",
+    iconText: "text-[#3D5AFE]",
+    borderHover: "hover:border-[#3D5AFE]/50",
+    toolBadge: "bg-[#C5CAE9]/20 text-[#3D5AFE] border border-[#C5CAE9]",
+  },
+  {
+    iconBg: "bg-purple-500/20",
+    iconText: "text-purple-600",
+    borderHover: "hover:border-purple-500/50",
+    toolBadge: "bg-purple-50 text-purple-700 border border-purple-200",
   },
   {
     iconBg: "bg-[#3ABAAF]/20",
     iconText: "text-[#3ABAAF]",
     borderHover: "hover:border-[#3ABAAF]/50",
-    toolBadge: "bg-[#3ABAAF]/10 text-[#3ABAAF] border border-[#3ABAAF]/30",
-  },
-  {
-    iconBg: "bg-[#3ABAAF]/20",
-    iconText: "text-[#3ABAAF]",
-    borderHover: "hover:border-[#3ABAAF]/50",
-    toolBadge: "bg-[#3ABAAF]/10 text-[#3ABAAF] border border-[#3ABAAF]/30",
+    toolBadge: "bg-green-50 text-[#3ABAAF] border border-green-200",
   },
 ];
 
@@ -78,7 +78,7 @@ useStaggeredMotion(cardElements, () => {
           class="plain-cards__item group rounded-2xl border border-gray-200 bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
           :class="getCardColors(index).borderHover"
         >
-          <h3 class="mb-3 text-lg font-bold text-[#333333]">
+          <h3 class="mb-3 text-lg font-bold text-[#0F1729]">
             {{ card.title }}
           </h3>
           <p class="text-sm leading-relaxed text-[#6B7280]">
@@ -105,7 +105,7 @@ useStaggeredMotion(cardElements, () => {
   .plain-cards__content {
     h1,
     h2 {
-      @apply text-3xl font-bold text-[#333333] md:text-4xl;
+      @apply text-3xl font-bold text-[#0F1729] md:text-4xl;
     }
 
     p {

@@ -77,7 +77,7 @@ useStaggeredMotion(timelineElements, () => ({
             :class="[
               isCompact ? 'w-40 p-3' : 'w-60',
               index === timelineItems.length - 1
-                ? 'scale-105 border-[#2F69FF] bg-blue-50 shadow-lg shadow-[#2F69FF]/20'
+                ? 'scale-105 border-amber-400 bg-amber-50 shadow-lg shadow-amber-200/30'
                 : 'border-gray-200 bg-white',
             ]"
           >
@@ -85,13 +85,13 @@ useStaggeredMotion(timelineElements, () => ({
               class="mb-2 font-bold"
               :class="[
                 isCompact ? 'text-base' : 'text-xl',
-                index === timelineItems.length - 1 ? 'text-[#2F69FF]' : 'text-[#2F69FF]',
+                index === timelineItems.length - 1 ? 'text-amber-600' : 'text-[#3D5AFE]',
               ]"
             >
               {{ item.year }}
             </div>
             <div
-              class="mb-1.5 leading-snug font-medium text-[#333333]"
+              class="mb-1.5 leading-snug font-medium text-[#0F1729]"
               :class="isCompact ? 'text-xs' : 'text-sm'"
             >
               {{ item.event }}
@@ -107,7 +107,7 @@ useStaggeredMotion(timelineElements, () => ({
             class="mt-3 rounded-full"
             :class="[
               isCompact ? 'h-3 w-3 ring-3 ring-gray-100' : 'h-4 w-4 ring-4 ring-gray-100',
-              index === timelineItems.length - 1 ? 'bg-[#2F69FF]' : 'bg-[#2F69FF]',
+              index === timelineItems.length - 1 ? 'bg-amber-500' : 'bg-[#3D5AFE]',
             ]"
           />
         </div>
@@ -121,7 +121,7 @@ useStaggeredMotion(timelineElements, () => ({
   .plain-timeline__content {
     h1,
     h2 {
-      @apply mb-4 text-4xl font-bold text-[#333333];
+      @apply mb-4 text-4xl font-bold text-[#0F1729];
     }
 
     p {
@@ -129,7 +129,7 @@ useStaggeredMotion(timelineElements, () => ({
     }
 
     p + p {
-      @apply mt-6 text-2xl font-bold text-[#2F69FF];
+      @apply mt-6 text-2xl font-bold text-amber-600;
     }
   }
 }

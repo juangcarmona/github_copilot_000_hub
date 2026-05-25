@@ -94,7 +94,7 @@ useStaggeredMotion(contentElements, {
   }
 
   .plain-main-cover-2__tagline {
-    @apply text-sm font-semibold uppercase tracking-[0.15em] text-[#2F69FF];
+    @apply text-sm font-semibold uppercase tracking-[0.15em] text-[#3D5AFE];
     margin-top: 1.25rem;
   }
 }

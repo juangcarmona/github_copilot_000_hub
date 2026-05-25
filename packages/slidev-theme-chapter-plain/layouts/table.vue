@@ -54,15 +54,15 @@ useStaggeredMotion(rowElements, () => {
   }
 
   th {
-    @apply px-6 py-4 text-[11px] font-bold tracking-[0.3em] uppercase text-[#333333] md:text-xs;
+    @apply px-6 py-4 text-[11px] font-bold tracking-[0.3em] uppercase text-[#1A1A2E] md:text-xs;
   }
 
   th:nth-child(2) {
-    @apply text-[#2F69FF];
+    @apply text-[#3D5AFE];
   }
 
   th:nth-child(3) {
-    @apply text-[#3ABAAF];
+    @apply text-amber-600;
   }
 
   tr:not(:last-child) td {
@@ -70,7 +70,7 @@ useStaggeredMotion(rowElements, () => {
   }
 
   td {
-    @apply px-6 py-4 text-sm font-medium text-[#333333];
+    @apply px-6 py-4 text-sm font-medium text-[#1A1A2E];
   }
 
   tbody tr {
@@ -94,12 +94,12 @@ useStaggeredMotion(rowElements, () => {
 
   td:nth-child(2) code,
   td:nth-child(2) span {
-    @apply border border-[#2F69FF]/40 bg-[#2F69FF]/10 text-[#2F69FF];
+    @apply border border-[#C5CAE9] bg-[#C5CAE9]/20 text-[#3D5AFE];
   }
 
   td:nth-child(3) code,
   td:nth-child(3) span {
-    @apply border border-[#3ABAAF]/30 bg-[#3ABAAF]/10 text-[#3ABAAF];
+    @apply border border-amber-200 bg-amber-50 text-amber-700;
   }
 }
 </style>

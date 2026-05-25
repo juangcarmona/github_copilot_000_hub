@@ -78,12 +78,12 @@ const listElements = computed(() => {
 const hasParsedItems = computed(() => listItems.value.length > 0);
 const badgeColors = [
   {
-    badgeBg: "bg-[#2F69FF]/10",
-    badgeText: "text-[#2F69FF]",
+    badgeBg: "bg-pink-100",
+    badgeText: "text-pink-600",
   },
   {
-    badgeBg: "bg-[#2F69FF]/10",
-    badgeText: "text-[#2F69FF]",
+    badgeBg: "bg-[#C5CAE9]/40",
+    badgeText: "text-[#3D5AFE]",
   },
   {
     badgeBg: "bg-[#3ABAAF]/20",
@@ -142,7 +142,7 @@ onMounted(async () => {
             {{ index + 1 }}
           </span>
           <div class="min-w-0">
-            <div class="mb-2 text-sm font-bold text-[#333333]">
+            <div class="mb-2 text-sm font-bold text-[#0F1729]">
               {{ item.title }}
             </div>
             <div v-if="item.desc" class="text-xs text-[#6B7280]">

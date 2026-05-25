@@ -6,12 +6,12 @@
     "slidev",
     "slidev-theme"
   ],
-  "homepage": "https://github.com/PlainConceptsChapters/projects-official-slidev-theme",
+  "homepage": "https://github.com/PlainConceptsChapters/chapter-slidev-theme",
   "license": "MIT",
   "author": "Plain Concepts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PlainConceptsChapters/projects-official-slidev-theme",
+    "url": "https://github.com/PlainConceptsChapters/chapter-slidev-theme",
     "directory": "packages/slidev-theme-chapter-plain"
   },
   "scripts": {
@@ -23,7 +23,8 @@
     "@vueuse/motion": "^3.0.3"
   },
   "devDependencies": {
-
+    "oxfmt": "catalog:",
+    "oxlint": "catalog:"
   },
   "peerDependencies": {
     "@slidev/client": ">=0.47.0",

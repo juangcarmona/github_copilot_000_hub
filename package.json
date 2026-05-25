@@ -1,8 +1,8 @@
 {
-  "name": "github_copilot_000_hub",
+  "name": "chapter-slidev-theme",
   "private": true,
   "type": "module",
-  "description": "GitHub Copilot workshop hub",
-  "author": "Juan García Carmona / Plain Concepts",
+  "description": "Plain Concepts Slidev theme template repo",
+  "author": "Plain Concepts",
   "license": "MIT"
 }

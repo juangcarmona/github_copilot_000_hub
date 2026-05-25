@@ -33,7 +33,7 @@ useStaggeredMotion(contentElements, {
 <style>
 .slidev-layout.plain-statement {
   h1 {
-    @apply text-4xl font-bold leading-tight text-[#333333] md:text-5xl;
+    @apply text-4xl font-bold leading-tight text-[#0F1729] md:text-5xl;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }

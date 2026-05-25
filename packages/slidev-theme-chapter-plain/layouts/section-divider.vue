@@ -117,7 +117,7 @@ useStaggeredMotion(rightElements, { baseDelay: 300, step: 100 });
 .plain-section-divider__right-content {
   h2,
   h3 {
-    @apply mb-4 text-xl font-bold text-[#333333];
+    @apply mb-4 text-xl font-bold text-[#0F1729];
   }
 
   p {
@@ -125,7 +125,7 @@ useStaggeredMotion(rightElements, { baseDelay: 300, step: 100 });
   }
 
   li {
-    @apply mb-2 text-sm leading-relaxed text-[#333333];
+    @apply mb-2 text-sm leading-relaxed text-[#1A1A2E];
     margin-left: 0;
     padding-left: 0;
   }

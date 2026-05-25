@@ -67,7 +67,7 @@ useStaggeredMotion(afterElements, { baseDelay: 400, step: 80 });
     margin-bottom: 1.5rem;
 
     h1 {
-      @apply text-3xl font-bold text-[#333333] md:text-4xl;
+      @apply text-3xl font-bold text-[#0F1729] md:text-4xl;
       margin-top: 0.25rem;
     }
 
@@ -108,25 +108,10 @@ useStaggeredMotion(afterElements, { baseDelay: 400, step: 80 });
     strong {
       color: white;
     }
-
-    :not(pre) > code {
-      background: rgba(255, 255, 255, 0.2);
-      color: white;
-    }
-
-    blockquote {
-      background: rgba(255, 255, 255, 0.1);
-      border-left-color: rgba(255, 255, 255, 0.5);
-      color: rgba(255, 255, 255, 0.95);
-
-      p {
-        color: rgba(255, 255, 255, 0.95);
-      }
-    }
   }
 
   .plain-comparison__col-title {
-    @apply mb-4 text-center text-sm font-bold uppercase tracking-widest text-[#333333];
+    @apply mb-4 text-center text-sm font-bold uppercase tracking-widest text-[#0F1729];
   }
 
   .plain-comparison__col-content {

@@ -33,7 +33,7 @@ import StaggeredGroup from "../components/StaggeredGroup.vue";
 
     h1,
     h2 {
-      @apply text-4xl font-bold text-[#333333] md:text-5xl;
+      @apply text-4xl font-bold text-[#0F1729] md:text-5xl;
     }
 
     p {
@@ -46,22 +46,22 @@ import StaggeredGroup from "../components/StaggeredGroup.vue";
   }
 
   .plain-two-cols-header__col {
-    @apply text-base leading-relaxed text-[#333333];
+    @apply text-base leading-relaxed text-[#1A1A2E];
 
     h3 {
-      @apply mb-3 text-xl font-semibold text-[#333333];
+      @apply mb-3 text-xl font-semibold text-[#0F1729];
 
       code {
         @apply rounded-md px-2 py-1 text-lg font-semibold;
-        background: rgba(47, 105, 255, 0.1);
-        color: #2f69ff;
+        background: rgba(61, 90, 254, 0.1);
+        color: #3d5afe;
       }
     }
 
     :not(pre) > code {
       @apply rounded-md px-1.5 py-0.5 text-sm font-medium;
-      background: rgba(47, 105, 255, 0.1);
-      color: #2f69ff;
+      background: rgba(61, 90, 254, 0.1);
+      color: #3d5afe;
     }
 
     p {
@@ -69,7 +69,7 @@ import StaggeredGroup from "../components/StaggeredGroup.vue";
     }
 
     strong {
-      @apply font-bold text-[#2f69ff];
+      @apply font-bold text-[#3d5afe];
     }
 
     img {

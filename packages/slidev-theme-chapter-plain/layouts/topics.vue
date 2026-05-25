@@ -61,7 +61,7 @@ useStaggeredMotion(topicElements, {
           :class="
             revealed
               ? topic.hot
-                ? 'border-[#2F69FF]/50 bg-gradient-to-br from-blue-50 to-indigo-50 hover:border-[#2F69FF]'
+                ? 'border-amber-300 bg-gradient-to-br from-amber-50 to-orange-50 hover:border-amber-400'
                 : 'border-gray-200 bg-gradient-to-br from-white to-gray-50 hover:border-gray-300'
               : 'border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 hover:border-gray-300'
           "
@@ -72,7 +72,7 @@ useStaggeredMotion(topicElements, {
               class="absolute top-2.5 right-2.5 flex items-center gap-2 rounded-full border px-2 py-0.5 text-[10px] font-bold"
               :class="
                 topic.hot
-                  ? 'border-[#2F69FF]/40 bg-[#2F69FF]/10 text-[#2F69FF]'
+                  ? 'border-amber-300 bg-amber-100 text-amber-700'
                   : 'border-gray-200 bg-gray-100 text-gray-500'
               "
             >
@@ -85,7 +85,7 @@ useStaggeredMotion(topicElements, {
             :class="
               revealed
                 ? topic.hot
-                  ? 'bg-[#2F69FF]/10 text-[#2F69FF]'
+                  ? 'bg-amber-100 text-amber-600'
                   : 'bg-gray-100 text-gray-500'
                 : 'bg-gray-100 text-gray-400'
             "
@@ -94,7 +94,7 @@ useStaggeredMotion(topicElements, {
           </div>
           <h3
             class="mb-2 text-[13px] font-semibold transition-colors duration-500"
-            :class="revealed ? (topic.hot ? 'text-[#333333]' : 'text-[#333333]') : 'text-[#333333]'"
+            :class="revealed ? (topic.hot ? 'text-[#0F1729]' : 'text-[#1A1A2E]') : 'text-[#0F1729]'"
           >
             {{ topic.title }}
           </h3>
@@ -106,7 +106,7 @@ useStaggeredMotion(topicElements, {
             :class="
               revealed
                 ? topic.hot
-                  ? 'bg-[#2F69FF]/10 text-[#2F69FF]'
+                  ? 'bg-amber-100 text-amber-700'
                   : 'bg-gray-100 text-gray-500'
                 : 'bg-gray-100 text-gray-500'
             "
@@ -124,7 +124,7 @@ useStaggeredMotion(topicElements, {
   .plain-topics__content {
     h1,
     h2 {
-      @apply mb-2 text-2xl font-bold text-[#333333] md:text-3xl;
+      @apply mb-2 text-2xl font-bold text-[#0F1729] md:text-3xl;
     }
   }
 }

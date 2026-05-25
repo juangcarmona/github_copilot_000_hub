@@ -70,7 +70,7 @@ onMounted(async () => {
 
   .plain-console__frame {
     @apply overflow-hidden rounded-xl border border-gray-700 flex flex-col;
-    background: #222222;
+    background: #0d1117;
     flex: 1;
     min-height: 0;
     box-shadow:
@@ -80,7 +80,7 @@ onMounted(async () => {
 
   .plain-console__titlebar {
     @apply flex items-center gap-2 border-b border-gray-700 px-4 py-2;
-    background: #2a2a2a;
+    background: #161b22;
   }
 
   .plain-console__dot {
@@ -96,18 +96,18 @@ onMounted(async () => {
   }
 
   .plain-console__dot--green {
-    background: #3abaaf;
+    background: #3fb950;
   }
 
   .plain-console__title {
     @apply ml-2 font-mono text-xs;
-    color: #aaaaaa;
+    color: #8b949e;
   }
 
   .plain-console__body {
     @apply px-6 py-5;
     font-family: "IBM Plex Mono", "Fira Code", "JetBrains Mono", monospace;
-    color: #eeeeee;
+    color: #e6edf3;
     font-size: 0.9rem;
     line-height: 1.7;
     flex: 1;
@@ -131,19 +131,19 @@ onMounted(async () => {
   .plain-console__body h2,
   .plain-console__body h3 {
     @apply mb-3 font-bold;
-    color: #eeeeee;
+    color: #e6edf3;
   }
 
   .plain-console__body h3 {
     @apply text-base;
-    color: #6b97ff;
+    color: #7dd3fc;
   }
 
   /* Lists inside console */
   .plain-console__body ul {
     @apply my-2 space-y-1 pl-4;
     list-style-type: "▸ ";
-    color: #cccccc;
+    color: #c9d1d9;
   }
 
   .plain-console__body li {
@@ -153,21 +153,21 @@ onMounted(async () => {
   /* Blockquote */
   .plain-console__body blockquote {
     @apply my-3 border-l-2 pl-4 italic;
-    border-color: #3abaaf;
-    color: #aaaaaa;
+    border-color: #3fb950;
+    color: #8b949e;
   }
 
   /* Inline code */
   .plain-console__body :not(pre) > code {
     @apply rounded px-1.5 py-0.5 text-sm;
-    background: rgba(47, 105, 255, 0.15) !important;
-    color: #6b97ff;
+    background: rgba(110, 118, 129, 0.2) !important;
+    color: #7dd3fc;
   }
 
   /* Paragraph */
   .plain-console__body p {
     @apply my-2;
-    color: #aaaaaa;
+    color: #8b949e;
   }
 
   /* Scrollbar */
@@ -180,12 +180,12 @@ onMounted(async () => {
   }
 
   .plain-console__body::-webkit-scrollbar-thumb {
-    background: #444444;
+    background: #30363d;
     border-radius: 4px;
   }
 
   .plain-console__body::-webkit-scrollbar-thumb:hover {
-    background: #555555;
+    background: #484f58;
   }
 }
 </style>
