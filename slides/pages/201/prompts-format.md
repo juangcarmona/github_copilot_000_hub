@@ -16,7 +16,7 @@ section: Prompt Files
 | `description` | Short prompt description |
 | `name` | Command name after `/` |
 | `argument-hint` | Placeholder hint in chat |
-| `agent` | Runner: `ask` / `agent` / `plan` |
+| `mode` | Mode: `ask` / `agent` / `plan` |
 | `model` | Model override |
 | `tools` | Allowed tools/toolsets |
 
@@ -46,6 +46,12 @@ They're ideal for tasks you repeat often:
 - Running code reviews
 - Planning implementations
 - Writing documentation
+
+Important framing: prompt files are reusable plays on top of the instruction foundation.
+Instructions encode standards that apply to every interaction.
+Prompt files encode specific workflows that are invoked deliberately.
+Module 201 exercises do not include a dedicated prompt file exercise — see the solution's
+`create-api-endpoint.prompt.md` as a concrete example of the pattern after completing Ex 03.
 
 References:
 - https://code.visualstudio.com/docs/copilot/customization/prompt-files

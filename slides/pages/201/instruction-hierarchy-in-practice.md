@@ -51,4 +51,13 @@ The file map makes it concrete — show the actual paths.
 Teams should be able to open their repo and know exactly where to create each file.
 
 Key message: instruction files are first-class repo artifacts. They belong in version control, reviewed like code.
+
+The agents/ path is shown here for completeness — it belongs to Module 202.
+
+Lab exercise mapping:
+- Exercise 02: create `.github/copilot-instructions.md`
+- Exercise 03: create `.github/instructions/backend.instructions.md` with `applyTo: "**/*.cs"`
+- Exercise 04: create `.github/instructions/frontend.instructions.md` with `applyTo: "**/*.ts,**/*.tsx"`
+- Exercise 05: add architecture docs and ADRs to `docs/` — these become rich context for Copilot when referenced
+- Exercise 06: create a second `.instructions.md` that conflicts with the root — observe unpredictable output; conclusion is that scoped instructions must specialize, not contradict
 -->

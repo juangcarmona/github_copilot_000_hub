@@ -18,11 +18,12 @@ Applies to all Copilot requests in the repository.
 - Technology stack and versions
 - Common patterns to follow
 
-## Agent Instructions
+## Agent Instructions *(→ Module 202)*
 
 `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`
 
-Similar to repo-wide, but not all features support them.
+Agent-level instruction files control agent and orchestration behavior.
+Not covered in 201 — covered in Module 202 (Agents and Skills).
 
 ::right::
 
@@ -47,7 +48,12 @@ Use path-specific instructions to avoid overloading repo-wide instructions with 
 The scope hierarchy:
 1. Repo-wide → every interaction
 2. Path-specific → matched files only
-3. Agent → agent-level behavior
+3. Agent → agent-level behavior (Module 202)
 
 Start with repo-wide, then add path-specific as your codebase grows.
+
+Lab mapping:
+- Exercise 02 — Create Root Instructions: `.github/copilot-instructions.md`
+- Exercise 03 — Add Backend Instructions: `.github/instructions/backend.instructions.md`
+- Exercise 04 — Add Frontend Instructions: `.github/instructions/frontend.instructions.md`
 -->
