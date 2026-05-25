@@ -1,0 +1,12 @@
+﻿{
+  "name": "slides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md --open",
+    "export": "slidev export slides.md"
+  },
+  "dependencies": {
+    "slidev-theme-chapter-plain": "workspace:*"
+  }
+}
