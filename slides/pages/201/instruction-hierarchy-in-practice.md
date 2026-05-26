@@ -12,18 +12,24 @@ section: Instruction Hierarchy
 ```
 your-repo/
 ├── .github/
-│   ├── copilot-instructions.md      ← repo-wide
+│   ├── copilot-instructions.md        ← repo-wide instructions
 │   ├── instructions/
-│   │   ├── backend.instructions.md  ← path-specific
-│   │   ├── frontend.instructions.md ← path-specific
-│   │   └── tests.instructions.md    ← path-specific
+│   │   ├── backend.instructions.md    ← scoped instructions
+│   │   ├── frontend.instructions.md   ← scoped instructions
+│   │   └── tests.instructions.md      ← scoped instructions
 │   ├── prompts/
-│   │   ├── review.prompt.md         ← reusable prompt
-│   │   └── onboarding.prompt.md     ← reusable prompt
-│   └── copilot/
-│       └── agents/                  ← agent profiles (→ 202)
-└── .vscode/
-    └── settings.json                ← editor-level settings
+│   │   ├── review.prompt.md           ← reusable workflows
+│   │   └── onboarding.prompt.md       ← reusable workflows
+│   ├── skills/
+│   │   ├── api-design/
+│   │   │   └── SKILL.md
+│   │   └── incident-response/
+│   │       └── SKILL.md
+│   ├── agents/
+│   │   └── reviewer.agent.md          ← custom agents (advanced)
+│   └── hooks/
+│       └── pre-review.json            ← workflow hooks/policies
+
 ```
 
 ::right::
@@ -42,7 +48,8 @@ Use for: framework rules, test conventions, domain-specific patterns.
 → Reusable prompts invoked explicitly.
 Use for: repeated workflows (code review, PR summary, onboarding).
 
-<div class="mt-4 text-sm opacity-70">Lower layers add to, not replace, higher layers. All active layers are composed together.</div>
+<div class="mt-4 text-sm opacity-70">Lower layers add to, not replace, higher layers.</div>
+<div class="mt-2 text-sm opacity-70">All active layers are composed together.</div>
 
 <!--
 This is the most important operational slide in Module 201.

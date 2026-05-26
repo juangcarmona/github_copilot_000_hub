@@ -1,50 +1,36 @@
 ---
-layout: two-cols-header
+layout: default
 section: Context Engineering
 ---
 
-# How Context Reaches Copilot
+# Context Engineering Workflow
 
-::left::
+<div class="grid grid-cols-2 gap-8">
+<div class="leading-snug">
 
-## What Copilot Sees
+The model can only reason about what it sees. Context engineering is the practice of **curating what the model sees**.
 
-Every Copilot response is shaped by what fits in the context window:
+**The Three Steps**
 
-- **Open files** — active editor tabs signal relevance
-- **Selection** — highlighted code is included explicitly
-- **Attached references** — `#file`, `#codebase`, `#git`
-- **Instruction files** — `.github/copilot-instructions.md` is always loaded
-- **Conversation history** — earlier exchanges remain visible
+1. **Curate project context** — instruction files, architecture docs, conventions
+2. **Generate plan** — structured implementation plan from curated context
+3. **Generate code** — implementation grounded in plan + guidelines
 
-## Context Window Limits
+> Most prompt failures are context failures.
 
-Context windows are finite. When they fill:
+The developers who get consistently good output don't write "better prompts" — they manage what the model sees.
 
-- Earlier conversation turns are dropped
-- Large files crowd out other signals
-- Precision degrades silently
+</div>
+<div>
 
-::right::
+<img src="/102/context-engineering-workflow.png" class="w-full object-contain rounded shadow" />
 
-## Maximizing Context Quality
-
-**Relevance over volume** — attach the right files, not all files.
-
-**Close irrelevant tabs** — open files signal context even when not attached.
-
-**Use instruction files** — repo-wide conventions don't need to be repeated in every prompt.
-
-**Split long sessions** — start fresh when context has drifted. `/clear` resets the window.
-
-**Name things precisely** — variable names, function names, and file names are part of the context signal. Vague names produce vague completions.
-
-<div class="mt-4 text-sm opacity-70">Context quality → output quality. This is the primary variable you control.</div>
+</div>
+</div>
 
 <!--
-This is a bridge slide — 102 teaches you to craft prompts; 203 teaches you to architect a repo so that context is always available.
+This slide introduces context engineering as a systematic workflow, not a one-shot technique.
 
-Key insight: most prompt failures are not prompt failures. They are context failures.
-
-The developers who get consistently good Copilot output manage their context deliberately.
+The image shows the three-step flow: curate → plan → implement.
+This connects forward to 203 (AI-ready repos) and 302 (spec-driven development).
 -->

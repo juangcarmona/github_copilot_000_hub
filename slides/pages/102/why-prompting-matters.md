@@ -24,6 +24,8 @@ It's controlling what Copilot sees.
 
 Designing prompts that help Copilot understand your intent — and ensuring the surrounding context supports that intent.
 
+<div class="text-sm">
+
 | Technique | Approach |
 |---|---|
 | Neighboring Tabs | Context through open files |
@@ -31,6 +33,8 @@ Designing prompts that help Copilot understand your intent — and ensuring the 
 | One-Shot | One example to set the pattern |
 | Few-Shot | Multiple examples to teach behavior |
 | Divide and Conquer | Break into sequential reasoning |
+
+</div>
 
 <!--
 This replaces the generic "what/why/how" framing with an explicit 101→102 bridge.

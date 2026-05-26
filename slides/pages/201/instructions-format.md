@@ -11,28 +11,28 @@ section: Custom Instructions
 
 Optional YAML frontmatter:
 
+<div class="text-sm">
+
 | Field | Purpose |
 |---|---|
 | `description` | Short description for UI |
 | `name` | Display name (defaults to filename) |
 | `applyTo` | Glob pattern for auto-apply |
 
-Body: plain Markdown with guidelines.
+</div>
 
-Reference tools: `#tool:<tool-name>`
+Body: plain Markdown. Reference tools with `#tool:<tool-name>`.
 
 ::right::
 
-## Best Practices
+## Principles
 
-- Keep instructions short and self-contained
-- Provide a project overview and goals
-- Include folder structure highlights
-- Specify coding standards and conventions
-- List tools, libraries, and versions
-- Don't overload — split into path-specific files
+- One rule per statement — keep each instruction self-contained
+- Explain the *why*: "Use `date-fns`, not `moment.js` — moment is deprecated"
+- Show examples over abstract descriptions
+- Split by path rather than growing one long file
 
-## Example Structure
+## Example
 
 ```markdown
 # Project: MyApp
@@ -45,12 +45,7 @@ React 18 + TypeScript 5.4 + Vite
 ```
 
 <!--
-The most common mistake: writing instructions that are too long or too detailed.
-
-Instructions should be the "house rules" — not a full specification.
+The most common mistake: instructions that are too long or too abstract.
+Each rule should be a single, actionable statement.
 If you need task-specific guidance, use prompt files instead.
-
-References:
-- https://docs.github.com/en/copilot/tutorials/customization-library/custom-instructions
-- https://github.com/github/awesome-copilot/blob/main/docs/README.instructions.md
 -->

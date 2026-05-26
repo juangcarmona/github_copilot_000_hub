@@ -17,9 +17,30 @@ src: ./pages/302/philosophy.md
 ---
 src: ./pages/302/what-is-sdd.md
 ---
+---
+src: ./pages/302/planning-first-argument.md
+---
+
+<!-- Plan Agent -->
+
+---
+src: ./pages/302/plan-agent-overview.md
+---
+---
+src: ./pages/302/plan-agent-clarification.md
+---
+---
+src: ./pages/302/plan-to-implementation.md
+---
 
 <!-- Spec Kit -->
 
+---
+src: ./pages/302/spec-kit-flow.md
+---
+---
+src: ./pages/302/spec-kit-tooling.md
+---
 ---
 src: ./pages/302/spec-kit.md
 ---
@@ -30,7 +51,25 @@ src: ./pages/302/spec-kit.md
 src: ./pages/302/sdd-workflow.md
 ---
 ---
+src: ./pages/302/sdd-workflow-rationale.md
+---
+
+<!-- Validation and Drift -->
+
+---
 src: ./pages/302/spec-validation-loop.md
+---
+---
+src: ./pages/302/spec-to-tests.md
+---
+---
+src: ./pages/302/tdd-from-spec.md
+---
+---
+src: ./pages/302/spec-drift.md
+---
+---
+src: ./pages/302/spec-drift-prevention.md
 ---
 
 <!-- Closing -->

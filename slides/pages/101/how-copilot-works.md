@@ -1,36 +1,35 @@
 ---
 layout: default
-section: Foundations
+section: How It Works
 ---
 
-# How Copilot Fulfills a Request
+# The Request Lifecycle
 
-<div class="mt-4">
+Every time you press Tab or send a chat message, this happens:
 
-```mermaid {scale: 0.75}
+```mermaid {scale: 0.65}
 flowchart LR
-    A[Your Code + Context] --> B[Pre-model Filters]
-    B --> C[LLM Inference]
-    C --> D[Post-model Filters]
-    D --> E[Suggestions in IDE]
+    A[Context] --> B[Pre-filters]
+    B --> C[LLM]
+    C --> D[Post-filters]
+    D --> E[IDE]
+    E --> F{You}
 
-    B -.- B1[Toxic content check]
-    B -.- B2[Prompt injection guard]
-    D -.- D1[Code quality check]
-    D -.- D2[Security vulnerability scan]
-    D -.- D3[Public code matching]
+    B -.- B1[Toxicity]
+    B -.- B2[Injection guard]
+    D -.- D1[Quality]
+    D -.- D2[Security]
+    D -.- D3[Public code]
+    F -.- F1[Accept / Modify / Reject]
 ```
+
+<div class="mt-4 text-sm opacity-70">
+
+Your code is **never** used for training. Prompts are deleted after inference.
 
 </div>
 
 <!--
-What happens when Copilot processes a request:
-
-1. Context assembly — Copilot gathers context from open tabs, current file, and chat history.
-2. Pre-model filters — checks for toxic language, relevance, and prompt injection attempts.
-3. LLM inference — the model generates suggestions, then deletes the prompt.
-4. Post-model filters — code quality review, security scan (SQL injection, path injection), and optional public code matching.
-5. Developer decides — accept, modify, or reject each suggestion.
-
-Important: your code is never used to train the model. Data is encrypted in transit and at rest.
+This is the pipeline overview. Next slide has the timing details.
+The diagram must stay compact — each box is one word or two max.
 -->

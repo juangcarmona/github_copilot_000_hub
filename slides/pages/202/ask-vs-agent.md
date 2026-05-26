@@ -3,16 +3,20 @@ layout: default
 section: Interaction Models
 ---
 
-# Choosing the Right Interaction Model
+# Chat vs Agent: Two Workflows
 
-| Task | Model | When |
+<div class="text-sm">
+
+| Dimension | Interactive Chat | Agent Mode |
 |---|---|---|
-| Explain / explore / learn | **Ask** | Quick questions, no code changes needed |
-| Generate, fix, or refactor a function | **Chat** | Targeted change, you stay in control |
-| Plan a complex feature before building | **Plan** | Multi-step task, review the strategy first |
-| Autonomous multi-file implementation | **Agent** | Well-defined task, you review the PR |
-| Delegate from an active agent session | **Subagent** | Isolate a complex sub-task without polluting context |
-| Async task from GitHub issue | **Coding Agent** | Assign to @copilot, review when done |
+| **Control** | You approve each step | Agent plans and executes autonomously |
+| **Scope** | Single file / function | Multi-file, multi-step tasks |
+| **Feedback** | Immediate, inline | Asynchronous review of changes |
+| **Tools** | You choose explicitly | Agent selects tools dynamically |
+| **Isolation** | Edits your workspace directly | Can use worktrees for isolation |
+| **Best for** | Exploration, learning, quick fixes | Implementation, refactoring, features |
+
+</div>
 
 <div class="mt-6 text-sm opacity-70">
 
@@ -21,9 +25,6 @@ section: Interaction Models
 </div>
 
 <!--
-This merges ask-vs-agent and plan-and-subagents into a unified decision framework.
-
-The table replaces abstract descriptions with task-driven guidance.
-The audience question is always: "what mode should I use for this?"
-This answers it directly.
+The key distinction: chat = you drive, agent = you delegate and review.
+Agent mode doesn't replace chat — it complements it for different task shapes.
 -->

@@ -9,34 +9,37 @@ mdc: true
 src: ./pages/103/cover.md
 ---
 
-<!-- Testing -->
-
 ---
-src: ./pages/103/test-generation.md
+src: ./pages/103/ai-output-is-draft.md
 ---
-
-<!-- Code Review -->
-
----
-src: ./pages/103/code-review.md
----
-
-<!-- Security -->
-
----
-src: ./pages/103/secure-coding.md
----
-
-<!-- Validation -->
 
 ---
 src: ./pages/103/validation-checklist.md
 ---
+
 ---
-src: ./pages/103/legacy-validation.md
+src: ./pages/103/review-diffs.md
 ---
 
-<!-- Closing -->
+---
+src: ./pages/103/test-workflow.md
+---
+
+---
+src: ./pages/103/fake-green.md
+---
+
+---
+src: ./pages/103/fix-test-failure.md
+---
+
+---
+src: ./pages/103/security.md
+---
+
+---
+src: ./pages/103/code-review.md
+---
 
 ---
 src: ./pages/103/closing.md

@@ -1,51 +1,58 @@
 ---
-layout: two-cols-header
+layout: default
 section: Security
 ---
 
 # Security Review Workflow
 
-::left::
+<div class="grid grid-cols-[1fr_1.2fr] gap-6">
+<div>
 
-## Review During Generation
+## The Loop
 
-Ask directly while coding:
-- *"Is this code vulnerable to SQL injection?"*
-- *"Does this endpoint validate and sanitize input?"*
-- *"Are there paths where user data reaches the filesystem?"*
+```
+Generate code
+     ↓
+Ask: "Is this vulnerable?"
+     ↓
+Scan (GHAS / CodeQL)
+     ↓
+Remediate findings
+     ↓
+Re-scan — clean? → Commit
+```
 
-Copilot can reason about vulnerabilities in context. Ask it to check as you write.
+## Ask while coding
 
-## GHAS Integration
+- *"Is this vulnerable to SQL injection?"*
+- *"Does this validate and sanitize input?"*
+- *"Are there authorization bypass paths?"*
 
-Use Copilot to act on scanning results:
-- *"How do I fix this CodeQL alert?"*
-- *"Explain this secret scanning finding and remediation"*
-- Write custom CodeQL queries: *"Generate a CodeQL query to find all SQL string concatenations"*
+</div>
+<div>
 
-::right::
+<img src="/103/secure-coding.png" class="rounded shadow-lg" style="max-height: 340px;" />
 
-## The Security Review Loop
+<div class="mt-2 text-sm opacity-70">
 
-**1. Generate** — write the code.
+Copilot reasons about vulnerabilities in context.
+Use GHAS to validate what it misses.
 
-**2. Ask** — prompt Copilot to review for OWASP Top 10 patterns.
+</div>
 
-**3. Scan** — run GHAS / CodeQL / secret scanning on the branch.
-
-**4. Remediate** — use Chat to understand findings and generate fixes.
-
-**5. Validate** — re-run scans. Don't commit until clean.
-
-<div class="mt-4 text-sm opacity-70">Defense in depth: Copilot filters catch patterns during generation. GHAS catches what reaches the repo. Human review catches logic issues. All three are needed.</div>
+</div>
+</div>
 
 <!--
-Key change from the previous version: this is a workflow, not a feature description.
-The "built-in protections" section was removed — that's covered in 101/how-copilot-works.md.
+Simplified security slide focused on the workflow loop with the visual.
 
-Focus on how to use security tools in the development workflow, not what protections exist.
+The detailed detection capabilities and GHAS integration are in security-detection.md.
+
+Key change from previous version: this is a workflow, not a feature description.
+Focus on how to use security tools in the development workflow.
 
 Lab exercises:
-- Exercise 1 (Spot the Vulnerability): systematic security audit of DatabaseHelper.cs, AuthMiddleware.cs, CryptoHelper.cs, and the Controllers/ folder. Attendees should find at least 8 vulnerabilities. Copilot will miss some — that's intentional.
-- Exercise 5 (Secure the Endpoint): apply the security review loop to fix vulnerabilities from Exercise 1. Security fixes can be incomplete or introduce new problems — validate every change.
+- Exercise 1 (Spot the Vulnerability): systematic security audit of DatabaseHelper.cs,
+  AuthMiddleware.cs, CryptoHelper.cs, and Controllers/. At least 8 vulnerabilities.
+- Exercise 5 (Secure the Endpoint): apply the loop to fix vulnerabilities from Exercise 1.
 -->

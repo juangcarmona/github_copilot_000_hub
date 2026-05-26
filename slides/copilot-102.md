@@ -9,6 +9,15 @@ mdc: true
 src: ./pages/102/cover.md
 ---
 
+<!-- Recap from 101 — Chat Workflow & Prompting Cornerstones -->
+
+---
+src: ./pages/101/chat-cheatsheet.md
+---
+---
+src: ./pages/101/prompting-cornerstones.md
+---
+
 <!-- Fundamentals -->
 
 ---
@@ -18,10 +27,37 @@ src: ./pages/102/why-prompting-matters.md
 src: ./pages/102/best-practices.md
 ---
 
+<!-- Context Engineering -->
+
+---
+src: ./pages/102/context-assembly.md
+---
+---
+src: ./pages/102/neighboring-tabs.md
+---
+---
+src: ./pages/102/explicit-context-attachment.md
+---
+---
+src: ./pages/102/context-engineering.md
+---
+---
+src: ./pages/102/repository-aware-prompting.md
+---
+---
+src: ./pages/102/always-on-instructions.md
+---
+---
+src: ./pages/102/instruction-scope.md
+---
+
 <!-- Techniques -->
 
 ---
-src: ./pages/102/neighboring-tabs.md
+src: ./pages/102/prompt-specificity-evolution.md
+---
+---
+src: ./pages/102/ambiguity-reduction.md
 ---
 ---
 src: ./pages/102/zero-one-shot.md
@@ -30,16 +66,34 @@ src: ./pages/102/zero-one-shot.md
 src: ./pages/102/few-shot.md
 ---
 ---
+src: ./pages/102/prompt-decomposition.md
+---
+---
 src: ./pages/102/divide-and-conquer.md
+---
+---
+src: ./pages/102/prompting-styles.md
 ---
 ---
 src: ./pages/102/prompt-precision.md
 ---
+
+<!-- Iterative Refinement -->
+
+---
+src: ./pages/102/iterative-refinement-start.md
+---
+---
+src: ./pages/102/iterative-refinement-constrain.md
+---
+---
+src: ./pages/102/iterative-refinement-polish.md
+---
+
+<!-- Context Management -->
+
 ---
 src: ./pages/102/history-management.md
----
----
-src: ./pages/102/context-engineering.md
 ---
 ---
 src: ./pages/102/model-selection.md

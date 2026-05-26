@@ -3,7 +3,7 @@ layout: two-cols-header
 section: Spec Kit
 ---
 
-# Spec Kit
+# Spec Kit — Installation and Setup
 
 ### GitHub's open-source toolkit for Spec-Driven Development
 
@@ -27,19 +27,19 @@ Installation adds prompt files to `.github/prompts/` that integrate with Copilot
 
 ::right::
 
-## The 5 Steps
+## What Gets Installed
 
-| Step | What You Define |
+| Prompt File | Purpose |
 |---|---|
-| **Constitution** | Principles and quality standards |
-| **Specify** | What to build and why (outcomes, not tech) |
-| **Plan** | Stack, architecture, technical approach |
-| **Tasks** | Scoped, testable implementation units |
-| **Implement** | Build task by task with Copilot |
+| `/speckit.constitution` | Set non-negotiable standards |
+| `/speckit.specify` | Describe what and why |
+| `/speckit.clarify` | Find gaps in the spec |
+| `/speckit.plan` | Define technical approach |
+| `/speckit.tasks` | Break into implementable units |
 
 <div class="mt-6 text-sm opacity-70">
 
-Spec Kit provides the tooling scaffold. The next slide shows the thinking behind each step.
+Each prompt enforces one step of the workflow. Order matters — you can't skip ahead.
 
 </div>
 
@@ -48,14 +48,6 @@ Spec Kit is a practical toolkit, not a heavy methodology.
 
 The prompt files it installs make the workflow accessible directly from Copilot Chat.
 The key value: it enforces the order (think first, build second) through tooling.
--->
-| **Implement** | Build task by task |
 
-<!--
-Spec Kit turns the SDD methodology into a repeatable workflow.
-
-Each step builds on the previous one:
-Constitution → Specify → Plan → Tasks → Implement
-
-The spec is the north star. Everything references it.
+Teams can customize each prompt to match their conventions.
 -->

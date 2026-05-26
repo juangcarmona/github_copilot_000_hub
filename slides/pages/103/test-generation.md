@@ -9,43 +9,50 @@ section: Testing
 
 ## The Loop
 
-**1. Read** — understand the code or requirement before prompting.
+**1. Read** — understand the code before prompting.
 
-**2. Generate tests** — `/tests` · `/tests using xUnit` · or describe test scenarios naturally:
+**2. Generate tests** — `/tests` or describe scenarios:
 ```
-Generate tests for an email validation function.
-Cover: valid addresses, missing @, missing domain, empty string, null input.
+Generate tests for TicketService.CancelTicket.
+Cover: valid cancellation, already cancelled,
+past event, refund eligibility, null ticket.
 ```
 
-**3. Review assertions** — read each assertion. Does it test meaningful behavior or just that the code runs?
+**3. Review assertions** — does each test assert meaningful behavior?
+
+**4. Run** — expect red first. Then implement.
+
+**5. Iterate** — *"Add edge case for concurrent cancellation"*
 
 ::right::
 
-**4. Run** — all tests must pass before proceeding. Use `/fixTestFailure` to diagnose failures.
+## The Critical Question
 
-**5. Iterate on edge cases** — *"Add a test for inputs longer than 254 characters"* / *"Add a test for international domain names"*
+For every generated test, ask:
 
-## Watch for Fake Green Tests
+> If I break the implementation, does this test catch it?
 
-Copilot generates tests that pass trivially:
-```csharp
-// ❌ Tests that it doesn't throw — not that it's correct
-var result = Record.Exception(() => validate(null));
-Assert.Null(result);
+If the answer is no — the test protects nothing.
 
-// ✅ Tests the actual contract
-Assert.False(validate(null));
-```
+## Quick reference
+
+| Command | Use case |
+|---------|----------|
+| `/tests` | Generate test file for current code |
+| `/tests using xUnit` | Framework-specific generation |
+| `/fixTestFailure` | Diagnose why a test fails |
+| Natural language | Describe specific scenarios |
+
+<div class="mt-4 text-sm opacity-70">Copilot accelerates test writing. You still own test quality.</div>
 
 <!--
-The TDD workflow: read → generate tests → review assertions → run → iterate on edge cases.
+Simplified version focused on the workflow loop.
+Detailed content on fake green tests, fix-test-failure, and setup are in dedicated slides.
 
 The most important step: reviewing assertion logic. Copilot often generates "fake green tests" —
 tests that pass without validating behavior. They protect nothing.
 
 Lab exercises:
-- Exercise 2 (Fix the Flaky Test): identify fake-green and time-dependent tests in RefundsControllerTests.cs and DateHelperTests.cs
-- Exercise 6 (Regression Analysis): build a proper regression test suite for the scenarios Exercise 2 exposes
-
-Test generation is also the best entry point for legacy code validation — see legacy-validation.md.
+- Exercise 2 (Fix the Flaky Test): identify fake-green and time-dependent tests
+- Exercise 6 (Regression Analysis): build a proper regression test suite
 -->

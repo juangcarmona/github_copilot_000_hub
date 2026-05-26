@@ -18,13 +18,6 @@ Applies to all Copilot requests in the repository.
 - Technology stack and versions
 - Common patterns to follow
 
-## Agent Instructions *(→ Module 202)*
-
-`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`
-
-Agent-level instruction files control agent and orchestration behavior.
-Not covered in 201 — covered in Module 202 (Agents and Skills).
-
 ::right::
 
 ## Path-Specific
@@ -42,13 +35,12 @@ Always use TypeScript strict mode.
 Follow the naming convention: PascalCase.
 ```
 
-Use path-specific instructions to avoid overloading repo-wide instructions with details that only apply to certain files or directories.
+Scoped files specialize the root — they add detail, never contradict.
 
 <!--
 The scope hierarchy:
 1. Repo-wide → every interaction
 2. Path-specific → matched files only
-3. Agent → agent-level behavior (Module 202)
 
 Start with repo-wide, then add path-specific as your codebase grows.
 

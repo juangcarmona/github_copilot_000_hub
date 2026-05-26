@@ -1,5 +1,5 @@
 ---
-layout: two-cols-header
+layout: default
 section: Techniques
 ---
 
@@ -7,16 +7,20 @@ section: Techniques
 
 ### Staged AI-assisted engineering: one decision at a time
 
-::left::
+<div class="grid grid-cols-2 gap-8">
+<div class="leading-snug">
 
-## Why It Works
+**Why It Works**
 
 - Fits within context limits
 - Allows iterative validation at each step
 - Reduces hallucination surface area
 - Each step can be verified before the next begins
 
-## The Pattern
+</div>
+<div class="leading-snug">
+
+**The Pattern**
 
 Instead of one big prompt, structure work as a pipeline:
 
@@ -26,32 +30,8 @@ Instead of one big prompt, structure work as a pipeline:
 4. **Migrate** — update consumers one at a time
 5. **Verify** — check for remaining references
 
-::right::
-
-## Applied Example: Pricing Consolidation
-
-```
-// Step 1: Audit
-List all places in this codebase where ticket prices
-are calculated. Note which file, which function,
-and what each calculation includes.
-
-// Step 2: Design
-Define the signature for priceService.js
-Do not write the implementation yet.
-
-// Step 3: Implement
-Write calculatePrice() in priceService.js
-based on the agreed design.
-
-// Step 4: Migrate (one at a time)
-Update BookingForm.jsx to import from priceService.js.
-Keep the existing UI unchanged.
-
-// Step 5: Verify
-Search for remaining imports of pricing.js
-or priceCalculator.js and list them.
-```
+</div>
+</div>
 
 <!--
 This reframes "split big tasks" as a methodology for AI-assisted migration.

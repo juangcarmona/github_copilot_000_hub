@@ -1,11 +1,11 @@
 ---
-layout: two-cols-header
+layout: default
 section: SDD Workflow
 ---
 
-# The Spec-Driven Workflow
+# The Spec-Driven Workflow — Steps
 
-::left::
+<div class="leading-snug">
 
 ## Thinking Before Building
 
@@ -31,28 +31,7 @@ Implement             "Build one task at a time."
                        Each task validates against the spec.
 ```
 
-::right::
-
-## Why the Order Matters
-
-**Specify before Plan** prevents architecture-first thinking, where technical choices drive requirements instead of serving them.
-
-**Plan before Tasks** prevents task-level chaos, where developers implement disconnected pieces without shared architectural intent.
-
-**Tasks before Implement** prevents scope creep and makes AI output verifiable: every generated code artifact has a task it belongs to.
-
-## With Copilot
-
-```
-/speckit.constitution  →  Set the foundation
-/speckit.specify       →  Describe the feature
-/speckit.clarify       →  Ask the agent to find gaps
-/speckit.plan          →  Technical approach
-/speckit.tasks         →  Break into implementable units
-[implement task by task with Copilot]
-```
-
-The prompts are tools. The thinking is yours.
+</div>
 
 <!--
 This merges constitution-specify and plan-tasks-implement into a connected narrative.

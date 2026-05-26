@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "subscription-efficiency": "slidev --open ./subscription-efficiency.md",
+    "copilot-000": "slidev --open ./copilot-000.md",
     "copilot-101": "slidev --open ./copilot-101.md",
     "copilot-102": "slidev --open ./copilot-102.md",
     "copilot-103": "slidev --open ./copilot-103.md",

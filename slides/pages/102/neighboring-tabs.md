@@ -1,36 +1,41 @@
 ---
-layout: statement
+layout: default
 section: Context
 ---
 
 # Neighboring Tabs
 
-### Keep relevant files open — Copilot uses them as context.
+<div class="grid grid-cols-2 gap-8">
+<div class="leading-snug">
 
-Related files (interfaces, types, utilities, configs) improve suggestion quality significantly.
+Open files are **implicit context**. Copilot reads them even when you don't attach them explicitly.
 
-> Prompt quality matters, but context quality decides what Copilot **believes**.
+**What to keep open**
+
+- Interface or type definitions your code implements
+- Related utility or service files
+- A representative test file
+- Relevant config (tsconfig, package.json)
+
+**What to close**
+
+- Stale docs that contradict current code
+- Old versions of refactored modules
+- Unrelated large files that crowd context
+
+<div class="text-sm opacity-70">Same prompt + different open tabs = different suggestions.</div>
+
+</div>
+<div>
+
+<img src="/102/neighboring-tabs.png" class="w-full object-contain rounded shadow" />
+
+</div>
+</div>
 
 <!--
-This is one of the simplest and most effective prompt engineering techniques.
+This is one of the simplest and most effective context management techniques.
 
-Copilot reads open tabs as additional context.
-If you're working on a service, keep the interface, the types, and a test file open.
-
-The difference in suggestion quality can be dramatic.
-
----
-
-**LIVE DEMO — facilitator note**
-
-Use the same prompt twice on BookingForm.jsx:
-1. With pricing.js, priceCalculator.js, and the stale api-spec.md all open
-2. With only priceService.js and ticketTypes.json open
-
-Show that the same prompt produces different field names, different function calls,
-and different import paths.
-
-Point: "Good prompt + bad context loses to decent prompt + good context."
-
-Do NOT turn this into an exercise. Keep it as a 3-minute facilitator demo.
+The image shows how Copilot uses open tabs as additional context signals.
+Facilitators can demo: same prompt, different tabs open → different output.
 -->

@@ -1,56 +1,53 @@
 ---
-layout: two-cols-header
+layout: default
 section: Architecture
 ---
 
-# MCP Architecture Deep Dive
+# MCP Architecture — Operational View
 
-::left::
-
-## Transport Layer
-
-| Transport | Use Case |
-|---|---|
-| **stdio** | Local servers, same machine |
-| **Streamable HTTP** | Remote servers, cloud-hosted |
-
-## Data Layer (JSON-RPC 2.0)
-
-- **Lifecycle**: initialize, negotiate, close
-- **Server features**: tools, resources, prompts
-- **Client features**: LLM calls, user input, logs
-- **Utilities**: notifications, progress tracking
-
-::right::
+How tools flow from configuration to execution in your development environment.
 
 ```mermaid
-graph TB
-  subgraph Host["MCP Host (IDE)"]
-    LLM["Copilot"]
+flowchart LR
+  subgraph Config["Configuration"]
+    J[".vscode/mcp.json"]
+    U["User mcp.json"]
   end
-  subgraph Clients["MCP Clients"]
-    C1["Client 1"]
-    C2["Client 2"]
+  subgraph Runtime["VS Code Runtime"]
+    D["Discovery & Trust"]
+    C["MCP Client"]
+    A["Agent Loop"]
   end
   subgraph Servers["MCP Servers"]
-    S1["Local (stdio)"]
-    S2["Remote (HTTP)"]
+    S1["Local (stdio)<br/>Same machine"]
+    S2["Remote (HTTP)<br/>Cloud / shared"]
   end
-  LLM --> C1
-  LLM --> C2
-  C1 --> S1
-  C2 --> S2
+  subgraph Targets["External Systems"]
+    T1["APIs"]
+    T2["Databases"]
+    T3["CI/CD"]
+    T4["Issue Trackers"]
+  end
+  J --> D
+  U --> D
+  D -->|"trust gate"| C
+  C --> S1
+  C --> S2
+  A <-->|"tool calls"| C
+  S1 --> T1
+  S1 --> T2
+  S2 --> T3
+  S2 --> T4
 ```
 
-## SDK Ecosystem
-
-Tier 1: TypeScript, Python, Java, C#
-
-Tier 2: Go, Kotlin, Swift
+| Transport | Runs | Use case | Example |
+|---|---|---|---|
+| **stdio** | Your machine | Personal tools, fast local access | Playwright, file-based servers |
+| **HTTP** | Remote/cloud | Team infrastructure, shared services | GitHub, Azure DevOps |
 
 <!--
-For most use cases, TypeScript or Python SDKs are the fastest path to a working server.
-
-Local (stdio) servers are simplest — no network configuration needed.
-Remote (HTTP) servers are needed for shared team infrastructure.
+This replaces the protocol-focused architecture slide with an operational one.
+The flow: config → trust → client → server → external system.
+The key gate is trust — nothing runs without explicit consent.
+Local servers are simpler (no auth needed). Remote servers need OAuth/token auth.
 -->

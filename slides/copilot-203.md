@@ -14,6 +14,36 @@ src: ./pages/203/cover.md
 ---
 src: ./pages/203/why-ai-ready.md
 ---
+---
+src: ./pages/203/why-structure-affects-output.md
+---
+---
+src: ./pages/203/ai-hostile-repos.md
+---
+
+<!-- Repository Ergonomics -->
+
+---
+src: ./pages/203/cognitive-load.md
+---
+---
+src: ./pages/203/cognitive-load-2.md
+---
+---
+src: ./pages/203/naming-consistency.md
+---
+---
+src: ./pages/203/discoverability.md
+---
+---
+src: ./pages/203/discoverability-2.md
+---
+---
+src: ./pages/203/architectural-readability.md
+---
+---
+src: ./pages/203/ai-friendly-design.md
+---
 
 <!-- Context Fundamentals -->
 
@@ -22,6 +52,48 @@ src: ./pages/203/context-locality.md
 ---
 ---
 src: ./pages/203/context-quality.md
+---
+
+<!-- Indexing & Retrieval -->
+
+---
+src: ./pages/203/workspace-indexing.md
+---
+---
+src: ./pages/203/workspace-indexing-2.md
+---
+---
+src: ./pages/203/indexing-embeddings.md
+---
+---
+src: ./pages/203/indexing-embeddings-2.md
+---
+---
+src: ./pages/203/context-assembly.md
+---
+
+<!-- Graphify -->
+
+---
+src: ./pages/203/graphify-intro.md
+---
+---
+src: ./pages/203/graphify-setup.md
+---
+---
+src: ./pages/203/graphify-analysis.md
+---
+---
+src: ./pages/203/cache-explorer.md
+---
+
+<!-- Repository Drift -->
+
+---
+src: ./pages/203/repository-drift.md
+---
+---
+src: ./pages/203/repository-drift-2.md
 ---
 
 <!-- Instruction Architecture -->

@@ -3,7 +3,9 @@ layout: statement
 section: Takeaway
 ---
 
-# Instructions define the rules. Docs explain the reasoning. Prompt files automate repeated plays.
+# Instructions define the rules. 
+# Docs explain the reasoning. 
+# Prompt files automate repeated plays.
 
 ## Together, they give every developer on the team the same governed Copilot experience.
 

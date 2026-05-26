@@ -3,49 +3,50 @@ layout: two-cols-header
 section: Code Review
 ---
 
-# PR Review Workflow
+# AI-Assisted PR Review
 
 ::left::
 
-## When to Use the Code Review Agent
+## When it adds value
 
-Use it on PRs where automated analysis adds real value:
 - Large changes touching multiple files
-- Unfamiliar codebases or languages
 - Security-sensitive code paths
-- Complex refactoring where regressions are subtle
+- Complex refactoring with subtle regressions
+- Unfamiliar codebases or languages
 
-Do NOT use it on:
-- Trivial formatting-only changes
-- Automated dependency updates
+## When to skip it
+
+- Formatting-only changes
+- Dependency updates
 - Simple documentation edits
 
 ::right::
 
-## The Review Workflow
+## The workflow
 
-**1. Assign to PR** — request a Copilot review or configure auto-review on PR creation.
+**1.** Request a Copilot review or configure auto-review on PR creation.
 
-**2. Control scope** — add a review comment to focus: *"Focus on the payment processing changes, not the UI layer."*
+**2.** Focus it: *"Review only the payment processing changes."*
 
-**3. Triage findings** — distinguish blocking issues from suggestions. Not all findings need action.
+**3.** Triage — not all findings are blocking. Some are suggestions.
 
-**4. Iterate on findings** — use Chat to understand a finding: *"Why is this flagged? How do I fix it correctly?"*
+**4.** Iterate: *"Why is this flagged? How do I fix it?"*
 
-**5. Resolve or document** — either fix the issue or document why it's acceptable.
+**5.** Fix or document why it's acceptable.
 
-<div class="mt-4 text-sm opacity-70">Review cost scales with PR size. Large PRs cost more. Break large PRs where possible.</div>
+<div class="mt-4 text-sm opacity-70">Copilot does not catch everything. Compare its findings with your own review.</div>
 
 <!--
-The key framing: treat the Code Review Agent like a senior reviewer.
-Don't send them trivial PRs. Reserve it for meaningful changes.
+Trimmed from the previous version. Removed:
+- "review cost scales with PR size" (obvious)
+- lab exercise references in the main content area
+- excessive agent review theory
 
-Iteration on findings is important — the agent can explain its own feedback when asked.
+The core: when to use it, five steps, one warning.
 
 Lab exercises:
-- Exercise 3 (Review the PR): three intentionally problematic PRs in pr-examples/
-  - pr-001-ai-generated-refactor.md: subtle behavioral regression
-  - pr-002-security-fix-attempt.md: incomplete security fix that introduces a new vulnerability
-  - pr-003-test-improvement.md: test "improvements" that are still fake-green
-- Attendees must compare Copilot's review findings with their own. Copilot does not catch everything.
+- Exercise 3: three intentionally problematic PRs in pr-examples/
+  pr-001: subtle behavioral regression
+  pr-002: incomplete security fix introducing a new vulnerability
+  pr-003: test "improvements" that are still fake-green
 -->

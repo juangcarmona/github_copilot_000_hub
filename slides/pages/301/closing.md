@@ -3,16 +3,18 @@ layout: statement
 section: Takeaway
 ---
 
-# MCP turns Copilot from a code assistant into a workflow assistant.
+# MCP turns Copilot from a code assistant into a workflow operator.
 
-## Connect your tools. Orchestrate your workflows.
+## Connect your tools. Secure the boundaries. Orchestrate delivery.
 
 <!--
 Module 301 summary:
-- MCP provides a standard protocol for connecting Copilot to external tools
+- MCP provides a standard protocol for connecting Copilot to external tools and systems
+- Three tool types: built-in, MCP servers, extension tools — each with different trust models
+- Security is layered: trust boundaries → approvals → sandboxing → enterprise policies
 - mcp.json is team infrastructure — commit it, share it, version it
-- Orchestration scenarios: issue → implementation → tests → PR in a single agent session
-- Custom servers extend the ecosystem to internal and legacy systems
+- Orchestration: issue → implementation → tests → PR in a single agent session
+- The shift: from "AI writes code" to "AI drives workflows across systems"
 
-TODO: connect with lab 301 — install an MCP server, configure mcp.json, run an orchestration scenario
+Key takeaway: capability without governance is risk. MCP provides both.
 -->

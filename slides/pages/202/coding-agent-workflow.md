@@ -3,56 +3,47 @@ layout: two-cols-header
 section: Coding Agent
 ---
 
-# Coding Agent Workflow
+# Coding Agent: Issue → PR
 
 ::left::
 
 ## The Workflow
 
-**1. Create or assign an issue** — describe the task clearly: acceptance criteria, constraints, scope. The issue IS the prompt.
+**1. Create or assign an issue** — the issue IS the prompt. Clear acceptance criteria, constraints, scope.
 
-**2. Assign to @copilot** — the agent picks up the issue, creates a branch, and starts working.
+**2. Assign to @copilot** — creates a branch and starts working on GitHub infrastructure.
 
-**3. Review the plan** — before any changes are made, Copilot posts a plan as a comment. Approve, adjust, or redirect before it executes.
+**3. Review the plan** — Copilot posts a plan comment. Approve, adjust, or redirect.
 
-**4. Review the PR** — Copilot opens a PR when done. Review the diff like any other PR. Use the Code Review Agent for large changes.
+**4. Review the PR** — opens a PR when done. Review the diff like any colleague's code.
 
-**5. Iterate or merge** — leave comments on the PR to request changes. @copilot will respond and update.
+**5. Iterate or merge** — leave PR comments to request changes. @copilot responds and updates.
 
 ::right::
 
-## What to Assign
+## From VS Code
 
-**Good candidates:**
-- Well-defined, scoped tasks (add a field, fix a bug, add tests)
-- Repetitive changes across many files
-- Documentation generation
-- Dependency upgrades
+Start locally → hand off to cloud:
 
-**Keep human-in-the-loop:**
-- Architecture decisions
-- Security-sensitive changes
-- Tasks touching business-critical logic
+1. Plan agent clarifies requirements
+2. Session type dropdown → **Cloud**
+3. Full context transfers
+4. Cloud agent executes, opens PR
 
-## The File Infrastructure
+## Limitations
 
-Agent profiles live in `.github/copilot/agents/`.
-Each profile extends instruction files from 201 — same hierarchy, additional tools and scope.
+Cloud agents **cannot**:
+- Access VS Code built-in tools
+- Use local runtime context (test failures, selections)
+- Access local MCP servers
 
-```
-.github/
-  copilot-instructions.md     ← always loaded
-  copilot/agents/
-    reviewer.agent.md         ← security-focused agent
-    documenter.agent.md       ← documentation agent
-```
+Cloud agents **can**:
+- Use cloud-configured MCP servers
+- Work across entire repositories
+- Collaborate via PR comments
 
 <!--
-This absorbs the content from 103/coding-agent.md and reframes it as a workflow.
-
-Key insight: the Coding Agent is a workflow tool, not a magic button.
-The quality of the issue determines the quality of the PR.
-
-Security protections: Copilot cannot push directly to protected branches.
-PRs always require human approval. The human is never removed from the loop.
+The coding agent workflow hasn't changed fundamentally,
+but the VS Code integration now allows seamless handoff from local planning.
+The key addition: you can plan locally and delegate to cloud.
 -->
