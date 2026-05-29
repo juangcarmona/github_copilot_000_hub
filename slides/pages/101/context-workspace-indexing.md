@@ -36,10 +36,10 @@ Simple text matching. Used when other indexes aren't available.
 
 ### What this means for you
 
-- **Open relevant files** - open tabs improve context quality
-- **Use `#file` when you know exactly what's needed** - more precise than search
-- **Use `#codebase` when exploring** - lets the index find relevant snippets
-- **Workspace size matters** - smaller, focused workspaces produce better results
+- **Open relevant files** — open tabs improve context quality
+- **Use `#file` when you know exactly what's needed** — more precise than search
+- **Use `#codebase` when exploring** — lets the index find relevant snippets
+- **Workspace size matters** — smaller, focused workspaces produce better results
 
 </div>
 
@@ -55,7 +55,7 @@ Simple text matching. Used when other indexes aren't available.
 <!--
 This slide demystifies the "magic" of @workspace and #codebase.
 
-It's not reading every file every time - it's searching an index.
+It's not reading every file every time — it's searching an index.
 The quality of that index determines how well broad queries work.
 
 For workshop attendees: this explains why AI-ready repositories (203) matter.
