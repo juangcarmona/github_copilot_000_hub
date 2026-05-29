@@ -43,14 +43,6 @@ Simple text matching. Used when other indexes aren't available.
 
 </div>
 
-<div class="mt-4 text-sm">
-  <strong>Live Demo:</strong> <a href="https://ashy-dune-0b4215a0f.7.azurestaticapps.net/" target="_blank">Token Optimization</a>
-  <ul>
-    <li>Prompts are only part of the real context.</li>
-    <li>Chat history, instructions, and tools also consume tokens.</li>
-    <li>Focused context improves quality and latency.</li>
-  </ul>
-</div>
 
 <!--
 This slide demystifies the "magic" of @workspace and #codebase.

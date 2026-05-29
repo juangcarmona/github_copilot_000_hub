@@ -39,15 +39,6 @@ Rule of thumb: start wide (`#codebase`), then narrow to specific files.
 
 </div>
 
-<div class="mt-4 text-sm">
-  <strong>Live Demo:</strong> <a href="https://ashy-dune-0b4215a0f.7.azurestaticapps.net/" target="_blank">Token Optimization</a>
-  <ul>
-    <li>Prompts are only part of the real context.</li>
-    <li>Chat history, instructions, and tools also consume tokens.</li>
-    <li>Focused context improves quality and latency.</li>
-  </ul>
-</div>
-
 <!--
 Beginners often wonder why Copilot "doesn't know" about a file.
 Answer: because it wasn't in the context window.
