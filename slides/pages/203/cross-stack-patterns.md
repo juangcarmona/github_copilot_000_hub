@@ -37,7 +37,7 @@ Documentation-poor systems need instruction files to fill the gap:
 # .github/copilot-instructions.md
 This system is a COBOL batch processing application.
 Core business logic is in src/COBOL/. Do not suggest
-rewrites — suggest incremental modernization.
+rewrites - suggest incremental modernization.
 Characterization tests must be written before any
 refactoring (see docs/legacy-validation-strategy.md).
 ```

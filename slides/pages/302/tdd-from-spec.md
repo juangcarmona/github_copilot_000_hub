@@ -3,13 +3,13 @@ layout: default
 section: Spec Validation
 ---
 
-# From Spec to Tests — Implementation Traceability
+# From Spec to Tests - Implementation Traceability
 
 <img src="/302/tdd-implementation-diagram.png" class="mx-auto rounded shadow-lg" style="max-height: 380px;" />
 
 <div class="mt-6 text-sm opacity-70">
 
-Every acceptance criterion becomes a test. Every test validates a spec requirement. Failing tests mean spec deviation — fix the implementation, not the test.
+Every acceptance criterion becomes a test. Every test validates a spec requirement. Failing tests mean spec deviation - fix the implementation, not the test.
 
 </div>
 

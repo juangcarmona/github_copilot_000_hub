@@ -47,9 +47,9 @@ Repository structure is not cosmetic. It is the primary input to every AI intera
 This is the foundational argument for the module.
 
 Three mechanisms link structure to output quality:
-1. Context window — what physically fits in the prompt
-2. Embeddings — how retrieval finds relevant code
-3. Pattern matching — how Copilot infers style and intent
+1. Context window - what physically fits in the prompt
+2. Embeddings - how retrieval finds relevant code
+3. Pattern matching - how Copilot infers style and intent
 
 Each mechanism independently rewards good structure.
 Together, they create a compounding quality advantage.

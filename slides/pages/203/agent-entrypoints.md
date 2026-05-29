@@ -11,7 +11,7 @@ section: Agent Entrypoints
 
 An agent arriving at your repository for the first time should be able to orient itself from the repo structure alone.
 
-**Issue templates** — structured prompts for agent-assigned tasks:
+**Issue templates** - structured prompts for agent-assigned tasks:
 ```
 .github/ISSUE_TEMPLATE/
 ├── feature.md          ← includes: acceptance criteria, affected areas
@@ -21,7 +21,7 @@ An agent arriving at your repository for the first time should be able to orient
 
 Well-structured issues produce well-structured PRs.
 
-**PR templates** — consistent review context:
+**PR templates** - consistent review context:
 ```
 .github/PULL_REQUEST_TEMPLATE.md
 ```
@@ -65,7 +65,7 @@ file and line references.
 Commit it. Share it. It's team infrastructure.
 
 <!--
-The goal: a repository that any agent — or new developer — can navigate without a tour.
+The goal: a repository that any agent - or new developer - can navigate without a tour.
 
 The pattern: make implicit knowledge explicit through structured files.
 Issue templates, PR templates, agent profiles, and mcp.json are the agent's API surface.

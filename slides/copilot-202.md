@@ -2,7 +2,7 @@
 theme: chapter-plain
 title: "Module 202: Agents & Workflow Automation"
 info: |
-  ## Module 202 — Agents & Workflow Automation
+  ## Module 202 - Agents & Workflow Automation
   Specialized AI collaborators and autonomous workflows
 transition: slide-left
 mdc: true

@@ -9,7 +9,7 @@ section: Spec Kit
 
 <div class="mt-4 text-center text-sm opacity-70">
 
-Spec Kit installs prompt files into your repository. Each prompt enforces one step of the workflow — making the discipline repeatable across teams.
+Spec Kit installs prompt files into your repository. Each prompt enforces one step of the workflow - making the discipline repeatable across teams.
 
 </div>
 

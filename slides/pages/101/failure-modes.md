@@ -6,7 +6,7 @@ section: Pitfalls
 # Beginner Failure Modes (1/2)
 
 ### ❌ The Vague Prompt
-`"fix this"` / `"make it better"` — no direction, random results.
+`"fix this"` / `"make it better"` - no direction, random results.
 
 **Fix:** Be specific about what, where, and how.
 

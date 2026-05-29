@@ -3,7 +3,7 @@ layout: default
 section: Spec Kit
 ---
 
-# Spec Kit — The Full Flow
+# Spec Kit - The Full Flow
 
 <img src="/302/spec-kit-flow.jpg" class="mx-auto rounded shadow-lg" style="max-height: 440px;" />
 
@@ -16,11 +16,11 @@ Constitution → Specify → Plan → Tasks → Implement. Each step builds on t
 <!--
 This diagram shows the complete Spec Kit flow:
 
-1. Constitution — non-negotiable principles and quality standards
-2. Specify — what are we building and why (outcomes, not tech)
-3. Plan — how will we build it (architecture, stack, approach)
-4. Tasks — scoped, testable, independently reviewable units
-5. Implement — build one task at a time, validate against tasks
+1. Constitution - non-negotiable principles and quality standards
+2. Specify - what are we building and why (outcomes, not tech)
+3. Plan - how will we build it (architecture, stack, approach)
+4. Tasks - scoped, testable, independently reviewable units
+5. Implement - build one task at a time, validate against tasks
 
 The flow is sequential by design:
 - You can't plan without knowing what you're building (specify first)

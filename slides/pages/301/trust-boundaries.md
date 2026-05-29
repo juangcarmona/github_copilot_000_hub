@@ -28,10 +28,10 @@ flowchart TB
 
 **Each boundary requires explicit consent before crossing.**
 
-- **Workspace** — untrusted projects run in restricted mode, agents disabled
-- **Extension publisher** — prompted before activation
-- **MCP server** — prompted before first start and after config changes
-- **Network domain** — prompted before fetching external content
+- **Workspace** - untrusted projects run in restricted mode, agents disabled
+- **Extension publisher** - prompted before activation
+- **MCP server** - prompted before first start and after config changes
+- **Network domain** - prompted before fetching external content
 
 <!--
 This is NOT just about MCP. It's the full security model.

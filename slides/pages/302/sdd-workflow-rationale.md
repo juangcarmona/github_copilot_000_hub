@@ -3,7 +3,7 @@ layout: default
 section: SDD Workflow
 ---
 
-# The Spec-Driven Workflow — Why Order Matters
+# The Spec-Driven Workflow - Why Order Matters
 
 <div class="leading-snug">
 

@@ -14,8 +14,8 @@ section: Installation
 
 <!--
 The most common approaches:
-1. Workspace mcp.json — shared with the team via Git
-2. User settings — personal servers that apply to all projects
+1. Workspace mcp.json - shared with the team via Git
+2. User settings - personal servers that apply to all projects
 
 For team consistency, use workspace mcp.json.
 

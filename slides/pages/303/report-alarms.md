@@ -21,7 +21,7 @@ section: Usage Patterns
 
 **The conversation starts with curiosity, not judgment.**
 
-*"What kind of work drove this pattern?"* — not *"Why did you use so many credits?"*
+*"What kind of work drove this pattern?"* - not *"Why did you use so many credits?"*
 
 Usage data is operational intelligence for teams, not surveillance for managers.
 

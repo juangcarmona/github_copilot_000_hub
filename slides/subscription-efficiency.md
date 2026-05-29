@@ -9,7 +9,7 @@ mdc: true
 src: ./pages/subscription-efficiency/cover.md
 ---
 
-<!-- ACT 1 — The Shift -->
+<!-- ACT 1 - The Shift -->
 
 ---
 src: ./pages/subscription-efficiency/opening.md
@@ -30,7 +30,7 @@ src: ./pages/subscription-efficiency/ai-credit-drivers.md
 src: ./pages/subscription-efficiency/workflow-economics.md
 ---
 
-<!-- ACT 2 — Workflow Economics -->
+<!-- ACT 2 - Workflow Economics -->
 ---
 src: ./pages/subscription-efficiency/act-2.md
 ---
@@ -63,7 +63,7 @@ src: ./pages/subscription-efficiency/rules.md
 ---
 
 
-<!-- ACT 3 — Engineering Operating Model -->
+<!-- ACT 3 - Engineering Operating Model -->
 ---
 src: ./pages/subscription-efficiency/act-3.md
 ---
@@ -80,7 +80,7 @@ src: ./pages/subscription-efficiency/governance.md
 src: ./pages/subscription-efficiency/ai-driven-teams.md
 ---
 
-<!-- ACT 4 — Governance in Practice -->
+<!-- ACT 4 - Governance in Practice -->
 ---
 src: ./pages/subscription-efficiency/act-4.md
 ---
@@ -100,7 +100,7 @@ src: ./pages/subscription-efficiency/report-guide.md
 src: ./pages/subscription-efficiency/report-alarms.md
 ---
 
-<!-- ACT 5 — Closing -->
+<!-- ACT 5 - Closing -->
 ---
 src: ./pages/subscription-efficiency/act-5.md
 ---

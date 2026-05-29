@@ -7,28 +7,9 @@ section: Orchestration
 
 MCP doesn't give Copilot a list of commands. It gives Copilot **capabilities** it can sequence autonomously.
 
-<div class="leading-snug">
-
 **The shift:**
-- **Before MCP:** Copilot answers questions about your code.
-- **With MCP:** Copilot can read your tickets, run your tests, open your PRs, and query your APIs.
-
-**The `mcp.json` file** — your team's configuration is a repo artifact:
-
-```json
-// .vscode/mcp.json (commit this)
-{
-  "servers": {
-    "github": { "type": "http", "url": "https://api.githubcopilot.com/mcp" },
-    "playwright": {
-      "command": "npx",
-      "args": ["-y", "@microsoft/mcp-server-playwright"]
-    }
-  }
-}
-```
-
-</div>
+- **Before MCP:** Copilot answers questions about your code
+- **With MCP:** Copilot reads your tickets, runs your tests, opens your PRs, and queries your APIs
 
 Commit `.vscode/mcp.json`. When a developer opens the repo, their Copilot has the same tools as everyone else's.
 

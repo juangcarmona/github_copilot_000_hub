@@ -46,9 +46,9 @@ A single file that maps the system for both humans and AI:
 # Architecture
 
 ## Layers
-- api/ — HTTP handlers, no business logic
-- domain/ — pure business rules, no I/O
-- infrastructure/ — database, external APIs
+- api/ - HTTP handlers, no business logic
+- domain/ - pure business rules, no I/O
+- infrastructure/ - database, external APIs
 
 ## Rules
 - domain/ never imports from api/ or infrastructure/

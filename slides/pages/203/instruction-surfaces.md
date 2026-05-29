@@ -37,12 +37,12 @@ your-repo/
 
 ## Priority Order
 
-Copilot composes these layers. Each adds to the previous — nothing is replaced.
+Copilot composes these layers. Each adds to the previous - nothing is replaced.
 
-1. **Repo-wide** (`copilot-instructions.md`) — always active
-2. **Path-specific** (`*.instructions.md`) — active for matched files
-3. **Agent profile** — active for that agent's session
-4. **Prompt file** — active when explicitly invoked
+1. **Repo-wide** (`copilot-instructions.md`) - always active
+2. **Path-specific** (`*.instructions.md`) - active for matched files
+3. **Agent profile** - active for that agent's session
+4. **Prompt file** - active when explicitly invoked
 
 ## What to Put Where
 

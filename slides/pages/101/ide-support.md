@@ -10,12 +10,12 @@ section: Foundations
 | VS Code | ✅ | ✅ | ✅ |
 | Visual Studio | ✅ | ✅ | ✅ |
 | JetBrains Suite | ✅ | ✅ | ✅ |
-| Vim / Neovim | ✅ | — | — |
-| Xcode | ✅ | ✅ | — |
+| Vim / Neovim | ✅ | - | - |
+| Xcode | ✅ | ✅ | - |
 
 <small>
 
-Feature availability evolves rapidly — check [GitHub Copilot docs](https://docs.github.com/en/copilot) for the latest.
+Feature availability evolves rapidly - check [GitHub Copilot docs](https://docs.github.com/en/copilot) for the latest.
 
 </small>
 

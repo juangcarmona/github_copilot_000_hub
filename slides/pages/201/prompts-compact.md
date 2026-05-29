@@ -7,7 +7,7 @@ section: Prompt Files
 
 ::left::
 
-Invoke in Chat with `/command-name`. Not automatic — you call them explicitly.
+Invoke in Chat with `/command-name`. Not automatic - you call them explicitly.
 
 ```markdown
 ---
@@ -27,7 +27,7 @@ Apply all instructions from .github/copilot-instructions.md.
 |---|---|---|
 | Applied | Automatically | On demand |
 | Purpose | Standards | Workflows |
-| Invoke | — | `/name` in Chat |
+| Invoke | - | `/name` in Chat |
 
 **Use for:**
 - Scaffolding (component, endpoint, migration)

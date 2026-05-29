@@ -11,16 +11,14 @@ Select which tools are available for each request. More tools ≠ better results
   <img src="/301/chat-tools-picker.png" class="rounded shadow-lg max-h-80" />
 </div>
 
-**Operational guidance:**
-
 - Enable only the tools relevant to your current task
-- Fewer enabled tools → fewer hallucinated tool calls
 - Use `tools:` in prompt files to scope tools per workflow
-- Enterprise: policies can restrict which tools are available
+- Enterprise policies can restrict which tools are available
 
 <!--
 This connects to the scoping slide in using-mcp.md.
 The tools picker is how you maintain control at the request level.
 The prompt file `tools:` directive is how you maintain control at the workflow level.
 Both reduce noise and improve agent behavior.
+Fewer enabled tools → fewer hallucinated tool calls.
 -->

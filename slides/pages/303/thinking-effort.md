@@ -11,9 +11,9 @@ section: Model Strategy
 Not all tasks need maximum reasoning depth.
 
 **Thinking effort levels:**
-- **High** — architecture, complex debugging
-- **Medium** — implementation, code review
-- **Low** — quick completions, formatting
+- **High** - architecture, complex debugging
+- **Medium** - implementation, code review
+- **Low** - quick completions, formatting
 
 **Why it matters for cost:**
 - Higher effort = more internal reasoning tokens

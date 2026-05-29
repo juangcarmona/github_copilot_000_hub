@@ -3,7 +3,7 @@ layout: default
 section: Graphify Analysis
 ---
 
-# Graphify — First Run Analysis
+# Graphify - First Run Analysis
 
 <img src="/203/graphify-first-run-1.png" class="mx-auto rounded shadow-lg" style="max-height: 380px;" />
 

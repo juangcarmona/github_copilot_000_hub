@@ -27,8 +27,8 @@ Body: plain Markdown. Reference tools with `#tool:<tool-name>`.
 
 ## Principles
 
-- One rule per statement — keep each instruction self-contained
-- Explain the *why*: "Use `date-fns`, not `moment.js` — moment is deprecated"
+- One rule per statement - keep each instruction self-contained
+- Explain the *why*: "Use `date-fns`, not `moment.js` - moment is deprecated"
 - Show examples over abstract descriptions
 - Split by path rather than growing one long file
 

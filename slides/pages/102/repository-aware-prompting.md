@@ -5,7 +5,7 @@ section: Repository Influence
 
 # Your Repository Is Context
 
-### Copilot responds to the repository it sees — not just the prompt you type
+### Copilot responds to the repository it sees - not just the prompt you type
 
 ::left::
 

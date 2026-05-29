@@ -5,33 +5,26 @@ section: Security
 
 # Agent Sandboxing
 
-OS-level isolation that restricts what agent-executed processes can access — regardless of approval.
+OS-level isolation that restricts what agent-executed processes can access - regardless of approval.
 
 ```mermaid
 flowchart LR
-  subgraph Sandbox["Sandboxed Environment"]
-    CMD["Agent Command"]
-    FS["Allowed Paths Only"]
-    NET["Allowed Domains Only"]
-  end
-  subgraph Blocked["Kernel-Level Deny"]
-    B1["~/.ssh/"]
-    B2["~/.aws/"]
-    B3["*.malicious.com"]
-  end
-  CMD --> FS
-  CMD --> NET
-  CMD -.-x B1
-  CMD -.-x B2
-  CMD -.-x B3
+  CMD["Agent Command"]
+  CMD --> FS["✅ Allowed Paths"]
+  CMD --> NET["✅ Allowed Domains"]
+  CMD -.-x B1["❌ ~/.ssh/"]
+  CMD -.-x B2["❌ ~/.aws/"]
+  CMD -.-x B3["❌ *.malicious.com"]
 ```
 
-**Key insight:** sandboxing shifts from "ask before doing" to "can't do even if approved."
+**Key insight:** sandboxing shifts from "ask before doing" to **"can't do even if approved."**
 
-**When sandboxing is enabled, tool calls are auto-approved** — because they physically cannot escape the sandbox.
+When sandboxing is enabled, tool calls are auto-approved - because they physically cannot escape the sandbox.
+
+<div class="mt-3 text-sm opacity-70">Available on macOS and Linux (WSL2 on Windows).</div>
 
 <!--
 This is the strongest protection available.
-Currently macOS and Linux (WSL2 on Windows).
 This is what enables safe Autopilot usage.
+Kernel-level deny means even a compromised agent can't read SSH keys or cloud credentials.
 -->

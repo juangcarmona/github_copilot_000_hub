@@ -31,5 +31,5 @@ The scoping pattern (tools: in agent profiles) is important for safety in autono
 
 The key security principle: always review tool invocations.
 In Chat, Copilot asks for approval.
-In Coding Agent, tools can run autonomously if configured — be careful.
+In Coding Agent, tools can run autonomously if configured - be careful.
 -->

@@ -2,7 +2,7 @@
 theme: chapter-plain
 title: "Module 201: Custom Instructions"
 info: |
-  ## Module 201 — Custom Instructions & Behavioral Governance
+  ## Module 201 - Custom Instructions & Behavioral Governance
   Shaping Copilot's behavior to match your engineering standards
 transition: slide-left
 mdc: true

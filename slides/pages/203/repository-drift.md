@@ -18,10 +18,10 @@ Intended:                              Actual (6 months later):
 
 ## Why Drift Hurts AI
 
-- **Embeddings become noisy** — retrieval returns wrong context
-- **Naming loses meaning** — `orders/` contains non-order code
-- **Instructions become stale** — rules reference outdated structure
-- **Agents navigate incorrectly** — file paths don't match expectations
+- **Embeddings become noisy** - retrieval returns wrong context
+- **Naming loses meaning** - `orders/` contains non-order code
+- **Instructions become stale** - rules reference outdated structure
+- **Agents navigate incorrectly** - file paths don't match expectations
 
 ## Manual Signals
 

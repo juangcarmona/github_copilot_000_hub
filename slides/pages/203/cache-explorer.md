@@ -3,7 +3,7 @@ layout: default
 section: Cache Explorer
 ---
 
-# Graphify — Cache Explorer
+# Graphify - Cache Explorer
 
 <img src="/203/cache-explorer.png" class="mx-auto rounded shadow-lg" style="max-height: 420px;" />
 

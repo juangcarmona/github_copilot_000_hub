@@ -27,17 +27,17 @@ Higher priority wins on conflict. All layers compose when they don't conflict.
 <div class="mt-4 grid grid-cols-3 gap-4 text-sm">
 <div class="border rounded p-3">
 
-**Personal** — developer preferences, editor behavior, personal style
+**Personal** - developer preferences, editor behavior, personal style
 
 </div>
 <div class="border rounded p-3">
 
-**Repository** — team standards, architecture rules, conventions
+**Repository** - team standards, architecture rules, conventions
 
 </div>
 <div class="border rounded p-3">
 
-**Organization** — security policies, compliance, shared libraries
+**Organization** - security policies, compliance, shared libraries
 
 </div>
 </div>
@@ -45,7 +45,7 @@ Higher priority wins on conflict. All layers compose when they don't conflict.
 <!--
 Three layers, explicit precedence.
 
-Most teams focus on Repository-level instructions — that's where engineering standards live.
+Most teams focus on Repository-level instructions - that's where engineering standards live.
 
 Organization-level instructions are useful for security policies that apply everywhere
 ("never log PII", "always parameterize SQL").

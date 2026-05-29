@@ -22,7 +22,7 @@ Generate / Modify
 
 <div class="mt-6 text-sm opacity-70">
 
-This workflow applies to every Copilot interaction — autocomplete, chat, and agent mode alike.
+This workflow applies to every Copilot interaction - autocomplete, chat, and agent mode alike.
 The steps are the same. The scope scales with the change size.
 
 </div>
@@ -39,5 +39,5 @@ Trainer note:
 - The point is not to make Copilot look bad. The point is to teach where Copilot output must be verified.
 - Participants should compare Copilot's findings with their own manual review.
 - Copilot is useful in this module, but only inside a disciplined validation loop.
-- The starter codebase passes all tests. That's not the goal state — it's the starting problem.
+- The starter codebase passes all tests. That's not the goal state - it's the starting problem.
 -->

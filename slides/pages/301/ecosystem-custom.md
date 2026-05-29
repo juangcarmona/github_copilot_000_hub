@@ -7,9 +7,9 @@ section: MCP Ecosystem
 
 ## Where to Find More
 
-- [modelcontextprotocol.io/servers](https://modelcontextprotocol.io/servers) — official registry
-- VS Code Extensions view → `@mcp` search — gallery with one-click install
-- npm — search `@mcp-server` for community packages
+- [modelcontextprotocol.io/servers](https://modelcontextprotocol.io/servers) - official registry
+- VS Code Extensions view → `@mcp` search - gallery with one-click install
+- npm - search `@mcp-server` for community packages
 
 ## Building Custom Servers
 
@@ -25,6 +25,6 @@ A custom MCP server is how you connect COBOL-era systems, internal databases, or
 
 <!--
 Custom servers are the key extensibility point for enterprise and legacy integrations.
-The SDKs handle protocol negotiation — you just implement tool handlers.
+The SDKs handle protocol negotiation - you just implement tool handlers.
 TypeScript or Python are the fastest path to a working server.
 -->

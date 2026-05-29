@@ -9,7 +9,7 @@ section: Chat
 
 <div class="leading-snug">
 
-Three ways to talk to Copilot — each for a different workflow.
+Three ways to talk to Copilot - each for a different workflow.
 
 ### Chat View <kbd>Ctrl+Alt+I</kbd>
 Full conversation panel. Multi-turn, multi-file. Best for exploration and complex tasks.
@@ -41,5 +41,5 @@ Beginners often use only one surface and miss the others.
 
 Chat view: reasoning, multiple files, back-and-forth.
 Inline chat: "change this code right here."
-Quick chat: "what does this error mean?" — one-shot.
+Quick chat: "what does this error mean?" - one-shot.
 -->

@@ -3,7 +3,13 @@ layout: default
 section: Maturity
 ---
 
-# Engineering Maturity Progression
+# Workshop Progression vs Enterprise Maturity
+
+<div class="mb-3 text-sm opacity-70">
+
+These are two different models. The workshop progression maps the training content. The AI SDLC maturity model maps your organization.
+
+</div>
 
 ```mermaid
 graph LR
@@ -22,7 +28,7 @@ graph LR
 
 <div class="p-2 rounded border">
 <strong>Chaotic → Individual</strong><br/>
-Autocomplete, inline prompting, experimentation. No governance. Module 101–102.
+Autocomplete, inline prompting, experimentation. Module 101–102.
 </div>
 
 <div class="p-2 rounded border">
@@ -44,12 +50,17 @@ Governance, visibility, budgets, rollout, platform enablement. Module 303.
 
 <div class="mt-4 text-sm text-center opacity-70">
 
-Most organizations have teams at different stages simultaneously. That's normal. The goal is progressive evolution, not uniform compliance.
+This is the <strong>workshop content map</strong>. The AI SDLC maturity model on the previous slide maps how organizations operationalize AI - these are complementary, not the same thing.
 
 </div>
 
 <!--
-This maps directly to the workshop progression.
-Each module teaches the practices needed at that maturity stage.
-Module 303 is the organizational layer that makes the rest sustainable.
+This is the workshop repository progression - how the training modules build on each other.
+
+Do not confuse this with the five-level AI SDLC maturity model.
+That model describes how an organization integrates AI safely and effectively.
+This one describes what the training covers and in what order.
+
+Both are useful frames. They answer different questions.
 -->
+

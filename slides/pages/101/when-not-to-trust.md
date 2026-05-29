@@ -5,7 +5,7 @@ section: Pitfalls
 
 # When NOT to Trust Autocomplete
 
-Autocomplete is fast and convenient — but there are situations where you should **pause before pressing Tab**.
+Autocomplete is fast and convenient - but there are situations where you should **pause before pressing Tab**.
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
@@ -13,11 +13,11 @@ Autocomplete is fast and convenient — but there are situations where you shoul
 
 ### ⚠️ High-risk scenarios
 
-- **Security-sensitive code** — auth, crypto, input validation, SQL queries
-- **Business logic with edge cases** — financial calculations, state machines
-- **API contracts** — wrong types compile but break at runtime
-- **Unfamiliar libraries** — Copilot may suggest outdated or wrong APIs
-- **Copy-paste patterns** — it repeats what it sees, including bugs
+- **Security-sensitive code** - auth, crypto, input validation, SQL queries
+- **Business logic with edge cases** - financial calculations, state machines
+- **API contracts** - wrong types compile but break at runtime
+- **Unfamiliar libraries** - Copilot may suggest outdated or wrong APIs
+- **Copy-paste patterns** - it repeats what it sees, including bugs
 
 </div>
 
@@ -25,11 +25,11 @@ Autocomplete is fast and convenient — but there are situations where you shoul
 
 ### ✅ When autocomplete shines
 
-- **Boilerplate** — constructors, getters, mappings
-- **Test scaffolding** — arrange/act/assert structure
-- **Repetitive patterns** — similar methods, config entries
-- **Language idioms** — common patterns in the current language
-- **Documentation** — JSDoc, XML comments, README sections
+- **Boilerplate** - constructors, getters, mappings
+- **Test scaffolding** - arrange/act/assert structure
+- **Repetitive patterns** - similar methods, config entries
+- **Language idioms** - common patterns in the current language
+- **Documentation** - JSDoc, XML comments, README sections
 
 </div>
 

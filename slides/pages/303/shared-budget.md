@@ -13,7 +13,7 @@ section: Shared Budget
 - Each seat contributes to a **shared AI credit pool**
 - High-consumption workflows reduce capacity for everyone
 - Budget is consumed on a first-come basis
-- Per-user spending limits are evolving — check GitHub’s latest docs
+- Per-user spending limits are evolving - check GitHub’s latest docs
 
 ::right::
 
@@ -34,5 +34,5 @@ Key governance levers:
 - Model selection habits
 - Operational visibility
 
-Avoid framing this as “policing” — it’s about sustainability.
+Avoid framing this as “policing” - it’s about sustainability.
 -->

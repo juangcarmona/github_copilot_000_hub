@@ -36,17 +36,26 @@ Simple text matching. Used when other indexes aren't available.
 
 ### What this means for you
 
-- **Open relevant files** — open tabs improve context quality
-- **Use `#file` when you know exactly what's needed** — more precise than search
-- **Use `#codebase` when exploring** — lets the index find relevant snippets
-- **Workspace size matters** — smaller, focused workspaces produce better results
+- **Open relevant files** - open tabs improve context quality
+- **Use `#file` when you know exactly what's needed** - more precise than search
+- **Use `#codebase` when exploring** - lets the index find relevant snippets
+- **Workspace size matters** - smaller, focused workspaces produce better results
 
+</div>
+
+<div class="mt-4 text-sm">
+  <strong>Live Demo:</strong> <a href="https://ashy-dune-0b4215a0f.7.azurestaticapps.net/" target="_blank">Token Optimization</a>
+  <ul>
+    <li>Prompts are only part of the real context.</li>
+    <li>Chat history, instructions, and tools also consume tokens.</li>
+    <li>Focused context improves quality and latency.</li>
+  </ul>
 </div>
 
 <!--
 This slide demystifies the "magic" of @workspace and #codebase.
 
-It's not reading every file every time — it's searching an index.
+It's not reading every file every time - it's searching an index.
 The quality of that index determines how well broad queries work.
 
 For workshop attendees: this explains why AI-ready repositories (203) matter.

@@ -3,7 +3,7 @@ layout: default
 section: Graphify Setup
 ---
 
-# Graphify — Setup and Authentication
+# Graphify - Setup and Authentication
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 

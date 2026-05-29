@@ -17,9 +17,9 @@ Once the plan is approved, hand it off to the coding agent or Copilot CLI for ta
 The handoff is where planning connects to implementation:
 
 Options after plan approval:
-1. Continue in the same session — the agent implements step by step
-2. Open in Copilot CLI — run implementation in the background
-3. Save to memory — review later, implement in a new session
+1. Continue in the same session - the agent implements step by step
+2. Open in Copilot CLI - run implementation in the background
+3. Save to memory - review later, implement in a new session
 
 Implementation traceability:
 - Every code change maps to a plan step

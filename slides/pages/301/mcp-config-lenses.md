@@ -11,7 +11,7 @@ Inline actions in `mcp.json` let you manage servers directly from the config fil
   <img src="/301/mcp-server-config-lenses.png" class="w-full object-contain rounded shadow max-h-72" />
 </div>
 
-<div class="mt-3 text-sm opacity-70">Start, stop, restart, and view logs — all from code lenses above each server definition.</div>
+<div class="mt-3 text-sm opacity-70">Start, stop, restart, and view logs - all from code lenses above each server definition.</div>
 
 <!--
 This completes the "managing servers" flow.

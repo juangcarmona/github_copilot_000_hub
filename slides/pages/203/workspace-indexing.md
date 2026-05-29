@@ -27,7 +27,7 @@ The workspace index:
 <img src="/203/workspace-index-status.png" class="w-full object-contain rounded shadow" />
 
 <div class="mt-3 text-sm opacity-70">
-VS Code shows workspace indexing status — indexed repos get better Chat results.
+VS Code shows workspace indexing status - indexed repos get better Chat results.
 </div>
 
 </div>
@@ -41,5 +41,5 @@ If your files are well-structured and well-named, the embeddings are precise
 and retrieval returns exactly what's needed.
 
 If your repo is a mess of giant files with generic names, retrieval returns noise.
-The AI then generates from noisy context — producing lower quality output.
+The AI then generates from noisy context - producing lower quality output.
 -->

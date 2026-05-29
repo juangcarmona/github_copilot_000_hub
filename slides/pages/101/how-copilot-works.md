@@ -31,5 +31,5 @@ Your code is **never** used for training. Prompts are deleted after inference.
 
 <!--
 This is the pipeline overview. Next slide has the timing details.
-The diagram must stay compact — each box is one word or two max.
+The diagram must stay compact - each box is one word or two max.
 -->

@@ -9,20 +9,20 @@ section: Testing
 
 ## The Loop
 
-**1. Read** — understand the code before prompting.
+**1. Read** - understand the code before prompting.
 
-**2. Generate tests** — `/tests` or describe scenarios:
+**2. Generate tests** - `/tests` or describe scenarios:
 ```
 Generate tests for TicketService.CancelTicket.
 Cover: valid cancellation, already cancelled,
 past event, refund eligibility, null ticket.
 ```
 
-**3. Review assertions** — does each test assert meaningful behavior?
+**3. Review assertions** - does each test assert meaningful behavior?
 
-**4. Run** — expect red first. Then implement.
+**4. Run** - expect red first. Then implement.
 
-**5. Iterate** — *"Add edge case for concurrent cancellation"*
+**5. Iterate** - *"Add edge case for concurrent cancellation"*
 
 ::right::
 
@@ -32,7 +32,7 @@ For every generated test, ask:
 
 > If I break the implementation, does this test catch it?
 
-If the answer is no — the test protects nothing.
+If the answer is no - the test protects nothing.
 
 ## Quick reference
 

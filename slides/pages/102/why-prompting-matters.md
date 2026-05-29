@@ -9,10 +9,10 @@ section: Fundamentals
 
 ## What changed?
 
-**Module 101** — make Copilot generate code.
+**Module 101** - make Copilot generate code.
 Simple, isolated files. Obvious context. Autocomplete.
 
-**Module 102** — make Copilot follow the right version of the codebase.
+**Module 102** - make Copilot follow the right version of the codebase.
 Competing data formats. Duplicated utilities. Stale docs. Partial migrations.
 
 The skill is not only writing better prompts.
@@ -22,7 +22,7 @@ It's controlling what Copilot sees.
 
 ## What is Prompt Engineering?
 
-Designing prompts that help Copilot understand your intent — and ensuring the surrounding context supports that intent.
+Designing prompts that help Copilot understand your intent - and ensuring the surrounding context supports that intent.
 
 <div class="text-sm">
 
@@ -39,7 +39,7 @@ Designing prompts that help Copilot understand your intent — and ensuring the 
 <!--
 This replaces the generic "what/why/how" framing with an explicit 101→102 bridge.
 
-The key insight: 102 is not just "better prompts" — it's learning to manage context in a codebase
+The key insight: 102 is not just "better prompts" - it's learning to manage context in a codebase
 that contains competing truths.
 
 The booking frontend has two data formats, two pricing modules, two state hooks, two API clients,

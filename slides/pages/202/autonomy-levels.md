@@ -28,12 +28,12 @@ Default Approvals → Bypass Approvals → Autopilot
 
 <div class="mt-4 text-sm opacity-70">
 
-**Worktree + Bypass Approvals** is the default for Copilot CLI sessions — safe autonomy through isolation. Autopilot removes ALL human checkpoints — use only for well-defined, low-risk tasks.
+**Worktree + Bypass Approvals** is the default for Copilot CLI sessions - safe autonomy through isolation. Autopilot removes ALL human checkpoints - use only for well-defined, low-risk tasks.
 
 </div>
 
 <!--
-The permission level applies per session — you can change it mid-session.
+The permission level applies per session - you can change it mid-session.
 Autopilot consumes premium requests continuously until the task is done.
 Organizations can enforce specific levels via device management policies.
 -->

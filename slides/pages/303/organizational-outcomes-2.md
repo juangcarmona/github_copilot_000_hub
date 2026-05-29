@@ -5,13 +5,13 @@ section: Outcomes
 
 # What Becomes Necessary at the Organization Level
 
-**Visibility** — AI usage dashboards replace guesswork on adoption and consumption.
+**Visibility** - AI usage dashboards replace guesswork on adoption and consumption.
 
-**Policies** — data handling, approved tools, and governance must be explicit. AI amplifies existing policy gaps.
+**Policies** - data handling, approved tools, and governance must be explicit. AI amplifies existing policy gaps.
 
-**Shared practices** — instruction files, agent profiles, and prompt libraries are team engineering artifacts, not personal settings.
+**Shared practices** - instruction files, agent profiles, and prompt libraries are team engineering artifacts, not personal settings.
 
-**Budget controls** — AI consumption is variable and scales with usage. Shared credit pools require monitoring and guardrails.
+**Budget controls** - AI consumption is variable and scales with usage. Shared credit pools require monitoring and guardrails.
 
 <div class="mt-6 text-sm opacity-70">
 

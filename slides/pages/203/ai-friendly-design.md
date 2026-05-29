@@ -52,7 +52,7 @@ These five changes cover 80% of the improvement:
 </div>
 
 <div class="mt-4 text-sm opacity-70">
-AI-friendly design is good engineering design made explicit. There's no AI-specific magic — just clarity, consistency, and discoverability.
+AI-friendly design is good engineering design made explicit. There's no AI-specific magic - just clarity, consistency, and discoverability.
 </div>
 
 <!--

@@ -66,7 +66,7 @@ Automate documentation updates as code changes:
 - run: gh copilot suggest "regenerate OpenAPI spec from route handlers"
 ```
 
-Docs that fall behind are not docs — they're misinformation.
+Docs that fall behind are not docs - they're misinformation.
 
 <!--
 The key insight: instruction files are not just for interactive use.

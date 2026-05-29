@@ -5,23 +5,21 @@ section: Configuration
 
 # MCP Configuration as Team Infrastructure
 
-The `.vscode/mcp.json` file is committed to your repository — it's shared team infrastructure.
+The `.vscode/mcp.json` file is committed to your repository - it's shared team infrastructure.
 
 <div class="flex justify-center mt-4">
-  <img src="/301/mcp-json.png" class="rounded shadow-lg max-h-70" />
+  <img src="/301/mcp-json.png" class="rounded shadow-lg max-h-60" />
 </div>
 
-**Two configuration scopes:**
-
-| Scope | File | Shared | Use case |
-|---|---|---|---|
-| **Workspace** | `.vscode/mcp.json` | Via Git | Team tools for this project |
-| **User** | Profile `mcp.json` | No | Personal tools across all projects |
+| Scope | File | Use case |
+|---|---|---|
+| **Workspace** | `.vscode/mcp.json` (via Git) | Team tools for this project |
+| **User** | Profile `mcp.json` | Personal tools across all projects |
 
 **Security rule:** Never hardcode secrets. Use input variables or `.env` files.
 
 <!--
 This is the "mcp.json is infrastructure" message.
 When a new team member clones the repo, they get the same tool configuration.
-They still need to trust each server individually — the config alone doesn't grant access.
+They still need to trust each server individually - the config alone doesn't grant access.
 -->

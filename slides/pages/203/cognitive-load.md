@@ -9,7 +9,7 @@ section: Cognitive Load
 
 ## For Humans AND AI
 
-Cognitive load isn't just a developer experience problem — it directly impacts AI effectiveness.
+Cognitive load isn't just a developer experience problem - it directly impacts AI effectiveness.
 
 **High cognitive load repositories:**
 - Deep nesting (5+ levels)

@@ -13,5 +13,5 @@ The single most important takeaway from Module 101.
 Copilot is a force multiplier, not a replacement.
 The developer's judgment, review, and validation are always required.
 
-TODO: connect with hands-on exercise — first lab with Copilot basics
+TODO: connect with hands-on exercise - first lab with Copilot basics
 -->

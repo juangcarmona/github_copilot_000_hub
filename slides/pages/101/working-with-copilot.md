@@ -9,21 +9,21 @@ section: Practice
 
 ## Adopt incrementally
 
-**Start small** — one function, one test, one fix at a time.
+**Start small** - one function, one test, one fix at a time.
 
-**Accept incrementally** — review each suggestion before moving to the next.
+**Accept incrementally** - review each suggestion before moving to the next.
 
-**Read before accepting** — understand what was generated, not just that it compiles.
+**Read before accepting** - understand what was generated, not just that it compiles.
 
 ::right::
 
 ## Stay in control
 
-**Run after changes** — test locally before moving on.
+**Run after changes** - test locally before moving on.
 
-**Verify assumptions** — Copilot infers from context; confirm the inference is correct.
+**Verify assumptions** - Copilot infers from context; confirm the inference is correct.
 
-**Treat it as a draft** — generated code is a starting point, not a final answer.
+**Treat it as a draft** - generated code is a starting point, not a final answer.
 
 <!--
 This is the operational layer that makes the rest of the module actionable.

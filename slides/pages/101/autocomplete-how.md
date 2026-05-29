@@ -45,5 +45,5 @@ This is **completion**, not comprehension. Great for boilerplate. Doesn't unders
 Key mental model: Copilot predicts the most likely continuation
 based on the context it can see (current file, open tabs, language patterns).
 
-Multiple alternative suggestions exist — always check them.
+Multiple alternative suggestions exist - always check them.
 -->

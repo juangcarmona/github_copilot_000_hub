@@ -49,7 +49,7 @@ Custom agents work with:
     onboarder.agent.md
 ```
 
-Profiles extend the instruction hierarchy from 201 — same patterns, scoped autonomy.
+Profiles extend the instruction hierarchy from 201 - same patterns, scoped autonomy.
 
 <!--
 Custom agents encode team expertise into reusable, invocable profiles.

@@ -34,7 +34,7 @@ Autocomplete uses a **narrower context** than Chat.
 
 <div class="mt-4 p-3 bg-blue-50 border border-blue-200 rounded text-sm">
 
-💡 **Tip:** Open related files in tabs — they become signal for autocomplete.
+💡 **Tip:** Open related files in tabs - they become signal for autocomplete.
 
 </div>
 
@@ -42,5 +42,5 @@ Autocomplete uses a **narrower context** than Chat.
 This explains the "open related files" tip: tabs are signal.
 If you're working on a service, open the interface/types file in another tab.
 
-Autocomplete doesn't search your workspace like Chat does — it works with what's immediately available.
+Autocomplete doesn't search your workspace like Chat does - it works with what's immediately available.
 -->

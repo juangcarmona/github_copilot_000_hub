@@ -9,28 +9,28 @@ section: Chat
 
 ## The Workflow
 
-**Understand** — `@workspace explain the authentication flow` / `#file:auth.ts what does this do?`
+**Understand** - `@workspace explain the authentication flow` / `#file:auth.ts what does this do?`
 
-**Modify** — `add rate limiting to this endpoint` / `translate this to C#` / `/fix`
+**Modify** - `add rate limiting to this endpoint` / `translate this to C#` / `/fix`
 
-**Test** — `/tests` / `generate edge cases for this function` / `/fixTestFailure`
+**Test** - `/tests` / `generate edge cases for this function` / `/fixTestFailure`
 
-**Commit** — `write a commit message for these changes` / `summarize what changed`
+**Commit** - `write a commit message for these changes` / `summarize what changed`
 
 ::right::
 
 ## Interaction Patterns
 
-**Context variables** — attach what Copilot needs to see:
+**Context variables** - attach what Copilot needs to see:
 `#file` `#selection` `#codebase` `#git` `#editor`
 
-**Scope participants** — direct the question:
+**Scope participants** - direct the question:
 `@workspace` (project-wide) · `@vscode` (editor) · `@terminal` (shell) · `@github` (GitHub data)
 
-**Slash shortcuts** — common actions:
+**Slash shortcuts** - common actions:
 `/explain` · `/fix` · `/tests` · `/fixTestFailure` · `/new`
 
-<div class="mt-4 text-sm opacity-70">GitHub UX evolves — check docs for new participants and variables as they ship.</div>
+<div class="mt-4 text-sm opacity-70">GitHub UX evolves - check docs for new participants and variables as they ship.</div>
 
 <!--
 This slide has two layers:
@@ -39,5 +39,5 @@ This slide has two layers:
 
 The workflow layer is the primary message. The interaction map is a reference to return to during labs.
 
-Do NOT enumerate all slash commands — the docs are the catalog. Show the patterns.
+Do NOT enumerate all slash commands - the docs are the catalog. Show the patterns.
 -->

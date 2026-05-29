@@ -18,7 +18,7 @@ section: Model Strategy
 
 </div>
 
-**Auto mode** selects automatically — best default.
+**Auto mode** selects automatically - best default.
 
 **The Matching Principle:**
 - Planning a service? → Reasoning model
@@ -39,7 +39,7 @@ High frontier % → *"What tasks drive premium usage?"*
 <!--
 This merges model-economics + token-economics + model-strategy into one slide.
 
-Pricing evolves — check GitHub's current model pricing docs for exact numbers.
+Pricing evolves - check GitHub's current model pricing docs for exact numbers.
 The tiers are illustrative; the matching principle is stable.
 -->
 

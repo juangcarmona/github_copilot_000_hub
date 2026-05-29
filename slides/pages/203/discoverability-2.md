@@ -34,7 +34,7 @@ If it's not visible in structure, it doesn't exist for AI.
 </div>
 
 <!--
-Part 2 of the discoverability slide — focuses on anti-patterns.
+Part 2 of the discoverability slide - focuses on anti-patterns.
 
 These three anti-patterns are the most common sources
 of "why doesn't Copilot understand my project?"

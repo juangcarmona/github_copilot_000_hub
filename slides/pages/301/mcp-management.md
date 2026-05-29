@@ -11,9 +11,9 @@ section: Configuration
 
 **Management options:**
 
-- **Command Palette** → `MCP: List Servers` — start, stop, view logs, uninstall
-- **Code lenses** in `mcp.json` — inline start/stop/restart actions
-- **Extensions view** → MCP Servers section — right-click context menus
+- **Command Palette** → `MCP: List Servers` - start, stop, view logs, uninstall
+- **Code lenses** in `mcp.json` - inline start/stop/restart actions
+- **Extensions view** → MCP Servers section - right-click context menus
 
 <!--
 This shows the day-to-day operational management.

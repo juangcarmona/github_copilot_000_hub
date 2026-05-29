@@ -28,7 +28,7 @@ section: Code Review
 
 **2.** Focus it: *"Review only the payment processing changes."*
 
-**3.** Triage — not all findings are blocking. Some are suggestions.
+**3.** Triage - not all findings are blocking. Some are suggestions.
 
 **4.** Iterate: *"Why is this flagged? How do I fix it?"*
 

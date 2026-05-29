@@ -5,7 +5,7 @@ section: SDD
 
 # What is Spec-Driven Development?
 
-- `Start with a spec` A contract describing expected behavior — the single source of truth
+- `Start with a spec` A contract describing expected behavior - the single source of truth
 - `Drive everything from the spec` Generation, tests, and validation all reference the spec
 - `AI builds, you lead` Focus on "what to build," not low-level implementation details
 - `Less guesswork` Fewer surprises, higher-quality code, predictable outcomes

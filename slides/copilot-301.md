@@ -2,7 +2,7 @@
 theme: chapter-plain
 title: "Module 301: MCP & Orchestration"
 info: |
-  ## Module 301 — MCP & Orchestration
+  ## Module 301 - MCP & Orchestration
   Connecting Copilot to external tools and composing multi-step workflows
 transition: slide-left
 mdc: true
@@ -14,11 +14,17 @@ src: ./pages/301/cover.md
 ---
 src: ./pages/301/what-is-mcp.md
 ---
+---
+src: ./pages/301/what-is-mcp-flow.md
+---
 
 <!-- Tool Types -->
 
 ---
 src: ./pages/301/tool-types.md
+---
+---
+src: ./pages/301/tool-types-table.md
 ---
 ---
 src: ./pages/301/tools-picker.md
@@ -55,6 +61,9 @@ src: ./pages/301/capability-expansion.md
 
 ---
 src: ./pages/301/using-mcp.md
+---
+---
+src: ./pages/301/using-mcp-example.md
 ---
 ---
 src: ./pages/301/scoping-tools.md
@@ -102,13 +111,22 @@ src: ./pages/301/sandbox-config.md
 src: ./pages/301/prompt-injection.md
 ---
 ---
+src: ./pages/301/prompt-injection-mitigations.md
+---
+---
 src: ./pages/301/enterprise-security.md
+---
+---
+src: ./pages/301/defense-in-depth.md
 ---
 
 <!-- Architecture -->
 
 ---
 src: ./pages/301/architecture.md
+---
+---
+src: ./pages/301/architecture-transport.md
 ---
 
 <!-- Closing -->

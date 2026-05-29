@@ -5,11 +5,11 @@ section: Iterative Refinement
 
 # Iterative Refinement: Start Simple
 
-### First prompt — get something working
+### First prompt - get something working
 
 <img src="/102/fibonacci-first.png" class="w-full object-contain max-h-72 rounded shadow" />
 
-<div class="mt-3 text-sm opacity-70">The first response works — but uses recursion. Let’s refine.</div>
+<div class="mt-3 text-sm opacity-70">The first response works - but uses recursion. Let’s refine.</div>
 
 <!--
 This is the first step in a three-slide sequence showing iterative refinement.

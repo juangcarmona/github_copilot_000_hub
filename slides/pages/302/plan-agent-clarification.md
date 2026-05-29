@@ -3,7 +3,7 @@ layout: default
 section: Plan Agent
 ---
 
-# Ambiguity Reduction — The Agent Asks Before Building
+# Ambiguity Reduction - The Agent Asks Before Building
 
 <img src="/302/plan-agent-question.png" class="mx-auto rounded shadow-lg" style="max-height: 420px;" />
 
@@ -19,7 +19,7 @@ This is the alignment phase of the Plan agent.
 Why this matters:
 - Unanswered questions become silent assumptions in generated code
 - The agent surfaces ambiguities you didn't notice in your own requirements
-- Each clarification narrows the solution space — fewer valid implementations means more predictable output
+- Each clarification narrows the solution space - fewer valid implementations means more predictable output
 
 Compare with unplanned prompting:
 - "Build a user auth system" → agent picks OAuth provider, session strategy, token format, error handling

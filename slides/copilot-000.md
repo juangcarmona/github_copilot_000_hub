@@ -2,7 +2,7 @@
 theme: chapter-plain
 title: "Module 000: Workshop Orientation"
 info: |
-  ## Module 000 — GitHub Copilot Workshop
+  ## Module 000 - GitHub Copilot Workshop
   Workshop map, workflow economics, and operational framing
 transition: slide-left
 mdc: true

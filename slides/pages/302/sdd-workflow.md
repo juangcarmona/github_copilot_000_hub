@@ -3,7 +3,7 @@ layout: default
 section: SDD Workflow
 ---
 
-# The Spec-Driven Workflow — Steps
+# The Spec-Driven Workflow - Steps
 
 <div class="leading-snug">
 

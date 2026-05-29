@@ -14,11 +14,11 @@ Don't hope Copilot finds the right file. **Tell it.**
 
 Type `#` in chat to attach specific context:
 
-- `#file:auth.ts` — a specific file
-- `#folder:src/services` — a directory
-- `#symbol:UserService` — a class or function
-- `#codebase` — let VS Code search relevant files
-- `#git` — recent source control changes
+- `#file:auth.ts` - a specific file
+- `#folder:src/services` - a directory
+- `#symbol:UserService` - a class or function
+- `#codebase` - let VS Code search relevant files
+- `#git` - recent source control changes
 
 **When to use explicit attachment**
 

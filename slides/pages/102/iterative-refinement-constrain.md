@@ -5,7 +5,7 @@ section: Iterative Refinement
 
 # Refine: Add Constraints
 
-### Second prompt — correct what's wrong, not what's right
+### Second prompt - correct what's wrong, not what's right
 
 <img src="/102/fibonacci-second.png" class="w-full object-contain max-h-72 rounded shadow" />
 

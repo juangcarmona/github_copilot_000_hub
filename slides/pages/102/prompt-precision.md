@@ -12,10 +12,10 @@ section: Prompt Precision
 Copilot reads your code. Vague names produce vague completions:
 
 ```ts
-// ❌ Generic — Copilot guesses intent
+// ❌ Generic - Copilot guesses intent
 function process(data) { ... }
 
-// ✅ Precise — Copilot understands domain
+// ✅ Precise - Copilot understands domain
 function validateShippingAddress(
   address: Address
 ): ValidationResult { ... }

@@ -9,20 +9,20 @@ section: Testing
 
 ## Three patterns to catch
 
-**1. Assertion-free** — runs but proves nothing:
+**1. Assertion-free** - runs but proves nothing:
 ```csharp
 // ❌
 var result = service.Process(input);
 Assert.NotNull(result);
 ```
 
-**2. Time-dependent** — passes now, fails at midnight:
+**2. Time-dependent** - passes now, fails at midnight:
 ```csharp
 // ❌
 Assert.Equal(DateTime.Today, result.CreatedDate);
 ```
 
-**3. Order-dependent** — fails when run in suite:
+**3. Order-dependent** - fails when run in suite:
 ```csharp
 // ❌ Shared mutable state
 static List<Order> _orders = new();

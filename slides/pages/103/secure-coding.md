@@ -19,7 +19,7 @@ Scan (GHAS / CodeQL)
      ↓
 Remediate findings
      ↓
-Re-scan — clean? → Commit
+Re-scan - clean? → Commit
 ```
 
 ## Ask while coding

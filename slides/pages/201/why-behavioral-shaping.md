@@ -10,13 +10,13 @@ section: Why Behavioral Shaping
 <!--
 This is the motivating argument for Module 201.
 
-Progression bridge — tell it explicitly:
+Progression bridge - tell it explicitly:
 - 101: Copilot generated code. You shipped a prototype.
 - 102: You learned that which files you had open changed what Copilot produced.
 - 103: You learned that all tests passing is not enough. AI output requires systematic validation.
 - 201: You're addressing the root cause. Without instructions, every developer's Copilot applies different standards. Instructions make the standard explicit and shared.
 
-The insight: Copilot's output is not fixed — it's parameterized by context.
+The insight: Copilot's output is not fixed - it's parameterized by context.
 Instructions ARE context. They are loaded before every interaction.
 
 Without instructions, inconsistent code produces inconsistent AI output.
@@ -28,5 +28,5 @@ This is especially important for:
 - Architecture rules ("use the Repository pattern", "prefer Result<T> over exceptions")
 - Onboarding (new developers get the team's standards immediately)
 
-Lab: Exercise 01 — Observe Ungoverned Behavior. The starter repo has three controllers each written in a different style. Ask Copilot to add a new endpoint. The output reflects whatever pattern the open file follows — not a team standard.
+Lab: Exercise 01 - Observe Ungoverned Behavior. The starter repo has three controllers each written in a different style. Ask Copilot to add a new endpoint. The output reflects whatever pattern the open file follows - not a team standard.
 -->

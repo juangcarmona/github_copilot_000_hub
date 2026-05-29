@@ -2,11 +2,17 @@
 theme: chapter-plain
 title: "Module 303: Enterprise Adoption"
 info: |
-  ## Module 303 — Enterprise Adoption & Workflow Economics
+  ## Module 303 - Enterprise Adoption & Workflow Economics
   AI credits, cost control, governance, and operational thinking at scale
 transition: slide-left
 mdc: true
 src: ./pages/303/cover.md
+---
+
+<!-- Value Gap -->
+
+---
+src: ./pages/303/adoption-value-gap.md
 ---
 
 <!-- Economics -->
@@ -21,13 +27,13 @@ src: ./pages/303/ai-credit-drivers.md
 src: ./pages/303/model-economics.md
 ---
 ---
-src: ./pages/303/token-economics.md
----
----
 src: ./pages/303/model-strategy.md
 ---
 ---
 src: ./pages/303/thinking-effort.md
+---
+---
+src: ./pages/303/token-economics.md
 ---
 ---
 src: ./pages/303/autocomplete.md
@@ -39,16 +45,7 @@ src: ./pages/303/autocomplete.md
 src: ./pages/303/governance-vs-enablement.md
 ---
 ---
-src: ./pages/303/agent.md
----
----
-src: ./pages/303/agent-guardrails.md
----
----
-src: ./pages/303/ptx.md
----
----
-src: ./pages/303/ptx-2.md
+src: ./pages/303/phase-specific-controls.md
 ---
 ---
 src: ./pages/303/combine-tools.md
@@ -57,14 +54,29 @@ src: ./pages/303/combine-tools.md
 src: ./pages/303/combine-tools-2.md
 ---
 ---
+src: ./pages/303/ptx.md
+---
+---
+src: ./pages/303/ptx-2.md
+---
+---
 src: ./pages/303/governance.md
 ---
 ---
 src: ./pages/303/operational-controls.md
 ---
 
-<!-- Observability -->
+<!-- Agent / Review / Observability -->
 
+---
+src: ./pages/303/agent.md
+---
+---
+src: ./pages/303/agent-guardrails.md
+---
+---
+src: ./pages/303/review-depth-at-scale.md
+---
 ---
 src: ./pages/303/agent-observability.md
 ---
@@ -90,13 +102,16 @@ src: ./pages/303/platform-enablement.md
 src: ./pages/303/ai-driven-teams.md
 ---
 
-<!-- Usage Visibility -->
+<!-- Usage / Measurement -->
 
 ---
 src: ./pages/303/manager-intro.md
 ---
 ---
 src: ./pages/303/shared-budget.md
+---
+---
+src: ./pages/303/baseline-before-scale.md
 ---
 ---
 src: ./pages/303/usage-visibility.md
@@ -117,7 +132,13 @@ src: ./pages/303/report-alarms.md
 <!-- Sustainable Adoption -->
 
 ---
+src: ./pages/303/failure-patterns.md
+---
+---
 src: ./pages/303/sustainable-adoption.md
+---
+---
+src: ./pages/303/ai-sdlc-maturity-model.md
 ---
 ---
 src: ./pages/303/maturity-progression.md

@@ -14,7 +14,7 @@ Agent edits your workspace directly → conflicts with your active work.
 
 ## The Solution
 
-**Git worktrees** — the agent works in a separate checkout of your repo.
+**Git worktrees** - the agent works in a separate checkout of your repo.
 
 <div class="text-sm">
 
@@ -45,6 +45,6 @@ Worktree isolation = safe autonomy. The agent can't break your working state.
 
 <!--
 Worktree isolation is what makes "bypass approvals" safe for CLI sessions.
-The agent operates on a copy — your main workspace is untouched.
+The agent operates on a copy - your main workspace is untouched.
 This is the key enabler for parallel agent sessions.
 -->

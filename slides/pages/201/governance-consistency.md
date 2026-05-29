@@ -47,7 +47,7 @@ One team, one style, one review pass.
 <!--
 Side-by-side comparison showing the concrete difference.
 
-Left: a repo without governance. Copilot has no anchor — it mimics whatever context it sees.
+Left: a repo without governance. Copilot has no anchor - it mimics whatever context it sees.
 Right: a repo with instructions + architecture docs. Copilot follows declared standards.
 
 This is the payoff of Module 201:

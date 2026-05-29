@@ -26,5 +26,5 @@ The **Instructions** tab shows:
 The Customizations Editor answers: "What is Copilot being told about this project right now?"
 
 If instructions aren't listed here, they're not being applied.
-Diagnostics goes deeper — shows the full composition sent to the model.
+Diagnostics goes deeper - shows the full composition sent to the model.
 -->

@@ -17,16 +17,26 @@ section: Governance
 → AI tool selection may be subject to GDPR, HIPAA, or SOC 2.
 Governance must integrate with existing compliance programs.
 
-## Practical Governance
+## Vendor Capability vs Organization Guardrail Layer
 
-1. Publish an approved AI tools list by data classification
-2. Include AI tool policy in developer onboarding
-3. Add reminders to instruction files and PR templates
-4. Review periodically — the tooling landscape changes fast
+Vendor tools provide AI capability. The organization still owns:
+- Data policy and routing rules for sensitive workflows
+- Logging and audit trail requirements
+- Allowed use cases by data classification
+- Review standards and human approval criteria
+- Escalation paths when the tool is unclear or produces unexpected output
+
+Sensitive or domain-specific workflows may require stricter routing or internal tooling.
 
 <!--
 Copilot excels inside the IDE, but its value multiplies when combined with other AI tools.
-The key insight: exploration generates prompts quickly and burns AI credits.
-If you do the thinking outside Copilot (other tools, local models), you arrive at the IDE with clear intent.
-Then Copilot Agent can implement efficiently in one or two well-structured sessions.
+The key insight: vendor capability and organizational governance are separate layers.
+
+Even when using fully approved tools, organizations must define their own:
+- what data can flow into each tool
+- what workflows require additional human validation
+- what the escalation path is when a tool produces unexpected output
+
+Do not outsource governance decisions to the vendor.
 -->
+

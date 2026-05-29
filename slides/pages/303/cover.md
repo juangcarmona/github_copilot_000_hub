@@ -10,5 +10,5 @@ AI credits, governance, usage visibility, rollout patterns, and sustainable AI a
 
 <!--
 This module covers the organizational layer.
-Not "how to use Copilot" — how to operationalize AI across engineering teams.
+Not "how to use Copilot" - how to operationalize AI across engineering teams.
 -->

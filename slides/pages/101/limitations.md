@@ -25,7 +25,7 @@ section: Limitations
 
 - You must be declarative about what you want
 - Vague prompts produce vague results
-- Context is everything — the more you provide, the better
+- Context is everything - the more you provide, the better
 
 ## Trust Model
 

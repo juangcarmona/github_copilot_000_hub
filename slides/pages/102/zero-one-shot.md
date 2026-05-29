@@ -9,7 +9,7 @@ afterTitle: One-Shot
 
 ::before::
 
-Direct instruction — no examples provided.
+Direct instruction - no examples provided.
 
 ```javascript
 // Write a function that finds 
@@ -43,7 +43,7 @@ The example teaches Copilot the expected behavior.
 
 <!--
 Zero-shot: fast, works for common patterns.
-One-shot: adds one example to guide the model — significantly better for non-trivial tasks.
+One-shot: adds one example to guide the model - significantly better for non-trivial tasks.
 
 The jump from zero-shot to one-shot is often the biggest quality improvement.
 -->

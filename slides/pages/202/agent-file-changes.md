@@ -10,8 +10,8 @@ section: Reviewing Changes
 
 ## Changes panel (Agents window)
 
-- **Files tab** — full workspace file explorer
-- **Changes tab** — files added, modified, deleted
+- **Files tab** - full workspace file explorer
+- **Changes tab** - files added, modified, deleted
 
 ## Review workflow
 
@@ -34,7 +34,7 @@ section: Reviewing Changes
 
 <div class="mt-2 text-sm opacity-70">
 
-Treat agent output like a colleague's PR — review the diff, not the promise.
+Treat agent output like a colleague's PR - review the diff, not the promise.
 
 </div>
 

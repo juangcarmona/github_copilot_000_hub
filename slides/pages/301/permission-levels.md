@@ -9,7 +9,7 @@ The permissions picker controls how much autonomy the agent has during a session
 
 | Level | Tool calls | Clarifying questions | Use case |
 |---|---|---|---|
-| **Default Approvals** | Shows confirmation | Asks when needed | Daily work — review everything |
+| **Default Approvals** | Shows confirmation | Asks when needed | Daily work - review everything |
 | **Bypass Approvals** | Auto-approved | Asks when needed | Trusted project, fast iteration |
 | **Autopilot** | Auto-approved | Auto-responded | Fully autonomous tasks |
 

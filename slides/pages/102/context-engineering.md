@@ -12,13 +12,13 @@ The model can only reason about what it sees. Context engineering is the practic
 
 **The Three Steps**
 
-1. **Curate project context** — instruction files, architecture docs, conventions
-2. **Generate plan** — structured implementation plan from curated context
-3. **Generate code** — implementation grounded in plan + guidelines
+1. **Curate project context** - instruction files, architecture docs, conventions
+2. **Generate plan** - structured implementation plan from curated context
+3. **Generate code** - implementation grounded in plan + guidelines
 
 > Most prompt failures are context failures.
 
-The developers who get consistently good output don't write "better prompts" — they manage what the model sees.
+The developers who get consistently good output don't write "better prompts" - they manage what the model sees.
 
 </div>
 <div>

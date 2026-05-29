@@ -30,5 +30,5 @@ section: Governance
 This reframes ptx.md from workflow methodology to data governance.
 
 The workflow discipline (plan before executing) is covered in Module 102/divide-and-conquer.
-What belongs in 303: the governance layer — data handling, approved tools, policy.
+What belongs in 303: the governance layer - data handling, approved tools, policy.
 -->

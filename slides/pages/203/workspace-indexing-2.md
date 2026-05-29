@@ -41,7 +41,7 @@ section: Workspace Indexing
 </div>
 
 <!--
-Part 2 of workspace indexing — practical guidance on what helps and hurts.
+Part 2 of workspace indexing - practical guidance on what helps and hurts.
 
 These are the immediate actions teams can take to improve
 how well Copilot retrieves relevant code from their workspace.

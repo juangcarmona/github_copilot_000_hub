@@ -15,7 +15,7 @@ Generate code
      ↓
 Ask: "Is this vulnerable to X?"
      ↓
-Scan — GHAS / CodeQL / secrets
+Scan - GHAS / CodeQL / secrets
      ↓
 Remediate findings
      ↓
@@ -46,7 +46,7 @@ Human review catches logic flaws. All three are needed.
 <!--
 Merged from secure-coding.md and security-detection.md.
 
-The detection.png was dropped — secure-coding.png is the stronger visual here.
+The detection.png was dropped - secure-coding.png is the stronger visual here.
 The loop is the workflow; the image shows Copilot security review in the editor.
 
 Key reduction: removed GHAS taxonomy, vulnerability categories, defense-in-depth philosophy.

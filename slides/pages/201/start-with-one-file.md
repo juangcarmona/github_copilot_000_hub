@@ -9,7 +9,7 @@ section: Custom Instructions
 
 ::left::
 
-## Step 1 — Root Instructions
+## Step 1 - Root Instructions
 
 ```text
 .github/copilot-instructions.md
@@ -33,7 +33,7 @@ Generates a starter file from your project.
 
 ::right::
 
-## Step 2 — Scoped Instructions
+## Step 2 - Scoped Instructions
 
 ```text
 .github/instructions/
@@ -50,7 +50,7 @@ applyTo: "src/api/**/*.cs"
 
 Use scoped files only when different parts of the repo need specialized rules.
 
-## Step 3 — Prompt Files
+## Step 3 - Prompt Files
 
 Use prompt files for repeated workflows.
 

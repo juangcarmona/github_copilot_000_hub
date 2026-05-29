@@ -31,10 +31,10 @@ Top-K relevant chunks → context window
 
 ## What Makes a Good Chunk
 
-- **Self-contained** — one function, one class, one concept
-- **Well-named** — file name adds semantic signal
-- **Typed** — interfaces provide structural context
-- **Documented** — JSDoc/XML doc adds retrievable text
+- **Self-contained** - one function, one class, one concept
+- **Well-named** - file name adds semantic signal
+- **Typed** - interfaces provide structural context
+- **Documented** - JSDoc/XML doc adds retrievable text
 
 ## What Makes a Bad Chunk
 

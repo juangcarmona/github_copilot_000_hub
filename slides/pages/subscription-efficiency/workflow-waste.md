@@ -29,7 +29,7 @@ afterTitle: Optimized
 This slide contrasts two ways of using the same subscription.
 The difference in credit consumption can be 5–10x.
 
-The point is not judgment — it’s awareness.
+The point is not judgment - it’s awareness.
 Once you see the pattern, you can optimize.
 
 Check current model pricing:

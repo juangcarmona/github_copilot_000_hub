@@ -1,6 +1,6 @@
 ---
 
-### Slide 3 — Instruction Scope
+### Slide 3 - Instruction Scope
 
 ```md
 ---

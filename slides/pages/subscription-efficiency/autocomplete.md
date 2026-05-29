@@ -5,7 +5,7 @@ section: Autocomplete
 
 # Autocomplete: Still Your Free Baseline
 
-- Inline suggestions while you type — zero AI credits, always
+- Inline suggestions while you type - zero AI credits, always
 - Routine code, small refactors, boilerplate generation
 - High frequency, zero premium cost
 - If autocomplete can solve it, don’t spend a premium interaction

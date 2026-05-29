@@ -3,7 +3,7 @@ layout: two-cols-header
 section: Custom Instructions
 ---
 
-# Custom Instructions — Scopes
+# Custom Instructions - Scopes
 
 ::left::
 
@@ -35,7 +35,7 @@ Always use TypeScript strict mode.
 Follow the naming convention: PascalCase.
 ```
 
-Scoped files specialize the root — they add detail, never contradict.
+Scoped files specialize the root - they add detail, never contradict.
 
 <!--
 The scope hierarchy:
@@ -45,7 +45,7 @@ The scope hierarchy:
 Start with repo-wide, then add path-specific as your codebase grows.
 
 Lab mapping:
-- Exercise 02 — Create Root Instructions: `.github/copilot-instructions.md`
-- Exercise 03 — Add Backend Instructions: `.github/instructions/backend.instructions.md`
-- Exercise 04 — Add Frontend Instructions: `.github/instructions/frontend.instructions.md`
+- Exercise 02 - Create Root Instructions: `.github/copilot-instructions.md`
+- Exercise 03 - Add Backend Instructions: `.github/instructions/backend.instructions.md`
+- Exercise 04 - Add Frontend Instructions: `.github/instructions/frontend.instructions.md`
 -->

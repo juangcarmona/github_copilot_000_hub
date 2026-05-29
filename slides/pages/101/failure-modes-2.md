@@ -16,7 +16,7 @@ Asking follow-up questions in a long, divergent conversation.
 **Fix:** Start new sessions for new tasks.
 
 ### ❌ The Missing Reference
-`"Update the database schema"` — which database? which schema?
+`"Update the database schema"` - which database? which schema?
 
 **Fix:** Use `#file` to attach what Copilot needs to see.
 

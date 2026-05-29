@@ -43,13 +43,13 @@ Assert.Equal(CancelResult.Refunded, result.Status);
 Assert.True(result.RefundAmount > 0);
 ```
 
-<div class="mt-4 text-sm opacity-70">Copilot optimizes for "passes" — not for "catches bugs". You own the assertion quality.</div>
+<div class="mt-4 text-sm opacity-70">Copilot optimizes for "passes" - not for "catches bugs". You own the assertion quality.</div>
 
 <!--
 Merged from test-generation.md and setup-tests.md.
 
 The setup-tests screenshot moved to fix-test-failure.md which is already demo-focused.
-This slide is the operational workflow — describe, generate, run red, iterate, verify assertions.
+This slide is the operational workflow - describe, generate, run red, iterate, verify assertions.
 
 The right column assertion contrast is the single most important teaching point.
 A test that can't catch a regression is not a test.

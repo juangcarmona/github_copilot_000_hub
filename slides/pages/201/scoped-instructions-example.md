@@ -40,5 +40,5 @@ Specialize. Never contradict.
 
 <!--
 The applyTo pattern activates the file only when Copilot is working on matching paths.
-Scoped files ADD detail to the root — they never override or contradict it.
+Scoped files ADD detail to the root - they never override or contradict it.
 -->

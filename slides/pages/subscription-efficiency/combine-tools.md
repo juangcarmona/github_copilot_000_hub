@@ -21,7 +21,7 @@ Governance must cover the whole landscape, not just the licensed tools.
 
 - Corporate and client code → only organization-approved tools
 - External AI tools must NEVER receive confidential, client, or personal data
-- Thinking and exploration can happen externally — code and data cannot
+- Thinking and exploration can happen externally - code and data cannot
 - When uncertain: check with your security contact
 
 ::right::
@@ -44,7 +44,7 @@ Governance must integrate with existing compliance programs.
 1. Publish an approved AI tools list by data classification
 2. Include AI tool policy in developer onboarding
 3. Add reminders to instruction files and PR templates
-4. Review periodically — the tooling landscape changes fast
+4. Review periodically - the tooling landscape changes fast
 
 <!--
 This reframes combine-tools.md from workflow pattern to governance.
@@ -64,5 +64,5 @@ Data policy reminders:
 - External tools must NOT receive confidential, client, or personal data.
 - When in doubt, check with your team or security contact.
 
-TODO: show PTX workflow in practice — planning outside, executing inside
+TODO: show PTX workflow in practice - planning outside, executing inside
 -->

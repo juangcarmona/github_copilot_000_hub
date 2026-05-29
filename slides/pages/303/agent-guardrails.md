@@ -14,7 +14,7 @@ section: Agent Governance
 - Bypass required reviews or status checks
 - Access secrets without explicit grant
 
-These are not optional safeguards — they are platform constraints.
+These are not optional safeguards - they are platform constraints.
 
 </div>
 <div>

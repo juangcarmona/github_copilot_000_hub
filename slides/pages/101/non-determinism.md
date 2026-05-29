@@ -5,7 +5,7 @@ section: How It Works
 
 # Probabilistic, Not Deterministic
 
-Copilot predicts the most likely next tokens — not the "correct" answer.
+Copilot predicts the most likely next tokens - not the "correct" answer.
 
 <div class="grid grid-cols-2 gap-8 mt-4">
 
@@ -23,9 +23,9 @@ Copilot predicts the most likely next tokens — not the "correct" answer.
 
 ### What to do about it
 
-- **Run it twice** — try again if the first result is bad
-- **Rephrase** — different wording, different patterns
-- **Verify** — don't debug confidence, test the output
+- **Run it twice** - try again if the first result is bad
+- **Rephrase** - different wording, different patterns
+- **Verify** - don't debug confidence, test the output
 
 </div>
 

@@ -2,14 +2,14 @@
 theme: chapter-plain
 title: "Module 102: Prompt Engineering"
 info: |
-  ## Module 102 — Prompt Engineering & Intent Communication
+  ## Module 102 - Prompt Engineering & Intent Communication
   Techniques for communicating intent effectively to Copilot
 transition: slide-left
 mdc: true
 src: ./pages/102/cover.md
 ---
 
-<!-- Recap from 101 — Chat Workflow & Prompting Cornerstones -->
+<!-- Recap from 101 - Chat Workflow & Prompting Cornerstones -->
 
 ---
 src: ./pages/101/chat-cheatsheet.md

@@ -8,7 +8,7 @@ section: Context Engineering
 Every response is generated from what fits in the **context window**:
 
 - `System instructions` Built-in behavior rules
-- `Custom instructions` Your .github/copilot-instructions.md — always loaded
+- `Custom instructions` Your .github/copilot-instructions.md - always loaded
 - `User message` The current prompt you're sending
 - `Conversation history` Earlier messages in this session
 - `Implicit context` Active file, selection, visible errors, git state

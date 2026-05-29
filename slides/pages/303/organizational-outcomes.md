@@ -5,13 +5,13 @@ section: Outcomes
 
 # What Improves at the Organization Level
 
-**Delivery speed** — AI-assisted development reduces time from spec to working code.
+**Delivery speed** - AI-assisted development reduces time from spec to working code.
 
-**Onboarding** — new developers orient faster in AI-ready repositories.
+**Onboarding** - new developers orient faster in AI-ready repositories.
 
-**Repetitive work** — boilerplate, documentation, test generation, and code review automation reduce toil.
+**Repetitive work** - boilerplate, documentation, test generation, and code review automation reduce toil.
 
-**Legacy modernization** — teams modernizing COBOL, .NET Framework, or Power Platform systems use AI to accelerate refactoring, documentation generation, and stack migration.
+**Legacy modernization** - teams modernizing COBOL, .NET Framework, or Power Platform systems use AI to accelerate refactoring, documentation generation, and stack migration.
 
 <div class="mt-4 text-sm opacity-70">
 

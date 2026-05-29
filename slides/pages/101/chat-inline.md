@@ -40,6 +40,6 @@ Pro tip: Select precisely. The tighter your selection, the more focused the resu
 </div>
 
 <!--
-Inline chat is the "surgical" tool — it operates on what you're looking at.
+Inline chat is the "surgical" tool - it operates on what you're looking at.
 Common mistake: opening inline chat with no selection and giving a vague prompt.
 -->

@@ -9,7 +9,7 @@ section: ADRs & Specs
 
 ## Why Architecture Decisions Need to Be Discoverable
 
-Copilot doesn't know WHY your code is structured the way it is — unless you tell it.
+Copilot doesn't know WHY your code is structured the way it is - unless you tell it.
 
 An ADR (Architecture Decision Record) explains:
 - What was decided
@@ -61,7 +61,7 @@ according to this specification.
 
 ## Agent Discoverability
 
-Agents can read ADRs and specs if they are referenced in the agent profile or in `copilot-instructions.md`. Make the reference explicit — agents don't browse the filesystem speculatively.
+Agents can read ADRs and specs if they are referenced in the agent profile or in `copilot-instructions.md`. Make the reference explicit - agents don't browse the filesystem speculatively.
 
 <!--
 ADRs and specs are the highest-leverage documentation investment for AI-readiness.

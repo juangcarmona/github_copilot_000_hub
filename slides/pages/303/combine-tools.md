@@ -19,7 +19,7 @@ Governance must cover the whole landscape, not just the licensed tools.
 
 - Corporate and client code → only organization-approved tools
 - External AI tools must NEVER receive confidential, client, or personal data
-- Thinking and exploration can happen externally — code and data cannot
+- Thinking and exploration can happen externally - code and data cannot
 - When uncertain: check with your security contact
 
 <!--

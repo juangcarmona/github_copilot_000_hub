@@ -12,7 +12,7 @@ section: Prompting
 ## Intent
 
 The specific goal or purpose you have in mind.
-Give directions — what do you want to achieve?
+Give directions - what do you want to achieve?
 
 ## Context
 
@@ -24,12 +24,12 @@ Provide examples, open relevant files, reference code.
 ## Clarity
 
 Being clear, transparent, and easily understood.
-Avoid ambiguity — say exactly what you mean.
+Avoid ambiguity - say exactly what you mean.
 
 ## Specificity
 
 Precise and detailed information.
-Leave little room for interpretation — inputs, outputs, constraints.
+Leave little room for interpretation - inputs, outputs, constraints.
 
 <!--
 These four cornerstones apply to every interaction with Copilot:
@@ -38,5 +38,5 @@ autocomplete comments, chat prompts, and agent instructions.
 Module 102 goes much deeper into prompting techniques.
 This is the mental model to carry through the entire workshop.
 
-TODO: compare weak vs strong prompt — same task, different prompt quality
+TODO: compare weak vs strong prompt - same task, different prompt quality
 -->

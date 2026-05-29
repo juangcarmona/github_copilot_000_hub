@@ -11,16 +11,13 @@ You can review and modify the parameters before a tool executes.
   <img src="/301/mcp-tool-edit-parameters.png" class="rounded shadow-lg max-h-80" />
 </div>
 
-**Why this matters:**
-
-- The agent chooses parameters autonomously — it might be wrong
-- Prompt injection in tool outputs can influence subsequent calls
-- A tool reading `../../.env` looks like a tool reading `src/config.ts` unless you inspect it
-
-**Operational habit:** Expand tool details. Read the parameters. Then approve.
+- The agent chooses parameters autonomously - it might be wrong
+- Prompt injection can influence subsequent tool calls
+- A tool reading `../../.env` looks like `src/config.ts` unless you inspect it
 
 <!--
 This is the "review what's actually happening" slide.
 It connects to the prompt injection risk: malicious content from one tool can lead the agent to invoke another tool with dangerous parameters.
 Inspecting parameters is the last line of defense before execution.
+Operational habit: Expand tool details. Read the parameters. Then approve.
 -->

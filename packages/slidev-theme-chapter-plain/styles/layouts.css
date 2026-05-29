@@ -76,7 +76,7 @@
   }
 }
 
-/* Section label pattern — blue accent bar + uppercase label (matches PPT style guide) */
+/* Section label pattern - blue accent bar + uppercase label (matches PPT style guide) */
 .plain-section-label {
   display: flex;
   align-items: center;

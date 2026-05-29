@@ -1,0 +1,8 @@
+Automate Repository Tasks
+https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/
+
+Weighted Task selection
+https://dsyme.net/2026/03/07/adding-weighted-task-selection-to-a-github-agentic-workflow/
+
+Repo Assist: Crunching the Technical Debt with GitHub Agentic Workflows
+https://dsyme.net/2026/02/25/repo-assist-a-repository-assistant/

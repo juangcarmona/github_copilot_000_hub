@@ -53,8 +53,8 @@ Smaller, focused files = precise retrieval = better AI output.
 </div>
 
 <!--
-Part 2 — the visual comparison of file size vs retrieval quality.
+Part 2 - the visual comparison of file size vs retrieval quality.
 
 This is the most intuitive way to understand why "break up big files" matters:
-it's not just about readability — it's about what the AI retrieves as context.
+it's not just about readability - it's about what the AI retrieves as context.
 -->

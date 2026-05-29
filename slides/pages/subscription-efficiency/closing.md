@@ -7,6 +7,6 @@ section: Takeaway
 ## Now let’s put it into practice.
 
 <!--
-TODO: connect with hands-on exercise — transition to the workshop labs
+TODO: connect with hands-on exercise - transition to the workshop labs
 -->
 

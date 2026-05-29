@@ -51,13 +51,13 @@ This slide covers what engineering managers and tech leads need to govern agent 
 
 <!--
 Agent mode is not a magic button.
-Used badly, it burns AI credits — each internal step is a separate model invocation.
+Used badly, it burns AI credits - each internal step is a separate model invocation.
 Used well, it turns one premium interaction into a large amount of implemented work.
 
 Best practices:
 - Use meaningful names: CalculateInvoiceTotal > DoWork. Copilot reads your names as context.
 - Provide context through code: open relevant files, import libraries, show examples.
-- Don't ask for an entire complex feature in one go — break it down.
+- Don't ask for an entire complex feature in one go - break it down.
 - Use test-first development with Copilot: write tests alongside implementation.
 - Never blindly commit Copilot output. Always review, run, and validate.
 

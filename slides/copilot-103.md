@@ -2,7 +2,7 @@
 theme: chapter-plain
 title: "Module 103: Engineering Workflows with AI"
 info: |
-  ## Module 103 — Engineering Workflows with AI
+  ## Module 103 - Engineering Workflows with AI
   AI-assisted quality: testing, review, security, and validation
 transition: slide-left
 mdc: true

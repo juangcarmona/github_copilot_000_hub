@@ -7,16 +7,16 @@ section: Recovery
 
 ## Diagnose First
 
-**Amplified ambiguity** — Copilot didn't invent a problem. It amplified one already present in the repository. Stale docs, old component names, competing data formats, duplicated utilities, partial migrations — all of these are context signals. Copilot follows them.
+**Amplified ambiguity** - Copilot didn't invent a problem. It amplified one already present in the repository. Stale docs, old component names, competing data formats, duplicated utilities, partial migrations - all of these are context signals. Copilot follows them.
 → Remove misleading context. Close stale tabs. Attach the authoritative file.
 
-**Hallucination** — generated code references APIs, functions, or types that don't exist.
+**Hallucination** - generated code references APIs, functions, or types that don't exist.
 → Attach the actual API file or type definition. Add a concrete example of the existing surface.
 
-**Context gap** — output is generic rather than project-specific.
+**Context gap** - output is generic rather than project-specific.
 → Use `#file`, `#codebase`, or paste a representative snippet. Copilot only reasons about what it sees.
 
-**Scope creep** — more was changed than asked.
+**Scope creep** - more was changed than asked.
 → Ask for smaller, targeted changes. Specify exactly which function to touch.
 
 <!--

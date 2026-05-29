@@ -3,7 +3,7 @@ layout: default
 section: Workflow Shift
 ---
 
-# What Changes — Before vs After MCP
+# What Changes - Before vs After MCP
 
 | Capability | Without MCP | With MCP |
 |---|---|---|
@@ -16,13 +16,11 @@ section: Workflow Shift
 
 The shift is not "more features." It's a different **operating model**:
 
-- The agent reads requirements from the source of truth (issue tracker)
-- The agent validates its own work (test runner, CI)
-- The agent delivers results to the collaboration layer (PRs)
-- You review and approve — not manually execute
+- The agent reads from source-of-truth systems, validates its own work, and delivers results
+- You review and approve - not manually execute
 
 <!--
-This is the companion slide to the diagram.
+This is the companion slide to the workflow shift diagram.
 The table makes the shift concrete and measurable.
-The bottom bullets frame this as an operating model change, not a feature addition.
+Operating model change: agent reads requirements from issue tracker, validates via test runner and CI, delivers via PRs. Developer reviews and approves.
 -->

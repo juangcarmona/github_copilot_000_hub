@@ -11,18 +11,18 @@ section: Chat
 - `"generate a C# class for this TypeScript interface"`
 
 ### Fix
-- `"/fix"` — targeted fix for selected code
+- `"/fix"` - targeted fix for selected code
 - `"why does this throw a NullReferenceException?"`
 - `"add error handling following the existing pattern"`
 
 ### Test & Refactor
-- `"/tests"` — generate unit tests for selected code
-- `"/fixTestFailure"` — diagnose and fix a failing test
+- `"/tests"` - generate unit tests for selected code
+- `"/fixTestFailure"` - diagnose and fix a failing test
 - `"extract this block into a named function"`
 
 <div class="mt-4 text-sm opacity-70">
 
-Each step is independent — or chain them in a single session.
+Each step is independent - or chain them in a single session.
 
 </div>
 

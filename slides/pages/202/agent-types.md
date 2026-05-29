@@ -18,7 +18,7 @@ Runs on your machine in the background. Autonomous. Uses worktrees for isolation
 
 ## Cloud Agent
 
-Runs on GitHub infrastructure. Opens PRs against your repository. Fully async — review when ready.
+Runs on GitHub infrastructure. Opens PRs against your repository. Fully async - review when ready.
 
 <div class="mt-2 text-sm opacity-70">
 

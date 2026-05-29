@@ -3,7 +3,7 @@ layout: default
 section: Spec Validation
 ---
 
-# Preventing Spec Drift — The Refinement Loop
+# Preventing Spec Drift - The Refinement Loop
 
 ## The Loop
 
@@ -21,10 +21,10 @@ Repeat
 
 ## Practices That Prevent Drift
 
-1. **Treat specs as living documents** — update them when requirements change
-2. **Validate after each task** — don't wait until the end
-3. **Use specs as test anchors** — if the spec says X, a test asserts X
-4. **Re-run `/speckit.clarify`** — surface new gaps after partial implementation
+1. **Treat specs as living documents** - update them when requirements change
+2. **Validate after each task** - don't wait until the end
+3. **Use specs as test anchors** - if the spec says X, a test asserts X
+4. **Re-run `/speckit.clarify`** - surface new gaps after partial implementation
 
 <div class="mt-3 text-sm opacity-70">
 

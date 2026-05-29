@@ -29,5 +29,5 @@ A repo that is hard for a new developer to understand is equally hard for Copilo
 
 <!--
 Part 2 of the cognitive load slide.
-The table maps each technique to its dual benefit — for humans and for AI.
+The table maps each technique to its dual benefit - for humans and for AI.
 -->

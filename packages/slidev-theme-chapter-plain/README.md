@@ -41,6 +41,6 @@ Supporting description
 ## Features
 
 - **Global footer** with page number badge and Plain Concepts logo on every slide
-- **Section label pattern** — blue accent bar + uppercase label (used by `statement`, `section-divider`)
+- **Section label pattern** - blue accent bar + uppercase label (used by `statement`, `section-divider`)
 - **Staggered animations** on all layouts via `@vueuse/motion`
-- **PPT brand palette** — Open Sans, #3D5AFE blue, #0F1729 navy
+- **PPT brand palette** - Open Sans, #3D5AFE blue, #0F1729 navy

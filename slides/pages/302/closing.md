@@ -12,8 +12,8 @@ Module 302 summary:
 - SDD puts specification before implementation
 - The Plan agent operationalizes planning-first engineering
 - Spec Kit provides the structured workflow: Constitution → Specify → Plan → Tasks → Implement
-- Specs enable automated validation — connects back to Module 103 TDD
-- Spec drift is the new technical debt — treat specs as living documents
+- Specs enable automated validation - connects back to Module 103 TDD
+- Spec drift is the new technical debt - treat specs as living documents
 - In agentic workflows, the plan is your control surface
 
 Key takeaway: AI makes building cheap. Thinking remains expensive. Invest in thinking.

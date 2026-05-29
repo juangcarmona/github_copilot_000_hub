@@ -40,7 +40,7 @@ Model economics live in Module 303. This slide is about output quality, not cost
 </div>
 
 <!--
-Keep this brief — 303 owns the economics.
+Keep this brief - 303 owns the economics.
 The message here is: model selection affects output quality, not just speed.
 
 Matching model capability to task complexity is a skill, not a default.

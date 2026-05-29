@@ -3,7 +3,7 @@ layout: two-cols-header
 section: Spec Kit
 ---
 
-# Spec Kit — Installation and Setup
+# Spec Kit - Installation and Setup
 
 ### GitHub's open-source toolkit for Spec-Driven Development
 
@@ -39,7 +39,7 @@ Installation adds prompt files to `.github/prompts/` that integrate with Copilot
 
 <div class="mt-6 text-sm opacity-70">
 
-Each prompt enforces one step of the workflow. Order matters — you can't skip ahead.
+Each prompt enforces one step of the workflow. Order matters - you can't skip ahead.
 
 </div>
 

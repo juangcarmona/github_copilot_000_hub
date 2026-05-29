@@ -10,9 +10,9 @@ section: Tool Approvals
 
 ## Tool types
 
-- **Built-in** — file edits, terminal, search, web
-- **MCP servers** — external APIs, databases, services
-- **Extension tools** — from VS Code extensions
+- **Built-in** - file edits, terminal, search, web
+- **MCP servers** - external APIs, databases, services
+- **Extension tools** - from VS Code extensions
 
 ## Approval workflow
 
@@ -23,8 +23,8 @@ Each tool invocation shows:
 
 ## URL approval (two-step)
 
-1. **Pre-approval** — trust the domain?
-2. **Post-approval** — trust the response content?
+1. **Pre-approval** - trust the domain?
+2. **Post-approval** - trust the response content?
 
 <div class="mt-2 text-sm opacity-70">
 

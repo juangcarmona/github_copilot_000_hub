@@ -5,7 +5,7 @@ section: Iterative Refinement
 
 # Polish: Naming and Conventions
 
-### Third prompt — align with project standards
+### Third prompt - align with project standards
 
 <img src="/102/fibonacci-third.png" class="w-full object-contain max-h-72 rounded shadow" />
 
@@ -19,7 +19,7 @@ The three-step pattern:
 2. Get it right (algorithmic approach)
 3. Get it clean (conventions, naming, style)
 
-This is not over-engineering the prompt — it's progressive refinement.
+This is not over-engineering the prompt - it's progressive refinement.
 One loop iteration is often enough. Three means you're converging.
 More than three means context needs restructuring.
 -->

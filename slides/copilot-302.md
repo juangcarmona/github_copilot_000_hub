@@ -2,7 +2,7 @@
 theme: chapter-plain
 title: "Module 302: Spec-Driven Development"
 info: |
-  ## Module 302 — Spec-Driven Development
+  ## Module 302 - Spec-Driven Development
   From specification to implementation with AI
 transition: slide-left
 mdc: true

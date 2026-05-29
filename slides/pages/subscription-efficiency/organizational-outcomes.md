@@ -9,25 +9,25 @@ section: Outcomes
 
 ## What Improves
 
-**Delivery speed** — AI-assisted development reduces time from spec to working code.
+**Delivery speed** - AI-assisted development reduces time from spec to working code.
 
-**Onboarding** — new developers orient faster in AI-ready repositories.
+**Onboarding** - new developers orient faster in AI-ready repositories.
 
-**Repetitive work** — boilerplate, documentation, test generation, and code review automation reduce toil.
+**Repetitive work** - boilerplate, documentation, test generation, and code review automation reduce toil.
 
-**Legacy modernization** — teams modernizing COBOL, .NET Framework, or Power Platform systems use AI engineering to accelerate refactoring, documentation generation, and stack migration. For enterprises with significant technical debt, this is one of the highest-leverage use cases.
+**Legacy modernization** - teams modernizing COBOL, .NET Framework, or Power Platform systems use AI engineering to accelerate refactoring, documentation generation, and stack migration. For enterprises with significant technical debt, this is one of the highest-leverage use cases.
 
 ::right::
 
 ## What Becomes Necessary
 
-**Visibility** — AI usage dashboards replace guesswork on adoption and consumption.
+**Visibility** - AI usage dashboards replace guesswork on adoption and consumption.
 
-**Policies** — data handling, approved tools, and governance must be explicit. AI amplifies existing policy gaps.
+**Policies** - data handling, approved tools, and governance must be explicit. AI amplifies existing policy gaps.
 
-**Shared practices** — instruction files, agent profiles, and prompt libraries are team engineering artifacts, not personal settings.
+**Shared practices** - instruction files, agent profiles, and prompt libraries are team engineering artifacts, not personal settings.
 
-**Budget controls** — AI consumption is variable and scales with usage. Shared credit pools require monitoring and guardrails.
+**Budget controls** - AI consumption is variable and scales with usage. Shared credit pools require monitoring and guardrails.
 
 <div class="mt-4 text-sm opacity-70">
 

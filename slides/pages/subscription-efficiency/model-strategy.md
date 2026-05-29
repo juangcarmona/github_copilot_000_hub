@@ -44,7 +44,7 @@ This is a **coaching conversation**: *"What kinds of tasks are driving the premi
 <!--
 This merges model-economics + token-economics + model-strategy into one slide.
 
-Pricing evolves — check GitHub's current model pricing docs for exact numbers.
+Pricing evolves - check GitHub's current model pricing docs for exact numbers.
 The tiers are illustrative; the matching principle is stable.
 -->
 

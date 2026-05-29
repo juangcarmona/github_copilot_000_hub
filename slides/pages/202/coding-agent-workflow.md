@@ -9,15 +9,15 @@ section: Coding Agent
 
 ## The Workflow
 
-**1. Create or assign an issue** — the issue IS the prompt. Clear acceptance criteria, constraints, scope.
+**1. Create or assign an issue** - the issue IS the prompt. Clear acceptance criteria, constraints, scope.
 
-**2. Assign to @copilot** — creates a branch and starts working on GitHub infrastructure.
+**2. Assign to @copilot** - creates a branch and starts working on GitHub infrastructure.
 
-**3. Review the plan** — Copilot posts a plan comment. Approve, adjust, or redirect.
+**3. Review the plan** - Copilot posts a plan comment. Approve, adjust, or redirect.
 
-**4. Review the PR** — opens a PR when done. Review the diff like any colleague's code.
+**4. Review the PR** - opens a PR when done. Review the diff like any colleague's code.
 
-**5. Iterate or merge** — leave PR comments to request changes. @copilot responds and updates.
+**5. Iterate or merge** - leave PR comments to request changes. @copilot responds and updates.
 
 ::right::
 

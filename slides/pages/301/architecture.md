@@ -3,7 +3,7 @@ layout: default
 section: Architecture
 ---
 
-# MCP Architecture — Operational View
+# MCP Architecture - Operational View
 
 How tools flow from configuration to execution in your development environment.
 
@@ -19,14 +19,12 @@ flowchart LR
     A["Agent Loop"]
   end
   subgraph Servers["MCP Servers"]
-    S1["Local (stdio)<br/>Same machine"]
-    S2["Remote (HTTP)<br/>Cloud / shared"]
+    S1["Local (stdio)"]
+    S2["Remote (HTTP)"]
   end
   subgraph Targets["External Systems"]
-    T1["APIs"]
-    T2["Databases"]
-    T3["CI/CD"]
-    T4["Issue Trackers"]
+    T1["APIs · Databases"]
+    T2["CI/CD · Issue Trackers"]
   end
   J --> D
   U --> D
@@ -35,19 +33,13 @@ flowchart LR
   C --> S2
   A <-->|"tool calls"| C
   S1 --> T1
-  S1 --> T2
-  S2 --> T3
-  S2 --> T4
+  S2 --> T2
 ```
 
-| Transport | Runs | Use case | Example |
-|---|---|---|---|
-| **stdio** | Your machine | Personal tools, fast local access | Playwright, file-based servers |
-| **HTTP** | Remote/cloud | Team infrastructure, shared services | GitHub, Azure DevOps |
+The flow: **config → trust → client → server → external system.**
 
 <!--
 This replaces the protocol-focused architecture slide with an operational one.
-The flow: config → trust → client → server → external system.
-The key gate is trust — nothing runs without explicit consent.
-Local servers are simpler (no auth needed). Remote servers need OAuth/token auth.
+The key gate is trust - nothing runs without explicit consent.
+Transport comparison follows on the next slide.
 -->

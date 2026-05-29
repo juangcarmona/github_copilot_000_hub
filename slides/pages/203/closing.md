@@ -5,7 +5,7 @@ section: Takeaway
 
 # Your codebase is the context. Make it count.
 
-## Invest in structure — every Copilot interaction benefits.
+## Invest in structure - every Copilot interaction benefits.
 
 <!--
 Module 203 summary:
@@ -14,5 +14,5 @@ Module 203 summary:
 - The maturity model: start at Level 1, grow deliberately
 - Cross-stack: same patterns, higher dividends for legacy and documentation-poor systems
 
-TODO: connect with lab 203 — create AI-ready config for your own repository
+TODO: connect with lab 203 - create AI-ready config for your own repository
 -->

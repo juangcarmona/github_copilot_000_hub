@@ -3,7 +3,7 @@ layout: two-cols-header
 section: Graphify
 ---
 
-# Graphify — Repository Knowledge Graphs
+# Graphify - Repository Knowledge Graphs
 
 ::left::
 
@@ -22,10 +22,10 @@ Standard workspace indexing treats files as independent chunks. But code has **r
 ## Why It Matters for AI-Readiness
 
 A knowledge graph reveals:
-- **God nodes** — files everything depends on (risk)
-- **Orphan clusters** — disconnected code (dead code?)
-- **Missing links** — undocumented dependencies
-- **Community structure** — actual vs intended architecture
+- **God nodes** - files everything depends on (risk)
+- **Orphan clusters** - disconnected code (dead code?)
+- **Missing links** - undocumented dependencies
+- **Community structure** - actual vs intended architecture
 
 ::right::
 

@@ -34,13 +34,13 @@ docs/orders.md            ← docs disconnected
 
 ## What Locality Buys You
 
-**Type-aware completions** — Copilot uses interfaces to generate implementations that match the contract.
+**Type-aware completions** - Copilot uses interfaces to generate implementations that match the contract.
 
-**Test-informed generation** — tests near the code teach Copilot your expected behavior patterns.
+**Test-informed generation** - tests near the code teach Copilot your expected behavior patterns.
 
-**Documentation as context** — inline docs explain business rules that types can't express.
+**Documentation as context** - inline docs explain business rules that types can't express.
 
-**Consistent patterns** — Copilot mirrors what it sees. Nearby code shapes nearby suggestions.
+**Consistent patterns** - Copilot mirrors what it sees. Nearby code shapes nearby suggestions.
 
 ## Naming as Signal
 

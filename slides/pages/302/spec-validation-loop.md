@@ -24,7 +24,7 @@ Iterate
 
 The spec-driven loop is the TDD loop (Module 103), elevated to the feature level:
 Module 103 validates functions. Module 302 validates features.
-Both enforce the same discipline — define expected behavior before implementing it.
+Both enforce the same discipline - define expected behavior before implementing it.
 
 </div>
 

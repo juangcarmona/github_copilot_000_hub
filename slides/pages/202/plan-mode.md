@@ -9,13 +9,13 @@ section: Plan Mode
 
 ## Plan Agent Workflow
 
-**1. Describe the task** — high-level requirements, constraints, scope.
+**1. Describe the task** - high-level requirements, constraints, scope.
 
-**2. Plan agent asks questions** — clarifies ambiguity before committing to a strategy.
+**2. Plan agent asks questions** - clarifies ambiguity before committing to a strategy.
 
-**3. Review the plan** — approve, adjust, or reject before any code is written.
+**3. Review the plan** - approve, adjust, or reject before any code is written.
 
-**4. Hand off to execution** — delegate to:
+**4. Hand off to execution** - delegate to:
 - Local Agent (interactive)
 - Copilot CLI (background, isolated)
 - Cloud Agent (async, PR-based)

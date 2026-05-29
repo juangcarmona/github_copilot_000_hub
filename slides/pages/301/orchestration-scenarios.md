@@ -26,7 +26,7 @@ End-to-end: from GitHub issue to reviewed PR, with tests.
 
 <!--
 These are real scenarios, not theoretical ones.
-Show the flow explicitly — input source → agent work → verification → output.
+Show the flow explicitly - input source → agent work → verification → output.
 
 Each scenario has a clear trigger, a clear output, and a clear validation step.
 This is the agentic shift in practice: not "Copilot writes code", but "Copilot drives a workflow".

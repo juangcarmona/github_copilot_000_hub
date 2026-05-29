@@ -2,7 +2,7 @@
 theme: chapter-plain
 title: "GitHub Copilot 101: Using Copilot Effectively"
 info: |
-  ## Module 101 — Copilot Foundations
+  ## Module 101 - Copilot Foundations
   What Copilot is, how it works, and how to use it effectively
 transition: slide-left
 mdc: true
@@ -24,7 +24,7 @@ src: ./pages/101/copilot-modes.md
 src: ./pages/101/development-environments.md
 ---
 
-<!-- How It Works — Context & Generation -->
+<!-- How It Works - Context & Generation -->
 
 ---
 src: ./pages/101/how-copilot-works.md

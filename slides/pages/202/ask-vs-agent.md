@@ -26,5 +26,5 @@ section: Interaction Models
 
 <!--
 The key distinction: chat = you drive, agent = you delegate and review.
-Agent mode doesn't replace chat — it complements it for different task shapes.
+Agent mode doesn't replace chat - it complements it for different task shapes.
 -->

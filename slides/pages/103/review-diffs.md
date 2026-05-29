@@ -18,7 +18,7 @@ section: Code Review
 Every AI edit is a **pending change**. Treat it like a PR from a junior dev.
 
 - Files with pending edits are marked for review
-- Open the diff — read every changed line
+- Open the diff - read every changed line
 - **Keep** what's correct, **Undo** what isn't
 - Hover for line-level accept/reject
 
@@ -39,5 +39,5 @@ Merged from review-discipline.md and review-controls.md.
 The left side shows the changed files view (the big picture: which files changed).
 The right side is the operational workflow: what to do with each pending change.
 
-The "staging auto-accepts" warning is the most dangerous footgun — keep it.
+The "staging auto-accepts" warning is the most dangerous footgun - keep it.
 -->

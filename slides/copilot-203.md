@@ -2,7 +2,7 @@
 theme: chapter-plain
 title: "Module 203: AI-Ready Repositories"
 info: |
-  ## Module 203 — AI-Ready Repositories
+  ## Module 203 - AI-Ready Repositories
   Structuring codebases for optimal Copilot collaboration
 transition: slide-left
 mdc: true
