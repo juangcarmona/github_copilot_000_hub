@@ -5,7 +5,7 @@ section: Spec Kit
 
 # Spec Kit - Installation and Setup
 
-### GitHub's open-source toolkit for Spec-Driven Development
+
 
 ::left::
 
@@ -37,13 +37,9 @@ Installation adds prompt files to `.github/prompts/` that integrate with Copilot
 | `/speckit.plan` | Define technical approach |
 | `/speckit.tasks` | Break into implementable units |
 
-<div class="mt-6 text-sm opacity-70">
-
-Each prompt enforces one step of the workflow. Order matters - you can't skip ahead.
-
-</div>
-
 <!--
+
+### GitHub's open-source toolkit for Spec-Driven Development
 Spec Kit is a practical toolkit, not a heavy methodology.
 
 The prompt files it installs make the workflow accessible directly from Copilot Chat.

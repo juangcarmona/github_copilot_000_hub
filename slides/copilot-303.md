@@ -1,160 +1,76 @@
 ---
 theme: chapter-plain
-title: "Module 303: Enterprise Adoption"
+title: "Module 303: AI in the Software Development Lifecycle"
 info: |
-  ## Module 303 - Enterprise Adoption & Workflow Economics
-  AI credits, cost control, governance, and operational thinking at scale
+  ## Module 303 - AI in the Software Development Lifecycle
+  Organizational maturity, governance, measurement, and operating model evolution
 transition: slide-left
 mdc: true
-src: ./pages/303/cover.md
+src: ./pages/303/01-cover.md
 ---
 
-<!-- Value Gap -->
+<!-- Why AI Changes the SDLC -->
 
 ---
-src: ./pages/303/adoption-value-gap.md
+src: ./pages/303/02-why-ai-changes-sdlc.md
 ---
 
-<!-- Economics -->
+<!-- Tool Adoption vs Operating Model -->
 
 ---
-src: ./pages/303/economics.md
----
----
-src: ./pages/303/ai-credit-drivers.md
----
----
-src: ./pages/303/model-economics.md
----
----
-src: ./pages/303/model-strategy.md
----
----
-src: ./pages/303/thinking-effort.md
----
----
-src: ./pages/303/token-economics.md
----
----
-src: ./pages/303/autocomplete.md
+src: ./pages/303/03-tool-adoption-vs-operating-model.md
 ---
 
-<!-- Governance -->
+<!-- AI Across the SDLC -->
 
 ---
-src: ./pages/303/governance-vs-enablement.md
----
----
-src: ./pages/303/phase-specific-controls.md
----
----
-src: ./pages/303/combine-tools.md
----
----
-src: ./pages/303/combine-tools-2.md
----
----
-src: ./pages/303/ptx.md
----
----
-src: ./pages/303/ptx-2.md
----
----
-src: ./pages/303/governance.md
----
----
-src: ./pages/303/operational-controls.md
+src: ./pages/303/04-ai-across-sdlc.md
 ---
 
-<!-- Agent / Review / Observability -->
+<!-- AI SDLC Maturity Model -->
 
 ---
-src: ./pages/303/agent.md
----
----
-src: ./pages/303/agent-guardrails.md
----
----
-src: ./pages/303/review-depth-at-scale.md
----
----
-src: ./pages/303/agent-observability.md
----
----
-src: ./pages/303/agents-window.md
+src: ./pages/303/05-maturity-model.md
 ---
 
-<!-- Operating Model -->
+<!-- What Changes At Each Maturity Level -->
 
 ---
-src: ./pages/303/agents-and-systems.md
----
----
-src: ./pages/303/operating-model.md
----
----
-src: ./pages/303/rollout-patterns.md
----
----
-src: ./pages/303/platform-enablement.md
----
----
-src: ./pages/303/ai-driven-teams.md
+src: ./pages/303/06-maturity-changes.md
 ---
 
-<!-- Usage / Measurement -->
+<!-- Governance Before Scale -->
 
 ---
-src: ./pages/303/manager-intro.md
----
----
-src: ./pages/303/shared-budget.md
----
----
-src: ./pages/303/baseline-before-scale.md
----
----
-src: ./pages/303/usage-visibility.md
----
----
-src: ./pages/303/usage-analysis.md
----
----
-src: ./pages/303/usage-analysis-2.md
----
----
-src: ./pages/303/report-guide.md
----
----
-src: ./pages/303/report-alarms.md
+src: ./pages/303/07-governance-before-scale.md
 ---
 
-<!-- Sustainable Adoption -->
+<!-- Measuring AI Impact -->
 
 ---
-src: ./pages/303/failure-patterns.md
+src: ./pages/303/08-measuring-ai-impact.md
 ---
+
+<!-- AI Code Review at Scale -->
+
 ---
-src: ./pages/303/sustainable-adoption.md
+src: ./pages/303/09-code-review-at-scale.md
 ---
+
+<!-- Common Failure Patterns -->
+
 ---
-src: ./pages/303/ai-sdlc-maturity-model.md
+src: ./pages/303/10-failure-patterns.md
 ---
+
+<!-- AI Operating Model -->
+
 ---
-src: ./pages/303/maturity-progression.md
+src: ./pages/303/11-operating-model.md
 ---
 
 <!-- Closing -->
 
 ---
-src: ./pages/303/organizational-outcomes.md
----
----
-src: ./pages/303/organizational-outcomes-2.md
----
----
-src: ./pages/303/resources.md
----
----
-src: ./pages/303/closing.md
+src: ./pages/303/12-closing.md
 ---

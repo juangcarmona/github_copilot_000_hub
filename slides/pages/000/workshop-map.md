@@ -49,7 +49,7 @@ Spec-driven development
 
 <div class="p-4 border rounded-xl">
 <strong>303</strong><br/>
-Enterprise operationalization
+AI-SDLC
 </div>
 
 </div>

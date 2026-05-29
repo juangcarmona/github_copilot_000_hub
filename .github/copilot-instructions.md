@@ -31,7 +31,7 @@ The workshop progression is:
 3. AI-ready repositories
 4. Orchestration and MCP
 5. Spec-driven development
-6. Enterprise operationalization
+6. AI-SDLC
 
 ## Layout System
 
