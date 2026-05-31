@@ -42,7 +42,7 @@ static List<Order> _orders = new();
 
 Every generated test needs this check before you trust it.
 
-<div class="mt-6 text-sm opacity-70">A test that can't fail is decoration, not protection.</div>
+<div class="mt-6 text-sm opacity-70"><b>A test that can't fail is mere decoration.</b> Noise.</div>
 
 <!--
 Merged from flaky-tests.md and spot-fake-green.md.
@@ -52,4 +52,10 @@ Both fit on one slide because the content is compact and directly related.
 
 The mutation check is the single most transferable heuristic:
 break the code, see if the test breaks. If not, the test is wrong.
+
+Talking point: "The mutation check is the one heuristic to take home. If you forget
+everything else, remember: break the code, see if the test breaks."
+
+Exercise 2 (Fix the Flaky Test): the lab starter contains all three patterns.
+Let participants find them before showing this slide's patterns.
 -->

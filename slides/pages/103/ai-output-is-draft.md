@@ -15,9 +15,7 @@ Every Copilot output - inline, chat, agent - is a **draft**.
 It requires the same steps as any code change:
 
 - Read the diff
-- Verify APIs exist
 - Run tests
-- Check behavior, not just syntax
 - Review before committing
 
 </div>
@@ -45,4 +43,16 @@ The trust idea is collapsed into operational steps: read, verify, run, check, re
 The autonomy table is practical: more autonomy = more review, not more trust.
 
 This replaces trust-boundaries.md which was too abstract.
+
+Additional detail for the trainer (not on the slide to avoid previewing the validation workflow):
+- "Verify APIs exist" — Copilot can call methods that don't exist. Compilation catches syntax,
+  not semantic correctness. If it compiles, check that the APIs are real and current.
+- "Check behavior, not just syntax" — a function can be syntactically perfect and logically wrong.
+  The validation workflow on the next slide makes this concrete.
+
+Demo suggestion: show a Copilot-generated function that compiles but calls a nonexistent API method.
+The diff looks clean. The build fails. This sets up the validation workflow.
+
+Talking point: "Compilation is necessary but not sufficient. The validation workflow is the
+sufficient check."
 -->

@@ -28,7 +28,7 @@ section: Code Review
 
 **2.** Focus it: *"Review only the payment processing changes."*
 
-**3.** Triage - not all findings are blocking. Some are suggestions.
+**3.** Triage: fix blockers, note suggestions, dismiss false positives with a reason.
 
 **4.** Iterate: *"Why is this flagged? How do I fix it?"*
 
@@ -43,6 +43,12 @@ Trimmed from the previous version. Removed:
 - excessive agent review theory
 
 The core: when to use it, five steps, one warning.
+
+Talking point: "Copilot review is not a replacement for human review. It's a first pass.
+It catches patterns. Humans catch intent."
+
+Demo suggestion: show a PR with a subtle behavioral regression that Copilot flags,
+and one it misses. This sets up the closing message.
 
 Lab exercises:
 - Exercise 3: three intentionally problematic PRs in pr-examples/

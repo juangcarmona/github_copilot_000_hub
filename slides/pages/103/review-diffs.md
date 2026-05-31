@@ -28,7 +28,7 @@ Staging in Source Control auto-accepts pending edits.
 
 Review first. Stage second.
 
-<div class="mt-4 text-sm opacity-70">The inline review controls (↑/↓) navigate between individual edits across files.</div>
+<div class="mt-4 text-sm opacity-70">Once the diff looks right, validate behavior with tests.</div>
 
 </div>
 </div>
@@ -40,4 +40,11 @@ The left side shows the changed files view (the big picture: which files changed
 The right side is the operational workflow: what to do with each pending change.
 
 The "staging auto-accepts" warning is the most dangerous footgun - keep it.
+The inline review controls (↑/↓) navigate between individual edits across files.
+
+Demo: generate a multi-file edit in agent mode, then walk through the changed files panel.
+Show accept/reject at line level.
+
+Warning to trainer: staging in Source Control auto-accepts. Demo this footgun live —
+participants remember what they see go wrong.
 -->

@@ -1,0 +1,12 @@
+Gisela Torres:
+https://www.returngis.net/2026/05/como-crear-un-status-line-personalizado-para-github-copilot-cli/
+
+Scott Hanselman
+
+https://gist.github.com/shanselman/9623ac74888a07ba82f63f5310fda11b
+
+Integrations:
+https://copilot-academy.github.io/workshops/copilot-customization/integrations
+
+Agentic Workflows (see Daily Repository Status Report):
+https://copilot-academy.github.io/workshops/copilot-customization/agentic_workflows

@@ -30,9 +30,6 @@ Add a test for inputs with whitespace-only fields.
 
 ## Review every assertion
 
-For each generated test, ask:
-> If I break the implementation, does this test catch it?
-
 ```csharp
 // ❌ Asserts nothing
 var result = service.Cancel(id);
@@ -53,4 +50,12 @@ This slide is the operational workflow - describe, generate, run red, iterate, v
 
 The right column assertion contrast is the single most important teaching point.
 A test that can't catch a regression is not a test.
+
+The mutation check ("if I break the code, does the test break?") is taught on the next slide
+(fake-green.md) with a concrete code-flip example. Do not repeat it here.
+
+Demo suggestion: use /tests on a simple service. Before running, ask participants to predict
+which tests will be fake-green. Then run and verify.
+
+Bridge to next slide: "Now let's look at the three patterns that make generated tests worthless."
 -->

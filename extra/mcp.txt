@@ -1,0 +1,15 @@
+Add MCP servers:
+https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers
+
+Jira MCP integration:
+https://www.workato.com/the-connector/jira-mcp/
+
+Atlassian:
+https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
+
+Understand Atlassian Rovo MCP server:
+https://support.atlassian.com/security-and-access-policies/docs/understand-atlassian-rovo-mcp-server/
+
+
+MCP Clients: Understanding the potential security risks
+https://www.atlassian.com/blog/artificial-intelligence/mcp-risk-awareness

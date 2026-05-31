@@ -1,0 +1,9 @@
+Official guide:
+https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/use-hooks
+
+
+https://htek.dev/articles/github-copilot-cli-extensions-complete-guide
+
+
+Example, dangerous:
+https://smartscope.blog/en/generative-ai/github-copilot/github-copilot-hooks-guide/#example-1-blocking-dangerous-commands-pretooluse

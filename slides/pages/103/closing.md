@@ -3,10 +3,15 @@ layout: statement
 section: Takeaway
 ---
 
-# Passing tests are evidence, not proof.
+# A battery of green tests
+# can still hide a broken system.
 
-## AI-generated code requires the same validation loop as human-written code.
-## The workflow is not optional - it's the discipline.
+## We must be disciplined.
+
+### Read the code.
+### Read the tests.
+### Verify the behavior.
+
 
 <!--
 Module 103 summary: all tests pass in the starter. That is the setup, not the resolution.
@@ -18,7 +23,9 @@ The validation workflow: generate → review diff → run tests → security che
 The loop applies to autocomplete, chat, and agent mode. The scope changes. The discipline doesn't.
 
 Trainer note:
-The point is not to make Copilot look bad. The point is to teach where Copilot output must be verified.
-Participants should compare Copilot's findings with their own review.
-Copilot is useful in this module, but only inside a disciplined validation loop.
+- The point is not to make Copilot look bad. The point is to teach where Copilot output must be verified.
+- Participants should compare Copilot's findings with their own review.
+- Copilot is useful in this module, but only inside a disciplined validation loop.
+- Briefly revisit the validation workflow slide. The closing should feel like a callback,
+  not a new statement. The audience should recognize the loop they've now practiced.
 -->
