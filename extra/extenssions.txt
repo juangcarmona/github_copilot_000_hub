@@ -1,0 +1,5 @@
+https://github.com/microsoft/AI-Engineering-Coach
+
+
+Also: AI Engineering Fluency
+https://marketplace.visualstudio.com/items?itemName=RobBos.ai-engineering-fluency
