@@ -44,9 +44,21 @@ Before sending a prompt:
 * What patterns should I follow or avoid?
 * What should the final behavior look like?
 
-## The Insight
+<!--
+This is the anchor slide for specificity. The cornerstones recap (101) introduced
+the concept; this slide operationalizes it with a concrete before/after.
 
-> Every missing detail becomes a model decision.
+The insight to share verbally: "Every missing detail becomes a model decision."
+That's the single sentence that makes specificity click.
 
+The checklist is a reference the audience can take away and use daily.
+
+Walk through the vague→specific transformation:
+- "Add validation" → which field? which rules? which response?
+- The specific version names the target, describes the behavior, specifies the output.
+
+Transition: "Specificity removes decisions from the model. But what about the
+ambiguity already present in your prompts?"
+-->
 
 

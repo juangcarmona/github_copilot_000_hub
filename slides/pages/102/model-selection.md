@@ -16,32 +16,33 @@ section: Model Selection
 | Architecture, complex reasoning | Advanced |
 | Vision, multimodal tasks | Specialized |
 
-Faster models respond quickly and consume fewer credits.
-Advanced models reason more deeply but cost more per interaction.
-
 ::right::
 
 ## When to Step Up
 
-Use a faster model when:
+**Faster model** — well-defined, repetitive tasks
+
+**Advanced model** — multi-step reasoning, architecture, security
+
+<!--
+Model selection affects output quality, not just speed.
+Matching model capability to task complexity is a skill, not a default.
+
+Faster models respond quickly and consume fewer credits.
+Advanced models reason more deeply but cost more per interaction.
+
+When to use a faster model:
 - The task is well-defined and repetitive
 - You are iterating on completions
 - Speed matters more than depth
 
-Use an advanced model when:
+When to use an advanced model:
 - The problem requires multi-step reasoning
 - You are designing architecture or reviewing security
 - The output will be reused broadly
 
-<div class="mt-6 text-sm opacity-70">
+Model economics (cost, token budgets, rate limits) live in Module 303.
+This slide is only about choosing the right tool for the job.
 
-Model economics live in Module 303. This slide is about output quality, not cost optimization.
-
-</div>
-
-<!--
-Keep this brief - 303 owns the economics.
-The message here is: model selection affects output quality, not just speed.
-
-Matching model capability to task complexity is a skill, not a default.
+Transition: "Even with the right model, things go wrong. Let's talk about recovery."
 -->

@@ -9,19 +9,9 @@ section: Techniques
 
 ::left::
 
-## Ambiguous
-
 ```text
 "Add a test"
 ```
-
-Questions:
-
-* Unit or integration?
-* Which function?
-* Which edge case?
-
-## Disambiguated
 
 ```text
 "Add a unit test for calculateDiscount().
@@ -36,7 +26,7 @@ One target. One behavior.
 
 Before sending a prompt, ask:
 
-> “Could two senior engineers interpret this differently?”
+> "Could two senior engineers interpret this differently?"
 
 If yes:
 
@@ -44,11 +34,20 @@ If yes:
 * describe the behavior
 * add the constraint
 
-## The Insight
+<!--
+The Ambiguity Test is the unique takeaway from this slide.
 
-> Ambiguity creates branching interpretations.
+This complements the Specificity Checklist from the previous slide.
+Specificity is about adding detail. Ambiguity reduction is about removing
+alternative interpretations.
 
-The model picks one.
+Example to share:
+- "Add a test" -> unit or integration? which function? which edge case?
+- "Add a unit test for calculateDiscount(). Verify it returns null when cart is empty."
+  -> one target, one behavior.
+
+The insight: ambiguity creates branching interpretations. The model picks one.
 Not always the one you wanted.
 
-
+Transition: "Now let's look at how examples can guide the model even further."
+-->

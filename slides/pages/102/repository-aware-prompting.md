@@ -1,6 +1,6 @@
 ---
 layout: two-cols-header
-section: Repository Influence
+section: Context
 ---
 
 # Your Repository Is Context
@@ -8,8 +8,6 @@ section: Repository Influence
 ### Copilot responds to the repository it sees - not just the prompt you type
 
 ::left::
-
-## Repository Signals
 
 <div class="text-sm">
 
@@ -23,13 +21,24 @@ section: Repository Influence
 
 ::right::
 
-## The Insight
-
-Names, structure, tests, and documentation all shape Copilot output before you even type a prompt.
-
 > The repository is part of the prompt.
 
 <!--
-Keep this conceptual and lightweight.
-This is only the bridge toward Modules 201 and 203.
+Conceptual bridge — Modules 201 and 203 own repository governance.
+
+The table shows three signals:
+- Consistent naming → Copilot follows conventions
+- Stale docs → Copilot follows outdated patterns
+- Competing implementations → Copilot picks randomly
+
+Names, structure, tests, and documentation all shape Copilot output
+before you even type a prompt. The repository is part of the prompt.
+
+Teams can define always-on conventions through repository-level instruction
+files — covered in Modules 201 and 203.
+
+Example: if your codebase has both pricing.js and priceCalculator.js,
+Copilot will import one of them — and which one depends on open tabs.
+
+Transition: "So the repo shapes output. Let's move to the core prompting techniques."
 -->

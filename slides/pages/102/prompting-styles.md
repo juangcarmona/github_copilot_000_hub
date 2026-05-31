@@ -18,8 +18,6 @@ Input: { basePrice, purchaseDate, eventDate }.
 Output: { finalPrice, discountApplied }."
 ```
 
-**Focus:** inputs, outputs, constraints, examples.
-
 ::right::
 
 ## Debugging
@@ -31,13 +29,25 @@ is empty. The expected behavior is returning
 an empty result set. Fix only this function."
 ```
 
-**Focus:** observed behavior, expected behavior, scope.
-
 <!--
-Each task type has a natural prompt structure.
+Each task type has a natural prompt structure. Mismatch between task type and
+prompt style is a common failure mode.
 
-Generation: shape the output (inputs + outputs + constraints)
-Debugging: describe the gap (observed vs expected + scope)
+Generation prompts: shape the output (inputs + outputs + constraints + examples).
+The ticket pricing example shows all four elements.
 
-Mismatch between task type and prompt style is a common failure mode.
+Debugging prompts: describe the gap (observed vs expected + scope).
+The "line 42" example names the error, the trigger condition, the expected behavior,
+and the scope constraint ("fix only this function").
+
+Focus patterns:
+- Generation: inputs, outputs, constraints, examples
+- Debugging: observed behavior, expected behavior, scope
+
+The orphaned file prompting-styles-2.md covers Refactoring and Planning styles.
+Consider adding it back if time allows, or reference it verbally:
+- Refactoring: define the transformation (before → after + boundaries)
+- Planning: request analysis (options + tradeoffs + no code)
+
+Transition: "Style shapes the output. But precision in your code also shapes it."
 -->

@@ -7,31 +7,41 @@ section: Recovery
 
 ## Diagnose First
 
-**Amplified ambiguity** - Copilot didn't invent a problem. It amplified one already present in the repository. Stale docs, old component names, competing data formats, duplicated utilities, partial migrations - all of these are context signals. Copilot follows them.
-→ Remove misleading context. Close stale tabs. Attach the authoritative file.
+**Amplified ambiguity** → Remove misleading context. Close stale tabs. Attach the authoritative file.
 
-**Hallucination** - generated code references APIs, functions, or types that don't exist.
-→ Attach the actual API file or type definition. Add a concrete example of the existing surface.
+**Hallucination** → Attach the actual API file or type definition. Add a concrete example.
 
-**Context gap** - output is generic rather than project-specific.
-→ Use `#file`, `#codebase`, or paste a representative snippet. Copilot only reasons about what it sees.
+**Context gap** → Use `#file`, `#codebase`, or paste a representative snippet.
 
-**Scope creep** - more was changed than asked.
-→ Ask for smaller, targeted changes. Specify exactly which function to touch.
+**Scope creep** → Ask for smaller, targeted changes. Specify exactly which function to touch.
 
 <!--
-Key reframe: hallucination is not just "Copilot inventing things out of nowhere".
-In an ambiguous codebase, Copilot amplifies the ambiguity that already exists.
+This is a diagnostic workflow, not a list of failure modes.
+The pattern: understand WHY it went wrong, then apply the right recovery.
 
-The festival booking codebase has:
-- stale documentation (api-spec.md references field names matching neither data file)
-- old component names in component-guide.md (ShowCard, PerformerList, OrderForm)
-- competing data formats (festivals.json vs events.json)
-- duplicated pricing utilities (pricing.js vs priceCalculator.js)
-- partial migrations (EventCard still exists alongside FestivalCard)
+Scenarios in detail:
 
-When Copilot generates code using eventName instead of name, it's following the open api-spec.md tab.
-That's not hallucination. That's context amplification. The fix is context management.
+1. Amplified ambiguity — Copilot didn't invent a problem. It amplified one already
+   present in the repository. Stale docs, old component names, competing data formats,
+   duplicated utilities, partial migrations — all context signals. Copilot follows them.
 
-The workflow: problem → diagnose root cause → targeted mitigation → validate the fix
+2. Hallucination — generated code references APIs, functions, or types that don't exist.
+   This often happens when the model extrapolates from partial information.
+
+3. Context gap — output is generic rather than project-specific.
+   Copilot only reasons about what it sees.
+
+4. Scope creep — more was changed than asked.
+   Common with broad prompts.
+
+Key insight: most prompt failures are context failures, not model failures.
+If the repository contains two versions of the truth, open tabs decide which one
+Copilot believes. Fixing the context fixes the output.
+
+Additional recovery patterns (from failure-recovery-2.md, mention verbally):
+- Conflicting output → restart the conversation. Long context accumulates contradictions.
+- Repetitive bad results → explicitly state what NOT to do.
+- Confident wrong answer → validate with docs, tests, or a second opinion.
+
+Transition: "A well-structured prompt is worth ten retries."
 -->

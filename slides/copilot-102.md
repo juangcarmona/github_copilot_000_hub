@@ -23,11 +23,8 @@ src: ./pages/101/prompting-cornerstones.md
 ---
 src: ./pages/102/why-prompting-matters.md
 ---
----
-src: ./pages/102/best-practices.md
----
 
-<!-- Context Engineering -->
+<!-- Context -->
 
 ---
 src: ./pages/102/context-assembly.md
@@ -39,16 +36,7 @@ src: ./pages/102/neighboring-tabs.md
 src: ./pages/102/explicit-context-attachment.md
 ---
 ---
-src: ./pages/102/context-engineering.md
----
----
 src: ./pages/102/repository-aware-prompting.md
----
----
-src: ./pages/102/always-on-instructions.md
----
----
-src: ./pages/102/instruction-scope.md
 ---
 
 <!-- Techniques -->
@@ -64,9 +52,6 @@ src: ./pages/102/zero-one-shot.md
 ---
 ---
 src: ./pages/102/few-shot.md
----
----
-src: ./pages/102/prompt-decomposition.md
 ---
 ---
 src: ./pages/102/divide-and-conquer.md

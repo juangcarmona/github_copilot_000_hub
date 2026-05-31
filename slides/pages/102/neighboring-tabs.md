@@ -8,22 +8,12 @@ section: Context
 <div class="grid grid-cols-2 gap-8">
 <div class="leading-snug">
 
-Open files are **implicit context**. Copilot reads them even when you don't attach them explicitly.
-
 **What to keep open**
 
-- Interface or type definitions your code implements
+- Interface or type definitions
 - Related utility or service files
 - A representative test file
-- Relevant config (tsconfig, package.json)
-
-**What to close**
-
-- Stale docs that contradict current code
-- Old versions of refactored modules
-- Unrelated large files that crowd context
-
-<div class="text-sm opacity-70">Same prompt + different open tabs = different suggestions.</div>
+- Relevant config
 
 </div>
 <div>
@@ -34,8 +24,21 @@ Open files are **implicit context**. Copilot reads them even when you don't atta
 </div>
 
 <!--
-This is one of the simplest and most effective context management techniques.
+One of the simplest and most effective context management techniques.
 
-The image shows how Copilot uses open tabs as additional context signals.
-Facilitators can demo: same prompt, different tabs open → different output.
+Open files are implicit context — Copilot reads them even when you don't attach
+them explicitly. Same prompt + different open tabs = different suggestions.
+
+What to keep open: interfaces, related services, representative tests, relevant config.
+
+What to close: stale docs that contradict current code, old versions of refactored
+modules, unrelated large files that crowd the context window.
+
+Demo idea: open a prompt in two setups — one with the correct interface file open,
+one with a stale doc open. Show how the suggestions diverge.
+
+Key message: tab management is context engineering. Treat your open tabs as a
+curated context set, not a workspace.
+
+Transition: "Open tabs are implicit. But you can also attach context explicitly."
 -->

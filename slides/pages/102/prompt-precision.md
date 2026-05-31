@@ -1,13 +1,11 @@
 ---
 layout: two-cols-header
-section: Prompt Precision
+section: Techniques
 ---
 
-# Precision Is Context
+# Names Are Implicit Prompts
 
 ::left::
-
-## Names as Signals
 
 Copilot reads your code. Vague names produce vague completions:
 
@@ -21,29 +19,36 @@ function validateShippingAddress(
 ): ValidationResult { ... }
 ```
 
-Well-named types, variables, and files are implicit prompts.
-
 ::right::
 
-## Explicit Constraints
+## Specifications as Input
 
-State what you want AND what you don't:
-
-- *"Returns a JSON object with `name`, `email`, `role` fields"*
-- *"Throws if input is null or empty"*
-- *"Use `reduce`, not a for loop"*
-- *"Must handle arrays up to 10,000 elements"*
-- *"Do not use external dependencies"*
-
-## Format Contracts
-
-- *"Takes an array of strings, returns the first palindrome found or null"*
-- *"Accepts ISO 8601 date strings, returns a Unix timestamp"*
+```ts
+interface PaymentResult {
+  success: boolean;
+  transactionId: string;
+  error?: string;
+}
+// Implementations respect the contract.
+```
 
 <!--
-This slide absorbs the core message from 101/code-quality-basics:
-names and specifications are context signals, not just style choices.
+The unique lesson: well-named types, variables, and files are implicit prompts.
+Copilot reads your code — vague names produce vague completions.
 
-The connection: code quality → context quality → AI output quality.
-A well-named, well-typed codebase is a better Copilot partner.
+The code example shows:
+- process(data) → generic, Copilot guesses intent
+- validateShippingAddress(address: Address): ValidationResult → domain-specific,
+  Copilot understands the task
+
+This connects back to repository-aware-prompting: code quality = context quality = AI output quality.
+
+Additional precision techniques (mention verbally):
+- Format contracts: "Takes an array of strings, returns the first palindrome or null"
+- Explicit constraints: "Use reduce, not a for loop" / "Do not use external dependencies"
+- Type definitions as contracts: give Copilot an interface and the implementation
+  respects it.
+
+Transition: "Good names help Copilot understand. But the first response isn't always right.
+Let's look at iterative refinement."
 -->

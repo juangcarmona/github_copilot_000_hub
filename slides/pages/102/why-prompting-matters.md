@@ -9,20 +9,11 @@ section: Fundamentals
 
 ## What changed?
 
-**Module 101** - make Copilot generate code.
-Simple, isolated files. Obvious context. Autocomplete.
+**Module 101** — simple files, obvious context, autocomplete.
 
-**Module 102** - make Copilot follow the right version of the codebase.
-Competing data formats. Duplicated utilities. Stale docs. Partial migrations.
-
-The skill is not only writing better prompts.
-It's controlling what Copilot sees.
+**Module 102** — competing formats, duplicated utilities, stale docs, partial migrations.
 
 ::right::
-
-## What is Prompt Engineering?
-
-Designing prompts that help Copilot understand your intent - and ensuring the surrounding context supports that intent.
 
 <div class="text-sm">
 
@@ -37,13 +28,18 @@ Designing prompts that help Copilot understand your intent - and ensuring the su
 </div>
 
 <!--
-This replaces the generic "what/why/how" framing with an explicit 101→102 bridge.
+Bridge from 101 to 102.
 
-The key insight: 102 is not just "better prompts" - it's learning to manage context in a codebase
-that contains competing truths.
+Key reframe for the audience: 101 was about making Copilot generate code in simple,
+isolated files. 102 is about making Copilot follow the RIGHT version of a codebase.
 
-The booking frontend has two data formats, two pricing modules, two state hooks, two API clients,
-stale docs that reference components that no longer exist by those names.
+The skill is not only writing better prompts — it's controlling what Copilot sees.
+Prompt engineering = designing prompts that help Copilot understand your intent,
+and ensuring the surrounding context supports that intent.
 
-In that environment, prompt wording matters less than which files are open.
+In a real codebase you'll find competing data formats, duplicated utilities, stale docs,
+and partial migrations. In that environment, prompt wording matters less than which
+files are open and which context is attached.
+
+Transition: "So what does Copilot actually see when you send a prompt? Let's look."
 -->
