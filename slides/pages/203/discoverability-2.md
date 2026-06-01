@@ -7,29 +7,12 @@ section: Discoverability
 
 ## Anti-Patterns That Kill Discoverability
 
-**Implicit knowledge:**
-```
-"Oh, you need to know that /legacy/ is actually
-the current code and /src/ is the migration."
-```
-AI will never know this unless you write it down.
-
-**Configuration elsewhere:**
-```
-"The real settings are in our internal wiki."
-```
-Copilot only reads your repository.
-
-**Convention by memory:**
-```
-"We always put validators in the same file
-as the service. Everyone knows that."
-```
-If it's not visible in structure, it doesn't exist for AI.
+- **Implicit knowledge** — conventions kept in people's heads (e.g., "/legacy/ is current"). AI can't infer this.
+- **Configuration elsewhere** — settings in external wikis are invisible to Copilot.
+- **Convention by memory** — unspoken rules ("validators live with services") don't surface in retrieval.
 
 <div class="mt-4 text-sm opacity-70">
-
-**The fix:** Make implicit knowledge explicit. If a human needs a tour, an AI needs a document.
+**The fix:** Make implicit knowledge explicit in the repo: README, ADRs, instruction files, or small guiding docs.
 
 </div>
 

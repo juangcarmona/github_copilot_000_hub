@@ -8,33 +8,30 @@ section: Reviewing Changes
 <div class="grid grid-cols-2 gap-8 mt-4">
 <div class="leading-snug">
 
-## Changes panel (Agents window)
+## Changes panel
 
-- **Files tab** - full workspace file explorer
-- **Changes tab** - files added, modified, deleted
+- **Files** — workspace file list
+- **Changes** — added / modified / deleted files
 
-## Review workflow
+## Quick review
 
-1. Select file → opens diff view
-2. Click inside an edit → **Add Feedback**
-3. Agent adjusts based on your inline comments
+1. Open a changed file to view the diff.
+2. Add inline feedback; agent will revise.
 
-## After review
+## Actions
 
 <div class="text-sm">
 
-| Action | Effect |
+| Action | What it does |
 |---|---|
-| **Commit** | Apply to workspace (folder isolation) |
-| **Merge** | Merge worktree branch, optional PR |
-| **Checkout** | Pull cloud session branch locally |
-| **Discard** | Remove unwanted edits |
+| **Commit** | Apply edits to working folder |
+| **Merge** | Merge branch / open PR |
+| **Discard** | Revert agent edits |
 
 </div>
 
 <div class="mt-2 text-sm opacity-70">
-
-Treat agent output like a colleague's PR - review the diff, not the promise.
+Review the diff; decide what to keep.
 
 </div>
 

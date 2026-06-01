@@ -15,14 +15,8 @@ festival-checkin/
 ├── ARCHITECTURE.md         ← system map
 ├── src/
 │   ├── api/                ← HTTP layer
-│   │   ├── routes/
-│   │   └── middleware/
 │   ├── domain/             ← business logic
-│   │   ├── checkin/
-│   │   └── validation/
 │   └── infrastructure/     ← persistence, external
-│       ├── database/
-│       └── notifications/
 ├── docs/
 │   └── adr/
 └── tests/

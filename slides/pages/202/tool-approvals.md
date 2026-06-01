@@ -26,17 +26,15 @@ Each tool invocation shows:
 1. **Pre-approval** - trust the domain?
 2. **Post-approval** - trust the response content?
 
-<div class="mt-2 text-sm opacity-70">
 
-Review parameters carefully. Tools can modify files, run commands, and fetch external content. Post-approval catches prompt injection in fetched content.
-
-</div>
 
 </div>
 <div>
 <img src="/202/chat-approve-tool.png" class="w-full object-contain rounded shadow" />
+Review parameters carefully. Tools can modify files, run commands, and fetch external content. Post-approval catches prompt injection in fetched content.
 </div>
 </div>
+
 
 <!--
 Tool approvals are the primary security boundary in agent mode.

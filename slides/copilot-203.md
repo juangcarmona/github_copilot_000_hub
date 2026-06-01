@@ -72,21 +72,6 @@ src: ./pages/203/indexing-embeddings-2.md
 src: ./pages/203/context-assembly.md
 ---
 
-<!-- Graphify -->
-
----
-src: ./pages/203/graphify-intro.md
----
----
-src: ./pages/203/graphify-setup.md
----
----
-src: ./pages/203/graphify-analysis.md
----
----
-src: ./pages/203/cache-explorer.md
----
-
 <!-- Repository Drift -->
 
 ---
@@ -104,6 +89,9 @@ src: ./pages/203/instruction-surfaces.md
 ---
 src: ./pages/203/adr-and-spec-placement.md
 ---
+---
+src: ./pages/203/spec-placement.md
+---
 
 <!-- Agent Infrastructure -->
 
@@ -111,19 +99,10 @@ src: ./pages/203/adr-and-spec-placement.md
 src: ./pages/203/agent-entrypoints.md
 ---
 ---
+src: ./pages/203/agent-infrastructure.md
+---
+---
 src: ./pages/203/ci-integration.md
----
-
-<!-- Cross-Stack -->
-
----
-src: ./pages/203/cross-stack-patterns.md
----
-
-<!-- Maturity -->
-
----
-src: ./pages/203/maturity-model.md
 ---
 
 <!-- Closing -->

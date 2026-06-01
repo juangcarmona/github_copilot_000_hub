@@ -1,11 +1,9 @@
 ---
 layout: comparison
-section: AI-Hostile Repositories
+section: AI-Hostile vs AI-Friendly Repositories
 beforeTitle: AI-Hostile
 afterTitle: AI-Friendly
 ---
-
-# AI-Hostile vs AI-Friendly Repositories
 
 ::before::
 
@@ -22,7 +20,6 @@ src/
     └── utils-backup.js   ← which is current?
 ```
 
-**Symptoms:**
 - Copilot suggests code that already exists elsewhere
 - Completions reference wrong types
 - Agents can't find relevant files
@@ -38,15 +35,11 @@ src/
 │   ├── order.service.test.ts
 │   └── README.md
 ├── payments/
-│   ├── payment.types.ts
-│   ├── payment.processor.ts
-│   ├── payment.processor.test.ts
-│   └── README.md
+(same structure as orders)
 └── shared/
     └── money.ts          ← one clear utility
 ```
 
-**Outcomes:**
 - Copilot infers intent from folder context
 - Types are discoverable and scoped
 - Agents navigate by convention

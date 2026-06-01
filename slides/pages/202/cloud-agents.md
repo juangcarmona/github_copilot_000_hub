@@ -8,26 +8,24 @@ section: Cloud Agents
 <div class="grid grid-cols-2 gap-8 mt-4">
 <div class="leading-snug">
 
-## Key characteristics
+### Key characteristics
 
 - Runs on GitHub infrastructure (not your machine)
 - Works against your GitHub repository
 - Opens pull requests automatically
 - Integrates with code review workflows
-- Third-party options: Claude, Codex
 
-## Best candidates
+### Best candidates
 
 - Large-scale refactoring
 - Feature implementation from specs
 - Addressing code review feedback
 - Dependency upgrades across files
 
-## Hand off from local
+### Hand off from local
 
-Chat view → Session type dropdown → **Cloud**
-
-Full conversation context transfers to the cloud session.
+- Chat view → Session type dropdown → **Cloud**
+- Full conversation context transfers to the cloud session.
 
 </div>
 <div>

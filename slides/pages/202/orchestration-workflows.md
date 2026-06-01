@@ -18,11 +18,14 @@ graph LR
     F -->|review PR| A
 ```
 
+---
+
 <div class="mt-4">
+
 
 ### Delegation boundaries
 
-| Delegate to agent | Keep for yourself |
+| **Delegate to agent** | **Keep for yourself** |
 |---|---|
 | Well-scoped implementation | Architecture decisions |
 | Repetitive multi-file changes | Security-sensitive logic |

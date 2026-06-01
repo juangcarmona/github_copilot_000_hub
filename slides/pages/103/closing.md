@@ -4,7 +4,8 @@ section: Takeaway
 ---
 
 # A battery of green tests
-# can still hide a broken system.
+
+## Can still hide a broken system.
 
 ## We must be disciplined.
 

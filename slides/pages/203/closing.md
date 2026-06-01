@@ -5,7 +5,7 @@ section: Takeaway
 
 # Your codebase is the context. Make it count.
 
-## Invest in structure - every Copilot interaction benefits.
+## Invest in structure -> every Copilot interaction benefits.
 
 <!--
 Module 203 summary:

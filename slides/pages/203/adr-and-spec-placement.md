@@ -3,20 +3,20 @@ layout: two-cols-header
 section: ADRs & Specs
 ---
 
-# ADRs and Specs as AI Context
+# ADRs as AI Context
 
 ::left::
 
-## Why Architecture Decisions Need to Be Discoverable
+## Why ADRs Matter
 
-Copilot doesn't know WHY your code is structured the way it is - unless you tell it.
+Copilot does not know why your architecture looks the way it does unless that decision is written down.
 
-An ADR (Architecture Decision Record) explains:
+A good ADR records:
 - What was decided
 - Why it was decided
 - What alternatives were rejected
 
-When Copilot reads this before generating code, it respects architectural intent instead of suggesting alternatives you've already rejected.
+When Copilot reads ADRs first, it is more likely to follow architectural intent instead of re-suggesting rejected patterns.
 
 ## Placement
 
@@ -28,46 +28,33 @@ docs/
     └── 0003-event-sourcing-for-orders.md
 ```
 
-Reference ADRs from your instruction files:
+
+
+::right::
+
+## The Key Practice
+
+Do not assume agents will discover ADRs by browsing.
+
+- Point to ADRs from `copilot-instructions.md`
+- Reference them in prompts or agent profiles
+- Keep ADR titles specific and stable
+
+<div class="mt-6 text-sm opacity-70">
+ADRs answer: why is this codebase shaped this way?
+</div>
+
+Reference ADRs from instruction files:
 ```markdown
 # .github/copilot-instructions.md
 See docs/adr/ for architectural decisions.
 Always follow ADR-0002 for data access patterns.
 ```
-
-::right::
-
-## Specs as Executable Intent
-
-Spec files (feature specs, API contracts, acceptance criteria) give Copilot:
-- The expected behavior before implementation
-- The test cases to generate
-- The interface to respect
-
-**Placement:**
-```
-docs/
-└── specs/
-    ├── payment-flow.spec.md
-    └── user-registration.spec.md
-```
-
-**In practice:**
-```
-#file:docs/specs/payment-flow.spec.md
-Implement the payment processing service
-according to this specification.
-```
-
-## Agent Discoverability
-
-Agents can read ADRs and specs if they are referenced in the agent profile or in `copilot-instructions.md`. Make the reference explicit - agents don't browse the filesystem speculatively.
-
 <!--
-ADRs and specs are the highest-leverage documentation investment for AI-readiness.
+ADRs deserve their own slide because the core lesson is architectural intent.
 
-They answer questions Copilot would otherwise guess at:
-- Why does the code look like this?
-- What behavior is expected?
-- What constraints must be respected?
+Keep the message narrow:
+- ADRs explain why
+- agents need explicit references
+- placement should be obvious
 -->

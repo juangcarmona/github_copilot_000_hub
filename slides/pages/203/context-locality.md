@@ -9,44 +9,41 @@ section: Context Locality
 
 ## The Principle
 
-Place types, interfaces, tests, and documentation **near the code they describe**.
+Place types, tests, and docs near the code they describe — Copilot uses the open editor and nearby files to assemble context. Distant types, tests, or docs may be omitted from retrieval.
 
-Copilot discovers context from what it can see in the open editor and nearby files. If the type is far from the implementation, Copilot may not find it.
-
-**High locality:**
+**High locality** (good):
 ```
 src/orders/
-├── order.types.ts        ← interfaces next to code
-├── order.service.ts      ← implementation
-├── order.service.test.ts ← tests beside the code
-└── order.README.md       ← documentation inline
+├── order.types.ts
+├── order.service.ts
+├── order.service.test.ts
+└── order.README.md
 ```
 
-**Low locality:**
+**Low locality** (bad):
 ```
-src/types/all-types.ts    ← all types in one file
+src/types/all-types.ts
 src/orders/order.service.ts
-test/unit/orders/...      ← tests far away
-docs/orders.md            ← docs disconnected
+test/unit/orders/...
+docs/orders.md
 ```
 
 ::right::
 
 ## What Locality Buys You
 
-**Type-aware completions** - Copilot uses interfaces to generate implementations that match the contract.
 
-**Test-informed generation** - tests near the code teach Copilot your expected behavior patterns.
+**Type-aware completions** — implementations that match interfaces.
 
-**Documentation as context** - inline docs explain business rules that types can't express.
+**Test-informed generation** — tests near code provide expected behavior examples.
 
-**Consistent patterns** - Copilot mirrors what it sees. Nearby code shapes nearby suggestions.
+**Documentation as context** — inline docs clarify business rules.
+
+**Consistent patterns** — nearby code shapes suggestions.
 
 ## Naming as Signal
 
-Vague names produce vague suggestions. Precise names produce precise suggestions.
-
-The names in your codebase are implicit prompts that run before every interaction.
+Vague names produce vague suggestions; precise names yield precise suggestions. File and symbol names act as implicit prompts for Copilot.
 
 <!--
 This absorbs the key message from 101/code-quality-basics and reframes it architecturally.

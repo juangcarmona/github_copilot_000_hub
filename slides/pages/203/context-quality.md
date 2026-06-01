@@ -1,11 +1,9 @@
 ---
 layout: comparison
-section: Context Quality
+section: Context Quality Matters
 beforeTitle: Low Context
 afterTitle: High Context
 ---
-
-# Context Quality Matters
 
 ::before::
 

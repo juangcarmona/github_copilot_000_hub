@@ -3,7 +3,7 @@ layout: default
 section: Failure Modes
 ---
 
-# Agent Failure Modes (1/2)
+# Agent Failure Modes
 
 <div class="leading-snug mt-4">
 

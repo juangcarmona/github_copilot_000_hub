@@ -9,38 +9,29 @@ section: Coding Agent
 
 ## The Workflow
 
-**1. Create or assign an issue** - the issue IS the prompt. Clear acceptance criteria, constraints, scope.
+**1. Create or assign an issue** — the issue is the prompt; include acceptance criteria and scope.
 
-**2. Assign to @copilot** - creates a branch and starts working on GitHub infrastructure.
+**2. Assign to @copilot** — creates a branch and starts work.
 
-**3. Review the plan** - Copilot posts a plan comment. Approve, adjust, or redirect.
+**3. Review the plan** — approve, adjust, or redirect the proposed plan.
 
-**4. Review the PR** - opens a PR when done. Review the diff like any colleague's code.
-
-**5. Iterate or merge** - leave PR comments to request changes. @copilot responds and updates.
+**4. Review the PR** — inspect diffs and request changes as for any colleague.
 
 ::right::
 
 ## From VS Code
 
-Start locally → hand off to cloud:
+Start locally, then hand off to a cloud session:
 
-1. Plan agent clarifies requirements
-2. Session type dropdown → **Cloud**
-3. Full context transfers
-4. Cloud agent executes, opens PR
+- Plan locally; choose `Cloud` session.
+- Full context transfers and cloud agent opens a PR.
 
 ## Limitations
 
-Cloud agents **cannot**:
-- Access VS Code built-in tools
-- Use local runtime context (test failures, selections)
-- Access local MCP servers
+Cloud agents — quick notes:
 
-Cloud agents **can**:
-- Use cloud-configured MCP servers
-- Work across entire repositories
-- Collaborate via PR comments
+- Cannot: access VS Code built-ins, local runtime/tests, or local MCP servers.
+- Can: use cloud MCPs, operate repository-wide, and collaborate via PR comments.
 
 <!--
 The coding agent workflow hasn't changed fundamentally,

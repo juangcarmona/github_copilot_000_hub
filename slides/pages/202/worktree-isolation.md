@@ -8,11 +8,11 @@ section: Worktree Isolation
 <div class="grid grid-cols-2 gap-8 mt-4">
 <div class="leading-snug">
 
-## The Problem
+### The Problem
 
 Agent edits your workspace directly → conflicts with your active work.
 
-## The Solution
+### The Solution
 
 **Git worktrees** - the agent works in a separate checkout of your repo.
 
@@ -25,21 +25,19 @@ Agent edits your workspace directly → conflicts with your active work.
 
 </div>
 
-## After the agent finishes
 
-- Review changes in diff view
-- Apply, merge, or discard
-- Create PR from worktree branch
 
 <div class="mt-2 text-sm opacity-70">
 
-Worktree isolation = safe autonomy. The agent can't break your working state.
 
 </div>
 
 </div>
 <div>
 <img src="/202/git-worktree-source-control-v2.png" class="w-full object-contain rounded shadow" />
+
+With worktree isolation the agent can't break your working state.
+
 </div>
 </div>
 

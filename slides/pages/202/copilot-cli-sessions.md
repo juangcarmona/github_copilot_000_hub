@@ -28,13 +28,15 @@ Plan agent → **Start Implementation** → **Continue in Copilot CLI**
 
 <div class="mt-2 text-sm opacity-70">
 
-Best for: well-defined tasks that don't need constant interaction.
 
 </div>
 
 </div>
 <div>
 <img src="/202/copilot-cli-session.png" class="w-full object-contain rounded shadow" />
+
+Best for: well-defined tasks that don't need constant interaction.
+
 </div>
 </div>
 

@@ -3,7 +3,7 @@ layout: default
 section: AI-Friendly Design
 ---
 
-# AI-Friendly Repository Design Principles
+### AI-Friendly Repository Design Principles
 
 <div class="grid grid-cols-2 gap-6 mt-6">
 
@@ -20,7 +20,6 @@ section: AI-Friendly Design
 | **Predictable naming** | `{domain}.{layer}.ts` everywhere |
 | **Explicit entry points** | `README.md`, `ARCHITECTURE.md` |
 | **Co-located tests** | `*.test.ts` next to `*.ts` |
-| **Scoped documentation** | `README.md` per module |
 
 </div>
 
@@ -30,29 +29,25 @@ section: AI-Friendly Design
 
 ## The 80/20 of AI-Readiness
 
-These five changes cover 80% of the improvement:
+These four changes cover most of the improvement:
 
 1. **Name files after what they contain**
-   - not `index.ts`, `utils.ts`, `helpers.ts`
+   - avoid `index.ts`, `utils.ts`, `helpers.ts`
 
 2. **Keep files under 200 lines**
-   - large files produce unfocused embeddings
+   - large files produce noisy retrieval
 
 3. **Delete dead code**
-   - it pollutes retrieval results
 
-4. **Add `copilot-instructions.md`**
-   - 10 minutes of work, permanent benefit
-
-5. **Add `ARCHITECTURE.md`**
-   - system map for agents and developers
+4. **Add core context files**
+   - `copilot-instructions.md` and `ARCHITECTURE.md`
 
 </div>
 
 </div>
 
 <div class="mt-4 text-sm opacity-70">
-AI-friendly design is good engineering design made explicit. There's no AI-specific magic - just clarity, consistency, and discoverability.
+AI-friendly design is good engineering design made explicit: clarity, consistency, and discoverability.
 </div>
 
 <!--

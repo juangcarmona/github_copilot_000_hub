@@ -1,9 +1,9 @@
 ---
 layout: default
-section: Failure Modes
+section: Verification Requirements
 ---
 
-# Verification Requirements (2/2)
+# Verification Requirements
 
 <div class="leading-snug mt-4">
 

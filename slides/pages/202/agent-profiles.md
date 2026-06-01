@@ -7,6 +7,17 @@ section: Custom Agents
 
 ::left::
 
+## File location
+
+```
+.github/
+  copilot-instructions.md      ← always loaded
+  agents/
+    documenter.agent.md
+    security-reviewer.agent.md
+    onboarder.agent.md
+```
+
 ## What they define
 
 ```markdown
@@ -20,6 +31,10 @@ You are a documentation specialist for
 the festival-platform API...
 ```
 
+
+::right::
+
+
 ## Key fields
 
 | Field | Purpose |
@@ -29,27 +44,12 @@ the festival-platform API...
 | `tools` | Allowed tool list |
 | `instructions` | System prompt / persona |
 
-::right::
-
 ## Works across all surfaces
 
 Custom agents work with:
 - ✅ Local agent sessions
 - ✅ Copilot CLI (background)
 - ✅ Cloud agent sessions
-
-## File location
-
-```
-.github/
-  copilot-instructions.md      ← always loaded
-  copilot/agents/
-    documenter.agent.md
-    security-reviewer.agent.md
-    onboarder.agent.md
-```
-
-Profiles extend the instruction hierarchy from 201 - same patterns, scoped autonomy.
 
 <!--
 Custom agents encode team expertise into reusable, invocable profiles.

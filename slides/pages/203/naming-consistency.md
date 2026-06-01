@@ -5,8 +5,6 @@ beforeTitle: Inconsistent Naming
 afterTitle: Consistent Naming
 ---
 
-# Naming Consistency as AI Signal
-
 ::before::
 
 ```
@@ -50,8 +48,8 @@ class TicketService { }
 class ArtistService { }
 ```
 
-Copilot sees: `{domain}.service.ts` pattern.
-Next suggestion: follows the same convention automatically.
+- Copilot sees: **{domain}.service.ts** pattern.
+- Next suggestion: follows the same convention automatically.
 
 <!--
 Naming consistency is the lowest-effort, highest-impact AI-readiness investment.

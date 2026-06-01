@@ -11,27 +11,29 @@ section: Agent Entrypoints
 
 An agent arriving at your repository for the first time should be able to orient itself from the repo structure alone.
 
-**Issue templates** - structured prompts for agent-assigned tasks:
+**Issue templates** shape agent-assigned work:
 ```
 .github/ISSUE_TEMPLATE/
-├── feature.md          ← includes: acceptance criteria, affected areas
-├── bug.md              ← includes: reproduction steps, expected behavior
-└── tech-debt.md        ← includes: scope constraints, test requirements
+├── feature.md
+├── bug.md
+└── tech-debt.md
 ```
 
-Well-structured issues produce well-structured PRs.
+- acceptance criteria
+- affected areas
+- constraints and test requirements
 
-**PR templates** - consistent review context:
+**PR templates** keep review context consistent:
 ```
 .github/PULL_REQUEST_TEMPLATE.md
 ```
-Include: changes made, testing done, ADRs referenced, areas of concern.
+Include changes made, testing done, and ADRs referenced.
 
 ::right::
 
 ## Agent Profile as Onboarding
 
-An agent profile is a documented, invokable expert:
+An agent profile is a documented, invokable expert.
 
 ```markdown
 ---
@@ -45,28 +47,15 @@ When invoked, read:
 2. .github/copilot-instructions.md for conventions
 3. docs/adr/ for architectural decisions
 4. docs/specs/ for current feature context
-
-Then answer the developer's question with specific
-file and line references.
 ```
 
-## `mcp.json` as Infrastructure
-
-`.vscode/mcp.json` (or `.github/mcp.json`) defines which external tools are available to agents:
-```json
-{
-  "servers": {
-    "github": { "type": "github" },
-    "playwright": { "command": "npx @playwright/mcp" }
-  }
-}
-```
-
-Commit it. Share it. It's team infrastructure.
+<div class="mt-6 text-sm opacity-70">
+The goal: make entry into the repository explicit, repeatable, and reviewable.
+</div>
 
 <!--
 The goal: a repository that any agent - or new developer - can navigate without a tour.
 
 The pattern: make implicit knowledge explicit through structured files.
-Issue templates, PR templates, agent profiles, and mcp.json are the agent's API surface.
+Issue templates, PR templates, and agent profiles are the onboarding surface.
 -->

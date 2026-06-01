@@ -11,9 +11,9 @@ section: Cross-Stack Patterns
 Scoped instructions by workspace:
 ```
 .github/instructions/
-├── api.instructions.md      ← applies to packages/api/**
-├── web.instructions.md      ← applies to packages/web/**
-└── shared.instructions.md   ← applies to packages/shared/**
+├── api.instructions.md
+├── web.instructions.md
+└── shared.instructions.md
 ```
 Each workspace gets tailored AI behavior without duplication.
 
@@ -22,34 +22,29 @@ Type system and XML docs are strong context signals:
 ```csharp
 /// <summary>
 /// Processes an order and returns the transaction ID.
-/// Throws <see cref="PaymentException"/> if declined.
 /// </summary>
 public async Task<string> ProcessOrder(Order order) { }
 ```
-`.github/copilot-instructions.md` should reference the solution structure and NuGet conventions.
+Reference the solution structure and package conventions from `copilot-instructions.md`.
 
 ::right::
 
 ## Legacy & COBOL Systems
 
-Documentation-poor systems need instruction files to fill the gap:
+Documentation-poor systems need explicit instruction files:
 ```markdown
 # .github/copilot-instructions.md
 This system is a COBOL batch processing application.
 Core business logic is in src/COBOL/. Do not suggest
 rewrites - suggest incremental modernization.
-Characterization tests must be written before any
-refactoring (see docs/legacy-validation-strategy.md).
+Write characterization tests before refactoring.
 ```
 
-The `why-ai-ready` argument applies most strongly here: Copilot has no implicit knowledge of legacy systems. Explicit instructions are not optional.
+Legacy systems benefit most because Copilot has no implicit knowledge of local conventions.
 
 ## Power Platform
 
-Custom connectors and Power Automate flows can reference:
-- API specs as context for connector generation
-- Governance rules in instruction files
-- Dataverse schema docs for model-driven guidance
+Use API specs, governance rules, and Dataverse schema docs as explicit context.
 
 <div class="mt-4 text-sm opacity-70">The AI-ready patterns are the same across stacks. The investment pays higher dividends where documentation is scarce.</div>
 
