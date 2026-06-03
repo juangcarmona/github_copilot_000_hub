@@ -22,8 +22,11 @@ src/
 
 - Copilot suggests code that already exists elsewhere
 - Completions reference wrong types
-- Agents can't find relevant files
 - Chat answers contradict the codebase
+ - Copilot suggests code that already exists elsewhere
+ - Completions reference wrong types
+ - Tools can't reliably find relevant files
+ - Chat answers contradict the codebase
 
 ::after::
 
@@ -42,8 +45,10 @@ src/
 
 - Copilot infers intent from folder context
 - Types are discoverable and scoped
-- Agents navigate by convention
-- Completions match domain boundaries
+ - Copilot infers intent from folder context
+ - Types are discoverable and scoped
+ - Conventions enable predictable navigation
+ - Completions match domain boundaries
 
 <!--
 This slide establishes the anti-pattern first.

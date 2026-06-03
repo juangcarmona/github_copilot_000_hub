@@ -15,9 +15,6 @@ src: ./pages/203/cover.md
 src: ./pages/203/why-ai-ready.md
 ---
 ---
-src: ./pages/203/why-structure-affects-output.md
----
----
 src: ./pages/203/ai-hostile-repos.md
 ---
 
@@ -27,22 +24,10 @@ src: ./pages/203/ai-hostile-repos.md
 src: ./pages/203/cognitive-load.md
 ---
 ---
-src: ./pages/203/cognitive-load-2.md
----
----
 src: ./pages/203/naming-consistency.md
 ---
 ---
 src: ./pages/203/discoverability.md
----
----
-src: ./pages/203/discoverability-2.md
----
----
-src: ./pages/203/architectural-readability.md
----
----
-src: ./pages/203/ai-friendly-design.md
 ---
 
 <!-- Context Fundamentals -->
@@ -57,16 +42,7 @@ src: ./pages/203/context-quality.md
 <!-- Indexing & Retrieval -->
 
 ---
-src: ./pages/203/workspace-indexing.md
----
----
-src: ./pages/203/workspace-indexing-2.md
----
----
 src: ./pages/203/indexing-embeddings.md
----
----
-src: ./pages/203/indexing-embeddings-2.md
 ---
 ---
 src: ./pages/203/context-assembly.md
@@ -77,32 +53,19 @@ src: ./pages/203/context-assembly.md
 ---
 src: ./pages/203/repository-drift.md
 ---
----
-src: ./pages/203/repository-drift-2.md
----
 
 <!-- Instruction Architecture -->
 
 ---
-src: ./pages/203/instruction-surfaces.md
----
----
 src: ./pages/203/adr-and-spec-placement.md
----
----
-src: ./pages/203/spec-placement.md
 ---
 
 <!-- Agent Infrastructure -->
 
 ---
-src: ./pages/203/agent-entrypoints.md
 ---
 ---
-src: ./pages/203/agent-infrastructure.md
----
----
-src: ./pages/203/ci-integration.md
+src: ./pages/203/maturity-model.md
 ---
 
 <!-- Closing -->

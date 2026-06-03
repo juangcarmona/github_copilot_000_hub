@@ -3,11 +3,7 @@ layout: default
 section: Indexing & Embeddings
 ---
 
-# How Indexing and Embeddings Work (1/2)
-
-<div class="grid grid-cols-2 gap-8">
-
-<div class="leading-snug">
+# Indexing, Embeddings, and Retrieval
 
 ## The Retrieval Pipeline
 
@@ -25,35 +21,21 @@ Query → embedding → similarity search
 Top-K relevant chunks → context window
 ```
 
-</div>
+## What helps retrieval
 
-<div class="leading-snug">
+- Focused files (one concept per file)
+- Descriptive file names
+- Clear module boundaries and docs
+- Inline documentation on exports
+---
 
-## What Makes a Good Chunk
+## File size vs retrieval quality
 
-- **Self-contained** - one function, one class, one concept
-- **Well-named** - file name adds semantic signal
-- **Typed** - interfaces provide structural context
-- **Documented** - JSDoc/XML doc adds retrievable text
+Large multipurpose files produce noisy, mixed chunks; small focused files produce precise retrieval.
 
-## What Makes a Bad Chunk
+```
+File: utils.ts (2400 lines)  -> noisy mixed chunks
+File: order.validator.ts (45 lines) -> focused, precise chunk
+```
 
-- Mixed concerns in one file
-- 2000 lines of unrelated code
-- Generic names (`data`, `item`, `result`)
-- No comments or type information
-
-</div>
-
-</div>
-
-<!--
-This demystifies the mechanism.
-
-Teams often wonder "why does Copilot sometimes give bad answers about my code?"
-
-The answer is often: retrieval returned the wrong chunks because
-files are too large, poorly named, or mix unrelated concerns.
-
-The fix is structural: break files apart, name them well, keep them focused.
--->
+Smaller, focused files = precise retrieval = better AI output.

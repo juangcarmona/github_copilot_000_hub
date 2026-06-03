@@ -1,11 +1,21 @@
 ---
-layout: default
+layout: two-cols-header
 section: Workflow Shift
 ---
 
+
 # Capability Expansion Pattern
 
+::left::
+
 Each MCP server adds a capability domain. The agent sequences them into workflows.
+
+- **Planning:** read the ticket, understand requirements
+- **Verification:** run tests, validate contracts
+- **Design:** extract component specs, design tokens
+- **Operations:** query data, trigger pipelines
+
+::right::
 
 ```mermaid
 flowchart LR
@@ -15,11 +25,6 @@ flowchart LR
   AG --> D["Design<br/>Figma"]
   AG --> O["Operations<br/>Databases · CI/CD"]
 ```
-
-- **Planning:** read the ticket, understand requirements
-- **Verification:** run tests, validate contracts
-- **Design:** extract component specs, design tokens
-- **Operations:** query data, trigger pipelines
 
 <!--
 This frames MCP servers not as "plugins" but as capability domains.

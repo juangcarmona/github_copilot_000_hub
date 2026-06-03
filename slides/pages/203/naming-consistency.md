@@ -50,16 +50,5 @@ class ArtistService { }
 
 - Copilot sees: **{domain}.service.ts** pattern.
 - Next suggestion: follows the same convention automatically.
-
-<!--
-Naming consistency is the lowest-effort, highest-impact AI-readiness investment.
-
-When Copilot sees consistent naming:
-- It predicts file names correctly
-- It generates matching class/function names
-- It infers domain boundaries
-- It follows the convention without instruction files
-
-When naming is inconsistent, Copilot has no pattern to follow
-and defaults to generic conventions from training data.
--->
+ - Copilot sees: **{domain}.service.ts** pattern.
+ - Next suggestion: follows the same convention automatically.

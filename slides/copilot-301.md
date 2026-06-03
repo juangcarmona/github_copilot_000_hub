@@ -116,9 +116,6 @@ src: ./pages/301/prompt-injection-mitigations.md
 ---
 src: ./pages/301/enterprise-security.md
 ---
----
-src: ./pages/301/defense-in-depth.md
----
 
 <!-- Architecture -->
 

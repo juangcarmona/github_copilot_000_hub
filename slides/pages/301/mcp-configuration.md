@@ -7,10 +7,6 @@ section: Configuration
 
 The `.vscode/mcp.json` file is committed to your repository - it's shared team infrastructure.
 
-<div class="flex justify-center mt-4">
-  <img src="/301/mcp-json.png" class="rounded shadow-lg max-h-60" />
-</div>
-
 | Scope | File | Use case |
 |---|---|---|
 | **Workspace** | `.vscode/mcp.json` (via Git) | Team tools for this project |

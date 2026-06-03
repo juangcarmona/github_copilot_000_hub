@@ -25,22 +25,13 @@ Type system and XML docs are strong context signals:
 /// </summary>
 public async Task<string> ProcessOrder(Order order) { }
 ```
-Reference the solution structure and package conventions from `copilot-instructions.md`.
+Reference the solution structure and package conventions from `README.md` and `ARCHITECTURE.md`.
 
 ::right::
 
 ## Legacy & COBOL Systems
 
-Documentation-poor systems need explicit instruction files:
-```markdown
-# .github/copilot-instructions.md
-This system is a COBOL batch processing application.
-Core business logic is in src/COBOL/. Do not suggest
-rewrites - suggest incremental modernization.
-Write characterization tests before refactoring.
-```
-
-Legacy systems benefit most because Copilot has no implicit knowledge of local conventions.
+Documentation-poor systems benefit from small, discoverable docs that explain structure and constraints (README, ARCHITECTURE.md, or docs/). These files give context where implicit knowledge is missing.
 
 ## Power Platform
 
@@ -51,8 +42,7 @@ Use API specs, governance rules, and Dataverse schema docs as explicit context.
 <!--
 This slide broadens the module beyond TypeScript/React examples.
 
-Key message: the patterns are universal. The urgency is higher for legacy and heterogeneous stacks,
-because those teams benefit most from explicit instruction files compensating for missing documentation.
+Key message: the patterns are universal. The urgency is higher for legacy and heterogeneous stacks, because those teams benefit most from small, discoverable docs that replace missing tribal knowledge.
 
 This directly serves the mixed-audience workshop requirement.
 -->

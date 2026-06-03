@@ -10,7 +10,7 @@ section: Takeaway
 <!--
 Module 203 summary:
 - AI effectiveness depends on context quality
-- Context comes from repo structure, instruction files, types, tests, and docs
+ - Context comes from repo structure, types, tests, and docs
 - The maturity model: start at Level 1, grow deliberately
 - Cross-stack: same patterns, higher dividends for legacy and documentation-poor systems
 

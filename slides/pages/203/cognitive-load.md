@@ -3,45 +3,32 @@ layout: two-cols-header
 section: Cognitive Load
 ---
 
-# Repository Cognitive Load (1/2)
+## Repository Cognitive Load
 
 ::left::
 
-## For Humans AND AI
+## Why it matters for AI
 
-Cognitive load isn't just a developer experience problem - it directly impacts AI effectiveness.
+Cognitive load is the gap between where information lives and where it is needed. High load increases noisy context and reduces retrieval precision.
 
-**High cognitive load repositories:**
-- Deep nesting (5+ levels)
-- Inconsistent patterns per folder
-- Mixed responsibilities in single files
-- Undocumented implicit conventions
-- Circular dependencies
+**High cognitive load traits:**
+- Deep nesting and mixed responsibilities
+- Giant files with multiple concepts
+- Inconsistent naming and implicit conventions
 
 ::right::
 
-## Impact on Copilot
+## Reduce load with simple rules
 
-- More tokens spent on irrelevant context
-- Suggestions that violate hidden conventions
-- Agents that get lost navigating the repo
-- Chat that provides contradictory guidance
+- **One concept per file** — focused, embeddable units
+- **Shallow structures** — fewer than ~3 hops to find code
+- **Explicit naming** — file names surface intent
+- **Predictable patterns & entry points** — `README.md`, `ARCHITECTURE.md`
 
-## The Rule of Three
+## Practical 80/20
 
-If navigating to relevant code requires more than **3 hops**, the structure is too deep for both humans and AI.
+1. Rename `utils.ts` → domain-specific files
+2. Split files >200 lines into focused modules
+3. Add README per module and `ARCHITECTURE.md`
 
-```
-src/orders/order.service.ts       ← 2 hops ✓
-src/core/base/abstract/service.ts ← 4 hops ✗
-```
-
-<!--
-This connects developer experience research to AI effectiveness.
-
-The same principles that reduce cognitive load for developers
-also reduce ambiguity for AI systems.
-
-A repo that is hard for a new developer to understand
-is equally hard for Copilot to reason about.
--->
+AI-friendly design is engineering clarity: small focused files, consistent names, and obvious entry points.

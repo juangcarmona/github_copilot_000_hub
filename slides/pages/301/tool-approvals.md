@@ -7,10 +7,6 @@ section: Security
 
 Every MCP tool call shows a confirmation dialog before execution.
 
-<div class="flex justify-center mt-2">
-  <img src="/301/mcp-tool-confirmation.png" class="rounded shadow-lg max-h-60" />
-</div>
-
 | Scope | Duration |
 |---|---|
 | **Once** | Single invocation |
