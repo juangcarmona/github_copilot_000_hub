@@ -20,6 +20,26 @@ Focus: real engineering workflows, not just features.
 
 Create your own repository directly from this template repository. Just click the "Use this template" button at the top of the page.
 
+## Requirements
+
+- Node.js LTS (recommended: 20+)
+- npm (included with Node.js)
+- pnpm (used by this repo)
+
+Install hints:
+
+- Windows: install Node.js LTS from nodejs.org, then run `corepack enable`.
+- macOS: install Node.js LTS (nodejs.org or Homebrew), then run `corepack enable`.
+- Linux: install Node.js LTS with your distro or NodeSource, then run `corepack enable`.
+
+Verify setup:
+
+```powershell
+node -v
+npm -v
+pnpm -v
+```
+
 ## Quick start
 
 ```powershell
