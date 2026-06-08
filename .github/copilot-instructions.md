@@ -66,6 +66,6 @@ The audience may include:
 - architects
 - tech leads
 - legacy developers
-- mixed-stack teams (.NET, React, COBOL, Power Platform)
+- mixed-stack teams (.NET, React, COBOL, Power Builder, etc.)
 
 Examples should remain broadly understandable and not overly framework-specific unless required.
