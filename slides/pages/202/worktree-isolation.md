@@ -3,7 +3,7 @@ layout: default
 section: Worktree Isolation
 ---
 
-# Worktree Isolation
+# Why a **Worktree Isolation**
 
 <div class="grid grid-cols-2 gap-8 mt-4">
 <div class="leading-snug">

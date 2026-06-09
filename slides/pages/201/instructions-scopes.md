@@ -7,7 +7,7 @@ section: Custom Instructions
 
 ::left::
 
-## Repository-Wide
+## **Repository-Wide**
 
 `.github/copilot-instructions.md`
 
@@ -20,7 +20,7 @@ Applies to all Copilot requests in the repository.
 
 ::right::
 
-## Path-Specific
+## **Path-Specific**
 
 `.github/instructions/NAME.instructions.md`
 

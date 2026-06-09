@@ -5,7 +5,7 @@ section: Autocomplete
 
 # Autocomplete: The Mental Model
 
-Copilot watches you type and predicts what comes next - powered by an LLM.
+Copilot watches you type and predicts what comes next.
 
 <div class="mt-4">
 

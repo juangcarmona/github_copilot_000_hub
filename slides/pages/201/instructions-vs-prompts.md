@@ -3,7 +3,7 @@ layout: center
 section: Instructions vs Prompts
 ---
 
-# Instructions vs Prompt Files
+# Next: **Instructions vs Prompt Files**
 
 <div class="text-sm">
 

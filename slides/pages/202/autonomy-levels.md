@@ -3,7 +3,7 @@ layout: default
 section: Autonomy & Permissions
 ---
 
-# Permission Levels: Controlling Autonomy
+# **Permission Levels:** Controlling Autonomy
 
 <div class="text-sm">
 

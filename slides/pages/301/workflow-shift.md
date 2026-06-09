@@ -9,11 +9,7 @@ MCP shifts Copilot from **code assistant** to **workflow operator**.
 
 ```mermaid
 flowchart TB
-  subgraph Before["Without MCP"]
-    direction LR
-    B1["Developer"] --> B2["Copilot"]
-    B2 --> B3["Code suggestions"]
-  end
+
   subgraph After["With MCP"]
     direction LR
     A1["Developer"] --> A2["Copilot Agent"]
@@ -23,6 +19,11 @@ flowchart TB
     A2 --> A6["Query APIs"]
     A2 --> A7["Check CI"]
     A2 --> A8["Browse docs"]
+  end
+  subgraph Before["Without MCP"]
+    direction LR
+    B1["Developer"] --> B2["Copilot"]
+    B2 --> B3["Code suggestions"]
   end
 ```
 

@@ -17,11 +17,6 @@ Autocomplete uses a **narrower context** than Chat.
 - File name and language identifier
 - Import statements and type signatures
 
-### Not visible
-- Closed files you haven't opened
-- External dependency source code
-- Runtime behavior
-
 </div>
 
 <div>

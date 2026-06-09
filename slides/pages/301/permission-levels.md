@@ -19,9 +19,9 @@ The permissions picker controls how much autonomy the agent has during a session
 flowchart LR
   D["Default Approvals"] -->|"more autonomy"| B["Bypass Approvals"]
   B -->|"fully autonomous"| A["Autopilot"]
-  style D fill:#4ade80,stroke:#166534
-  style B fill:#fbbf24,stroke:#92400e
-  style A fill:#f87171,stroke:#991b1b
+  style D fill:#e0e7ff,stroke:#818cf8,color:#3730a3
+  style B fill:#ddd6fe,stroke:#8b5cf6,color:#5b21b6
+  style A fill:#d8b4fe,stroke:#a855f7,color:#6b21a8
 ```
 
 **Security implication:** Bypass and Autopilot skip approval prompts for potentially destructive actions. Only use in sandboxed environments or with trusted tools.

@@ -7,7 +7,7 @@ section: Instruction Hierarchy
 
 ::left::
 
-## The File Map
+## **The File Map**
 
 ```
 your-repo/

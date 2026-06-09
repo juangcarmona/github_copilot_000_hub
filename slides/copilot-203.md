@@ -63,8 +63,6 @@ src: ./pages/203/adr-and-spec-placement.md
 <!-- Agent Infrastructure -->
 
 ---
----
----
 src: ./pages/203/maturity-model.md
 ---
 

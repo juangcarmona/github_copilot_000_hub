@@ -66,6 +66,9 @@ src: ./pages/301/using-mcp.md
 src: ./pages/301/using-mcp-example.md
 ---
 ---
+src: ./pages/301/architecture-transport.md
+---
+---
 src: ./pages/301/scoping-tools.md
 ---
 ---
@@ -121,9 +124,6 @@ src: ./pages/301/enterprise-security.md
 
 ---
 src: ./pages/301/architecture.md
----
----
-src: ./pages/301/architecture-transport.md
 ---
 
 <!-- Closing -->
